@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "watch 'npm run build' src",
-    "build": "babel src -d dist",
+    "build": "webpack",
     "test": "jest"
   },
   "repository": {
@@ -18,11 +18,22 @@
     "url": "https://github.com/michaelnease/basecoat-ui/issues"
   },
   "homepage": "https://github.com/michaelnease/basecoat-ui#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "jest": "^24.8.0",
-    "watch": "^1.0.2"
-  }
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
 }
