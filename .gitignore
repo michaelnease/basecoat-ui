@@ -36,5 +36,6 @@
 ehthumbs.db
 Thumbs.db
 
+.next
 node_modules
 dist
