@@ -2,7 +2,7 @@
   "name": "basecoat-ui",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/basecoat.js",
   "scripts": {
     "dev": "watch 'npm run build' src",
     "build": "webpack",

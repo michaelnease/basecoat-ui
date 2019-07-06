@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import Button from "./Button";
 
-export class ButtonContainer extends Component {
+class ButtonContainer extends React.Component {
   render() {
     return <Button />;
   }
 }
+
+export default ButtonContainer;
