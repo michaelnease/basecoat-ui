@@ -1,9 +1,11 @@
-import React from "react";
+// import React from "react";
 
-class App extends React.Component {
-  render() {
-    return <h1>Basecoat</h1>;
-  }
-}
+// class App extends React.Component {
+//   render() {
+//     return <h1>Basecoat</h1>;
+//   }
+// }
 
-export default App;
+// export default App;
+
+console.log("App");

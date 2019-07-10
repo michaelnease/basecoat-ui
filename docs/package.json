@@ -14,7 +14,6 @@
   "dependencies": {
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "basecoat-core": "/Users/michaelnease/Sites/basecoat-ui/modules/basecoat-core"
+    "react-dom": "^16.8.6"
   }
 }

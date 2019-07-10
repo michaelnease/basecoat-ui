@@ -1,11 +1,11 @@
-import { Button } from "basecoat-core/src/";
+import Button from "rebass";
 
 function Home() {
-  console.log("Button: ", Button());
+  // console.log("Button: ", Button);
   return (
     <div>
-      Welcome to Next.js!
-      {/* <Button /> */}
+      <p>test</p>
+      <Button />
     </div>
   );
 }
