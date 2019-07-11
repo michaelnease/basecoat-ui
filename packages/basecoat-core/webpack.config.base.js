@@ -12,23 +12,18 @@ module.exports = {
       {
         test: /\.js$/,
         loader: "babel-loader",
-        exclude: /node_modules/,
-        options: {
-          presets: [
-            [
-              "@babel/preset-env",
-              {
-                targets: {
-                  browsers: ["last 2 versions", "safari >= 7"]
-                }
-              }
-            ],
-            "@babel/preset-react"
-          ],
-          plugins: ["@babel/plugin-proposal-class-properties"]
-        }
+        exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+        exclude: /node_modules/
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })]
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/index.html"
+    })
+  ]
 };
