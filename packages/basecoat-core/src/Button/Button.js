@@ -8,7 +8,7 @@ const Title = styled.h1`
 `;
 
 const Button = () => {
-  return <button>Button!</button>;
+  return <Title>Button!</Title>;
 };
 
 export default Button;
