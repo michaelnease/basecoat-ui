@@ -1,14 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
+const ButtonStyled = styled.button`
+  font-size: 15px;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 25px;
+  background-color: blue;
 `;
 
 const Button = () => {
-  return <Title>Button!</Title>;
+  return <ButtonStyled>Primary</ButtonStyled>;
 };
 
 export default Button;
