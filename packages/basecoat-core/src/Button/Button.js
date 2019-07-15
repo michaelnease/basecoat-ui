@@ -10,7 +10,7 @@ const ButtonStyled = styled.button`
 `;
 
 const Button = () => {
-  return <ButtonStyled>Primary</ButtonStyled>;
+  return <ButtonStyled>Button</ButtonStyled>;
 };
 
 export default Button;
