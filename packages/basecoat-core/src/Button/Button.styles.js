@@ -1,11 +1,4 @@
 import styled from 'styled-components';
-import Color from 'color';
-
-const lighter = Color('#000').lighten(0.5);
-
-const theme = {
-  test: 'yellow',
-};
 
 export const ButtonStyled = styled.button`
   font-size: 15px;
@@ -13,7 +6,6 @@ export const ButtonStyled = styled.button`
   border-radius: 4px;
   padding: 10px 25px;
   /* background-color: ${props => props.theme.green}; */
-  background-image: linear-gradient(-90deg, red, ${Color('#7743CE')
-    .alpha(0.5)
-    .lighten(0.5)});
+  background-image: linear-gradient(135deg, #2bd1fc, #fff);
+  border: 1px solid #2bd1fc;
 `;
