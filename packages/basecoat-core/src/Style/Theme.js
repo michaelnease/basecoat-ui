@@ -1,10 +1,13 @@
-const theme = {
+export const theme = {
+  primary: "#55C2FF",
+  secondary: "#EFAB60",
+  gray: "#3F3F3F",
+  main: 'red',
   black: '#000',
   white: '#fff',
   green: '#00ff00',
 };
 
-export default theme;
 
 // pink #ff48c4	(255,72,196)
 // blue #2bd1fc	(43,209,252)
