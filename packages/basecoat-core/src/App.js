@@ -1,5 +1,5 @@
 import React from 'react';
-import {Global} from './Style/Global'
+import { Global } from './Style/Global';
 import Button from './Button';
 
 class App extends React.Component {
@@ -20,7 +20,12 @@ class App extends React.Component {
         <Button variant="contained" href="#contained-buttons">
           Link
         </Button>
-        <input accept="image/*" id="contained-button-file" multiple type="file" />
+        <input
+          accept="image/*"
+          id="contained-button-file"
+          multiple
+          type="file"
+        />
         <label htmlFor="contained-button-file">
           <Button variant="contained" component="span">
             Upload
