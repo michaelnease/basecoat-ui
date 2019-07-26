@@ -18,4 +18,6 @@ export const Global = createGlobalStyle`
   a {
     text-decoration: none;
   }
+  button:focus {
+    outline: 0;
 `;

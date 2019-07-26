@@ -17,20 +17,16 @@ class App extends React.Component {
         <Button variant="contained" color="secondary" disabled>
           Disabled
         </Button>
-        <Button variant="contained" href="#contained-buttons">
-          Link
+        <Button variant="outline">Default</Button>
+        <Button variant="outline" color="primary">
+          Primary
         </Button>
-        <input
-          accept="image/*"
-          id="contained-button-file"
-          multiple
-          type="file"
-        />
-        <label htmlFor="contained-button-file">
-          <Button variant="contained" component="span">
-            Upload
-          </Button>
-        </label>
+        <Button variant="outline" color="secondary">
+          Secondary
+        </Button>
+        <Button variant="outline" color="secondary" disabled>
+          Disabled
+        </Button>
       </div>
     );
   }
