@@ -1,0 +1,28 @@
+{
+  "version": "1.8.0",
+  "name": "@icon/devicons",
+  "description": "An iconic font made for developers",
+  "author": "Theodore Vorillas",
+  "license": "MIT",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/devicons",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=devicons",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "devicons": "^1.8.0"
+  },
+  "homepage": "http://vorillaz.github.io/devicons/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

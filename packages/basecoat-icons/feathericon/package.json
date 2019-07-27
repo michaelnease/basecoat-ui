@@ -1,0 +1,28 @@
+{
+  "version": "1.0.2",
+  "name": "@icon/feathericon",
+  "description": "Simple, scalable vector icon font for websites, apps.",
+  "author": "Featherplain",
+  "license": "MIT",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/feathericon",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=feathericon",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "feathericon": "^1.0.2"
+  },
+  "homepage": "https://feathericon.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

@@ -1,0 +1,3775 @@
+/**
+ * Font Awesome Solid, 5.5.0
+ * Created by Dave Gandy
+ * https://fontawesome.com
+ * MIT License
+ */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fontawesome-solid";
+  src: url('./fontawesome-solid.eot');
+  src: 
+    url('./fontawesome-solid.eot?#iefix') format('embedded-opentype'),
+    url('./fontawesome-solid.woff2') format('woff2'),
+    url('./fontawesome-solid.woff') format('woff'),
+    url('./fontawesome-solid.ttf') format('truetype'),
+    url('./fontawesome-solid.svg#fontawesome-solid') format('svg');
+}
+
+.fas {
+  font-family: "fontawesome-solid";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.fas-ad::before {
+  content: "\ea01";
+}
+
+.fas-address-book::before {
+  content: "\ea02";
+}
+
+.fas-address-card::before {
+  content: "\ea03";
+}
+
+.fas-adjust::before {
+  content: "\ea04";
+}
+
+.fas-air-freshener::before {
+  content: "\ea05";
+}
+
+.fas-align-center::before {
+  content: "\ea06";
+}
+
+.fas-align-justify::before {
+  content: "\ea07";
+}
+
+.fas-align-left::before {
+  content: "\ea08";
+}
+
+.fas-align-right::before {
+  content: "\ea09";
+}
+
+.fas-allergies::before {
+  content: "\ea0a";
+}
+
+.fas-ambulance::before {
+  content: "\ea0b";
+}
+
+.fas-american-sign-language-interpreting::before {
+  content: "\ea0c";
+}
+
+.fas-anchor::before {
+  content: "\ea0d";
+}
+
+.fas-angle-double-down::before {
+  content: "\ea0e";
+}
+
+.fas-angle-double-left::before {
+  content: "\ea0f";
+}
+
+.fas-angle-double-right::before {
+  content: "\ea10";
+}
+
+.fas-angle-double-up::before {
+  content: "\ea11";
+}
+
+.fas-angle-down::before {
+  content: "\ea12";
+}
+
+.fas-angle-left::before {
+  content: "\ea13";
+}
+
+.fas-angle-right::before {
+  content: "\ea14";
+}
+
+.fas-angle-up::before {
+  content: "\ea15";
+}
+
+.fas-angry::before {
+  content: "\ea16";
+}
+
+.fas-ankh::before {
+  content: "\ea17";
+}
+
+.fas-apple-alt::before {
+  content: "\ea18";
+}
+
+.fas-archive::before {
+  content: "\ea19";
+}
+
+.fas-archway::before {
+  content: "\ea1a";
+}
+
+.fas-arrow-alt-circle-down::before {
+  content: "\ea1b";
+}
+
+.fas-arrow-alt-circle-left::before {
+  content: "\ea1c";
+}
+
+.fas-arrow-alt-circle-right::before {
+  content: "\ea1d";
+}
+
+.fas-arrow-alt-circle-up::before {
+  content: "\ea1e";
+}
+
+.fas-arrow-circle-down::before {
+  content: "\ea1f";
+}
+
+.fas-arrow-circle-left::before {
+  content: "\ea20";
+}
+
+.fas-arrow-circle-right::before {
+  content: "\ea21";
+}
+
+.fas-arrow-circle-up::before {
+  content: "\ea22";
+}
+
+.fas-arrow-down::before {
+  content: "\ea23";
+}
+
+.fas-arrow-left::before {
+  content: "\ea24";
+}
+
+.fas-arrow-right::before {
+  content: "\ea25";
+}
+
+.fas-arrow-up::before {
+  content: "\ea26";
+}
+
+.fas-arrows-alt::before {
+  content: "\ea27";
+}
+
+.fas-arrows-alt-h::before {
+  content: "\ea28";
+}
+
+.fas-arrows-alt-v::before {
+  content: "\ea29";
+}
+
+.fas-assistive-listening-systems::before {
+  content: "\ea2a";
+}
+
+.fas-asterisk::before {
+  content: "\ea2b";
+}
+
+.fas-at::before {
+  content: "\ea2c";
+}
+
+.fas-atlas::before {
+  content: "\ea2d";
+}
+
+.fas-atom::before {
+  content: "\ea2e";
+}
+
+.fas-audio-description::before {
+  content: "\ea2f";
+}
+
+.fas-award::before {
+  content: "\ea30";
+}
+
+.fas-baby::before {
+  content: "\ea31";
+}
+
+.fas-baby-carriage::before {
+  content: "\ea32";
+}
+
+.fas-backspace::before {
+  content: "\ea33";
+}
+
+.fas-backward::before {
+  content: "\ea34";
+}
+
+.fas-bacon::before {
+  content: "\ea35";
+}
+
+.fas-balance-scale::before {
+  content: "\ea36";
+}
+
+.fas-ban::before {
+  content: "\ea37";
+}
+
+.fas-band-aid::before {
+  content: "\ea38";
+}
+
+.fas-barcode::before {
+  content: "\ea39";
+}
+
+.fas-bars::before {
+  content: "\ea3a";
+}
+
+.fas-baseball-ball::before {
+  content: "\ea3b";
+}
+
+.fas-basketball-ball::before {
+  content: "\ea3c";
+}
+
+.fas-bath::before {
+  content: "\ea3d";
+}
+
+.fas-battery-empty::before {
+  content: "\ea3e";
+}
+
+.fas-battery-full::before {
+  content: "\ea3f";
+}
+
+.fas-battery-half::before {
+  content: "\ea40";
+}
+
+.fas-battery-quarter::before {
+  content: "\ea41";
+}
+
+.fas-battery-three-quarters::before {
+  content: "\ea42";
+}
+
+.fas-bed::before {
+  content: "\ea43";
+}
+
+.fas-beer::before {
+  content: "\ea44";
+}
+
+.fas-bell::before {
+  content: "\ea45";
+}
+
+.fas-bell-slash::before {
+  content: "\ea46";
+}
+
+.fas-bezier-curve::before {
+  content: "\ea47";
+}
+
+.fas-bible::before {
+  content: "\ea48";
+}
+
+.fas-bicycle::before {
+  content: "\ea49";
+}
+
+.fas-binoculars::before {
+  content: "\ea4a";
+}
+
+.fas-biohazard::before {
+  content: "\ea4b";
+}
+
+.fas-birthday-cake::before {
+  content: "\ea4c";
+}
+
+.fas-blender::before {
+  content: "\ea4d";
+}
+
+.fas-blender-phone::before {
+  content: "\ea4e";
+}
+
+.fas-blind::before {
+  content: "\ea4f";
+}
+
+.fas-blog::before {
+  content: "\ea50";
+}
+
+.fas-bold::before {
+  content: "\ea51";
+}
+
+.fas-bolt::before {
+  content: "\ea52";
+}
+
+.fas-bomb::before {
+  content: "\ea53";
+}
+
+.fas-bone::before {
+  content: "\ea54";
+}
+
+.fas-bong::before {
+  content: "\ea55";
+}
+
+.fas-book::before {
+  content: "\ea56";
+}
+
+.fas-book-dead::before {
+  content: "\ea57";
+}
+
+.fas-book-medical::before {
+  content: "\ea58";
+}
+
+.fas-book-open::before {
+  content: "\ea59";
+}
+
+.fas-book-reader::before {
+  content: "\ea5a";
+}
+
+.fas-bookmark::before {
+  content: "\ea5b";
+}
+
+.fas-bowling-ball::before {
+  content: "\ea5c";
+}
+
+.fas-box::before {
+  content: "\ea5d";
+}
+
+.fas-box-open::before {
+  content: "\ea5e";
+}
+
+.fas-boxes::before {
+  content: "\ea5f";
+}
+
+.fas-braille::before {
+  content: "\ea60";
+}
+
+.fas-brain::before {
+  content: "\ea61";
+}
+
+.fas-bread-slice::before {
+  content: "\ea62";
+}
+
+.fas-briefcase::before {
+  content: "\ea63";
+}
+
+.fas-briefcase-medical::before {
+  content: "\ea64";
+}
+
+.fas-broadcast-tower::before {
+  content: "\ea65";
+}
+
+.fas-broom::before {
+  content: "\ea66";
+}
+
+.fas-brush::before {
+  content: "\ea67";
+}
+
+.fas-bug::before {
+  content: "\ea68";
+}
+
+.fas-building::before {
+  content: "\ea69";
+}
+
+.fas-bullhorn::before {
+  content: "\ea6a";
+}
+
+.fas-bullseye::before {
+  content: "\ea6b";
+}
+
+.fas-burn::before {
+  content: "\ea6c";
+}
+
+.fas-bus::before {
+  content: "\ea6d";
+}
+
+.fas-bus-alt::before {
+  content: "\ea6e";
+}
+
+.fas-business-time::before {
+  content: "\ea6f";
+}
+
+.fas-calculator::before {
+  content: "\ea70";
+}
+
+.fas-calendar::before {
+  content: "\ea71";
+}
+
+.fas-calendar-alt::before {
+  content: "\ea72";
+}
+
+.fas-calendar-check::before {
+  content: "\ea73";
+}
+
+.fas-calendar-day::before {
+  content: "\ea74";
+}
+
+.fas-calendar-minus::before {
+  content: "\ea75";
+}
+
+.fas-calendar-plus::before {
+  content: "\ea76";
+}
+
+.fas-calendar-times::before {
+  content: "\ea77";
+}
+
+.fas-calendar-week::before {
+  content: "\ea78";
+}
+
+.fas-camera::before {
+  content: "\ea79";
+}
+
+.fas-camera-retro::before {
+  content: "\ea7a";
+}
+
+.fas-campground::before {
+  content: "\ea7b";
+}
+
+.fas-candy-cane::before {
+  content: "\ea7c";
+}
+
+.fas-cannabis::before {
+  content: "\ea7d";
+}
+
+.fas-capsules::before {
+  content: "\ea7e";
+}
+
+.fas-car::before {
+  content: "\ea7f";
+}
+
+.fas-car-alt::before {
+  content: "\ea80";
+}
+
+.fas-car-battery::before {
+  content: "\ea81";
+}
+
+.fas-car-crash::before {
+  content: "\ea82";
+}
+
+.fas-car-side::before {
+  content: "\ea83";
+}
+
+.fas-caret-down::before {
+  content: "\ea84";
+}
+
+.fas-caret-left::before {
+  content: "\ea85";
+}
+
+.fas-caret-right::before {
+  content: "\ea86";
+}
+
+.fas-caret-square-down::before {
+  content: "\ea87";
+}
+
+.fas-caret-square-left::before {
+  content: "\ea88";
+}
+
+.fas-caret-square-right::before {
+  content: "\ea89";
+}
+
+.fas-caret-square-up::before {
+  content: "\ea8a";
+}
+
+.fas-caret-up::before {
+  content: "\ea8b";
+}
+
+.fas-carrot::before {
+  content: "\ea8c";
+}
+
+.fas-cart-arrow-down::before {
+  content: "\ea8d";
+}
+
+.fas-cart-plus::before {
+  content: "\ea8e";
+}
+
+.fas-cash-register::before {
+  content: "\ea8f";
+}
+
+.fas-cat::before {
+  content: "\ea90";
+}
+
+.fas-certificate::before {
+  content: "\ea91";
+}
+
+.fas-chair::before {
+  content: "\ea92";
+}
+
+.fas-chalkboard::before {
+  content: "\ea93";
+}
+
+.fas-chalkboard-teacher::before {
+  content: "\ea94";
+}
+
+.fas-charging-station::before {
+  content: "\ea95";
+}
+
+.fas-chart-area::before {
+  content: "\ea96";
+}
+
+.fas-chart-bar::before {
+  content: "\ea97";
+}
+
+.fas-chart-line::before {
+  content: "\ea98";
+}
+
+.fas-chart-pie::before {
+  content: "\ea99";
+}
+
+.fas-check::before {
+  content: "\ea9a";
+}
+
+.fas-check-circle::before {
+  content: "\ea9b";
+}
+
+.fas-check-double::before {
+  content: "\ea9c";
+}
+
+.fas-check-square::before {
+  content: "\ea9d";
+}
+
+.fas-cheese::before {
+  content: "\ea9e";
+}
+
+.fas-chess::before {
+  content: "\ea9f";
+}
+
+.fas-chess-bishop::before {
+  content: "\eaa0";
+}
+
+.fas-chess-board::before {
+  content: "\eaa1";
+}
+
+.fas-chess-king::before {
+  content: "\eaa2";
+}
+
+.fas-chess-knight::before {
+  content: "\eaa3";
+}
+
+.fas-chess-pawn::before {
+  content: "\eaa4";
+}
+
+.fas-chess-queen::before {
+  content: "\eaa5";
+}
+
+.fas-chess-rook::before {
+  content: "\eaa6";
+}
+
+.fas-chevron-circle-down::before {
+  content: "\eaa7";
+}
+
+.fas-chevron-circle-left::before {
+  content: "\eaa8";
+}
+
+.fas-chevron-circle-right::before {
+  content: "\eaa9";
+}
+
+.fas-chevron-circle-up::before {
+  content: "\eaaa";
+}
+
+.fas-chevron-down::before {
+  content: "\eaab";
+}
+
+.fas-chevron-left::before {
+  content: "\eaac";
+}
+
+.fas-chevron-right::before {
+  content: "\eaad";
+}
+
+.fas-chevron-up::before {
+  content: "\eaae";
+}
+
+.fas-child::before {
+  content: "\eaaf";
+}
+
+.fas-church::before {
+  content: "\eab0";
+}
+
+.fas-circle::before {
+  content: "\eab1";
+}
+
+.fas-circle-notch::before {
+  content: "\eab2";
+}
+
+.fas-city::before {
+  content: "\eab3";
+}
+
+.fas-clinic-medical::before {
+  content: "\eab4";
+}
+
+.fas-clipboard::before {
+  content: "\eab5";
+}
+
+.fas-clipboard-check::before {
+  content: "\eab6";
+}
+
+.fas-clipboard-list::before {
+  content: "\eab7";
+}
+
+.fas-clock::before {
+  content: "\eab8";
+}
+
+.fas-clone::before {
+  content: "\eab9";
+}
+
+.fas-closed-captioning::before {
+  content: "\eaba";
+}
+
+.fas-cloud::before {
+  content: "\eabb";
+}
+
+.fas-cloud-download-alt::before {
+  content: "\eabc";
+}
+
+.fas-cloud-meatball::before {
+  content: "\eabd";
+}
+
+.fas-cloud-moon::before {
+  content: "\eabe";
+}
+
+.fas-cloud-moon-rain::before {
+  content: "\eabf";
+}
+
+.fas-cloud-rain::before {
+  content: "\eac0";
+}
+
+.fas-cloud-showers-heavy::before {
+  content: "\eac1";
+}
+
+.fas-cloud-sun::before {
+  content: "\eac2";
+}
+
+.fas-cloud-sun-rain::before {
+  content: "\eac3";
+}
+
+.fas-cloud-upload-alt::before {
+  content: "\eac4";
+}
+
+.fas-cocktail::before {
+  content: "\eac5";
+}
+
+.fas-code::before {
+  content: "\eac6";
+}
+
+.fas-code-branch::before {
+  content: "\eac7";
+}
+
+.fas-coffee::before {
+  content: "\eac8";
+}
+
+.fas-cog::before {
+  content: "\eac9";
+}
+
+.fas-cogs::before {
+  content: "\eaca";
+}
+
+.fas-coins::before {
+  content: "\eacb";
+}
+
+.fas-columns::before {
+  content: "\eacc";
+}
+
+.fas-comment::before {
+  content: "\eacd";
+}
+
+.fas-comment-alt::before {
+  content: "\eace";
+}
+
+.fas-comment-dollar::before {
+  content: "\eacf";
+}
+
+.fas-comment-dots::before {
+  content: "\ead0";
+}
+
+.fas-comment-medical::before {
+  content: "\ead1";
+}
+
+.fas-comment-slash::before {
+  content: "\ead2";
+}
+
+.fas-comments::before {
+  content: "\ead3";
+}
+
+.fas-comments-dollar::before {
+  content: "\ead4";
+}
+
+.fas-compact-disc::before {
+  content: "\ead5";
+}
+
+.fas-compass::before {
+  content: "\ead6";
+}
+
+.fas-compress::before {
+  content: "\ead7";
+}
+
+.fas-compress-arrows-alt::before {
+  content: "\ead8";
+}
+
+.fas-concierge-bell::before {
+  content: "\ead9";
+}
+
+.fas-cookie::before {
+  content: "\eada";
+}
+
+.fas-cookie-bite::before {
+  content: "\eadb";
+}
+
+.fas-copy::before {
+  content: "\eadc";
+}
+
+.fas-copyright::before {
+  content: "\eadd";
+}
+
+.fas-couch::before {
+  content: "\eade";
+}
+
+.fas-credit-card::before {
+  content: "\eadf";
+}
+
+.fas-crop::before {
+  content: "\eae0";
+}
+
+.fas-crop-alt::before {
+  content: "\eae1";
+}
+
+.fas-cross::before {
+  content: "\eae2";
+}
+
+.fas-crosshairs::before {
+  content: "\eae3";
+}
+
+.fas-crow::before {
+  content: "\eae4";
+}
+
+.fas-crown::before {
+  content: "\eae5";
+}
+
+.fas-crutch::before {
+  content: "\eae6";
+}
+
+.fas-cube::before {
+  content: "\eae7";
+}
+
+.fas-cubes::before {
+  content: "\eae8";
+}
+
+.fas-cut::before {
+  content: "\eae9";
+}
+
+.fas-database::before {
+  content: "\eaea";
+}
+
+.fas-deaf::before {
+  content: "\eaeb";
+}
+
+.fas-democrat::before {
+  content: "\eaec";
+}
+
+.fas-desktop::before {
+  content: "\eaed";
+}
+
+.fas-dharmachakra::before {
+  content: "\eaee";
+}
+
+.fas-diagnoses::before {
+  content: "\eaef";
+}
+
+.fas-dice::before {
+  content: "\eaf0";
+}
+
+.fas-dice-d20::before {
+  content: "\eaf1";
+}
+
+.fas-dice-d6::before {
+  content: "\eaf2";
+}
+
+.fas-dice-five::before {
+  content: "\eaf3";
+}
+
+.fas-dice-four::before {
+  content: "\eaf4";
+}
+
+.fas-dice-one::before {
+  content: "\eaf5";
+}
+
+.fas-dice-six::before {
+  content: "\eaf6";
+}
+
+.fas-dice-three::before {
+  content: "\eaf7";
+}
+
+.fas-dice-two::before {
+  content: "\eaf8";
+}
+
+.fas-digital-tachograph::before {
+  content: "\eaf9";
+}
+
+.fas-directions::before {
+  content: "\eafa";
+}
+
+.fas-divide::before {
+  content: "\eafb";
+}
+
+.fas-dizzy::before {
+  content: "\eafc";
+}
+
+.fas-dna::before {
+  content: "\eafd";
+}
+
+.fas-dog::before {
+  content: "\eafe";
+}
+
+.fas-dollar-sign::before {
+  content: "\eaff";
+}
+
+.fas-dolly::before {
+  content: "\eb00";
+}
+
+.fas-dolly-flatbed::before {
+  content: "\eb01";
+}
+
+.fas-donate::before {
+  content: "\eb02";
+}
+
+.fas-door-closed::before {
+  content: "\eb03";
+}
+
+.fas-door-open::before {
+  content: "\eb04";
+}
+
+.fas-dot-circle::before {
+  content: "\eb05";
+}
+
+.fas-dove::before {
+  content: "\eb06";
+}
+
+.fas-download::before {
+  content: "\eb07";
+}
+
+.fas-drafting-compass::before {
+  content: "\eb08";
+}
+
+.fas-dragon::before {
+  content: "\eb09";
+}
+
+.fas-draw-polygon::before {
+  content: "\eb0a";
+}
+
+.fas-drum::before {
+  content: "\eb0b";
+}
+
+.fas-drum-steelpan::before {
+  content: "\eb0c";
+}
+
+.fas-drumstick-bite::before {
+  content: "\eb0d";
+}
+
+.fas-dumbbell::before {
+  content: "\eb0e";
+}
+
+.fas-dumpster::before {
+  content: "\eb0f";
+}
+
+.fas-dumpster-fire::before {
+  content: "\eb10";
+}
+
+.fas-dungeon::before {
+  content: "\eb11";
+}
+
+.fas-edit::before {
+  content: "\eb12";
+}
+
+.fas-egg::before {
+  content: "\eb13";
+}
+
+.fas-eject::before {
+  content: "\eb14";
+}
+
+.fas-ellipsis-h::before {
+  content: "\eb15";
+}
+
+.fas-ellipsis-v::before {
+  content: "\eb16";
+}
+
+.fas-envelope::before {
+  content: "\eb17";
+}
+
+.fas-envelope-open::before {
+  content: "\eb18";
+}
+
+.fas-envelope-open-text::before {
+  content: "\eb19";
+}
+
+.fas-envelope-square::before {
+  content: "\eb1a";
+}
+
+.fas-equals::before {
+  content: "\eb1b";
+}
+
+.fas-eraser::before {
+  content: "\eb1c";
+}
+
+.fas-ethernet::before {
+  content: "\eb1d";
+}
+
+.fas-euro-sign::before {
+  content: "\eb1e";
+}
+
+.fas-exchange-alt::before {
+  content: "\eb1f";
+}
+
+.fas-exclamation::before {
+  content: "\eb20";
+}
+
+.fas-exclamation-circle::before {
+  content: "\eb21";
+}
+
+.fas-exclamation-triangle::before {
+  content: "\eb22";
+}
+
+.fas-expand::before {
+  content: "\eb23";
+}
+
+.fas-expand-arrows-alt::before {
+  content: "\eb24";
+}
+
+.fas-external-link-alt::before {
+  content: "\eb25";
+}
+
+.fas-external-link-square-alt::before {
+  content: "\eb26";
+}
+
+.fas-eye::before {
+  content: "\eb27";
+}
+
+.fas-eye-dropper::before {
+  content: "\eb28";
+}
+
+.fas-eye-slash::before {
+  content: "\eb29";
+}
+
+.fas-fast-backward::before {
+  content: "\eb2a";
+}
+
+.fas-fast-forward::before {
+  content: "\eb2b";
+}
+
+.fas-fax::before {
+  content: "\eb2c";
+}
+
+.fas-feather::before {
+  content: "\eb2d";
+}
+
+.fas-feather-alt::before {
+  content: "\eb2e";
+}
+
+.fas-female::before {
+  content: "\eb2f";
+}
+
+.fas-fighter-jet::before {
+  content: "\eb30";
+}
+
+.fas-file::before {
+  content: "\eb31";
+}
+
+.fas-file-alt::before {
+  content: "\eb32";
+}
+
+.fas-file-archive::before {
+  content: "\eb33";
+}
+
+.fas-file-audio::before {
+  content: "\eb34";
+}
+
+.fas-file-code::before {
+  content: "\eb35";
+}
+
+.fas-file-contract::before {
+  content: "\eb36";
+}
+
+.fas-file-csv::before {
+  content: "\eb37";
+}
+
+.fas-file-download::before {
+  content: "\eb38";
+}
+
+.fas-file-excel::before {
+  content: "\eb39";
+}
+
+.fas-file-export::before {
+  content: "\eb3a";
+}
+
+.fas-file-image::before {
+  content: "\eb3b";
+}
+
+.fas-file-import::before {
+  content: "\eb3c";
+}
+
+.fas-file-invoice::before {
+  content: "\eb3d";
+}
+
+.fas-file-invoice-dollar::before {
+  content: "\eb3e";
+}
+
+.fas-file-medical::before {
+  content: "\eb3f";
+}
+
+.fas-file-medical-alt::before {
+  content: "\eb40";
+}
+
+.fas-file-pdf::before {
+  content: "\eb41";
+}
+
+.fas-file-powerpoint::before {
+  content: "\eb42";
+}
+
+.fas-file-prescription::before {
+  content: "\eb43";
+}
+
+.fas-file-signature::before {
+  content: "\eb44";
+}
+
+.fas-file-upload::before {
+  content: "\eb45";
+}
+
+.fas-file-video::before {
+  content: "\eb46";
+}
+
+.fas-file-word::before {
+  content: "\eb47";
+}
+
+.fas-fill::before {
+  content: "\eb48";
+}
+
+.fas-fill-drip::before {
+  content: "\eb49";
+}
+
+.fas-film::before {
+  content: "\eb4a";
+}
+
+.fas-filter::before {
+  content: "\eb4b";
+}
+
+.fas-fingerprint::before {
+  content: "\eb4c";
+}
+
+.fas-fire::before {
+  content: "\eb4d";
+}
+
+.fas-fire-alt::before {
+  content: "\eb4e";
+}
+
+.fas-fire-extinguisher::before {
+  content: "\eb4f";
+}
+
+.fas-first-aid::before {
+  content: "\eb50";
+}
+
+.fas-fish::before {
+  content: "\eb51";
+}
+
+.fas-fist-raised::before {
+  content: "\eb52";
+}
+
+.fas-flag::before {
+  content: "\eb53";
+}
+
+.fas-flag-checkered::before {
+  content: "\eb54";
+}
+
+.fas-flag-usa::before {
+  content: "\eb55";
+}
+
+.fas-flask::before {
+  content: "\eb56";
+}
+
+.fas-flushed::before {
+  content: "\eb57";
+}
+
+.fas-folder::before {
+  content: "\eb58";
+}
+
+.fas-folder-minus::before {
+  content: "\eb59";
+}
+
+.fas-folder-open::before {
+  content: "\eb5a";
+}
+
+.fas-folder-plus::before {
+  content: "\eb5b";
+}
+
+.fas-font::before {
+  content: "\eb5c";
+}
+
+.fas-football-ball::before {
+  content: "\eb5d";
+}
+
+.fas-forward::before {
+  content: "\eb5e";
+}
+
+.fas-frog::before {
+  content: "\eb5f";
+}
+
+.fas-frown::before {
+  content: "\eb60";
+}
+
+.fas-frown-open::before {
+  content: "\eb61";
+}
+
+.fas-funnel-dollar::before {
+  content: "\eb62";
+}
+
+.fas-futbol::before {
+  content: "\eb63";
+}
+
+.fas-gamepad::before {
+  content: "\eb64";
+}
+
+.fas-gas-pump::before {
+  content: "\eb65";
+}
+
+.fas-gavel::before {
+  content: "\eb66";
+}
+
+.fas-gem::before {
+  content: "\eb67";
+}
+
+.fas-genderless::before {
+  content: "\eb68";
+}
+
+.fas-ghost::before {
+  content: "\eb69";
+}
+
+.fas-gift::before {
+  content: "\eb6a";
+}
+
+.fas-gifts::before {
+  content: "\eb6b";
+}
+
+.fas-glass-cheers::before {
+  content: "\eb6c";
+}
+
+.fas-glass-martini::before {
+  content: "\eb6d";
+}
+
+.fas-glass-martini-alt::before {
+  content: "\eb6e";
+}
+
+.fas-glass-whiskey::before {
+  content: "\eb6f";
+}
+
+.fas-glasses::before {
+  content: "\eb70";
+}
+
+.fas-globe::before {
+  content: "\eb71";
+}
+
+.fas-globe-africa::before {
+  content: "\eb72";
+}
+
+.fas-globe-americas::before {
+  content: "\eb73";
+}
+
+.fas-globe-asia::before {
+  content: "\eb74";
+}
+
+.fas-globe-europe::before {
+  content: "\eb75";
+}
+
+.fas-golf-ball::before {
+  content: "\eb76";
+}
+
+.fas-gopuram::before {
+  content: "\eb77";
+}
+
+.fas-graduation-cap::before {
+  content: "\eb78";
+}
+
+.fas-greater-than::before {
+  content: "\eb79";
+}
+
+.fas-greater-than-equal::before {
+  content: "\eb7a";
+}
+
+.fas-grimace::before {
+  content: "\eb7b";
+}
+
+.fas-grin::before {
+  content: "\eb7c";
+}
+
+.fas-grin-alt::before {
+  content: "\eb7d";
+}
+
+.fas-grin-beam::before {
+  content: "\eb7e";
+}
+
+.fas-grin-beam-sweat::before {
+  content: "\eb7f";
+}
+
+.fas-grin-hearts::before {
+  content: "\eb80";
+}
+
+.fas-grin-squint::before {
+  content: "\eb81";
+}
+
+.fas-grin-squint-tears::before {
+  content: "\eb82";
+}
+
+.fas-grin-stars::before {
+  content: "\eb83";
+}
+
+.fas-grin-tears::before {
+  content: "\eb84";
+}
+
+.fas-grin-tongue::before {
+  content: "\eb85";
+}
+
+.fas-grin-tongue-squint::before {
+  content: "\eb86";
+}
+
+.fas-grin-tongue-wink::before {
+  content: "\eb87";
+}
+
+.fas-grin-wink::before {
+  content: "\eb88";
+}
+
+.fas-grip-horizontal::before {
+  content: "\eb89";
+}
+
+.fas-grip-lines::before {
+  content: "\eb8a";
+}
+
+.fas-grip-lines-vertical::before {
+  content: "\eb8b";
+}
+
+.fas-grip-vertical::before {
+  content: "\eb8c";
+}
+
+.fas-guitar::before {
+  content: "\eb8d";
+}
+
+.fas-h-square::before {
+  content: "\eb8e";
+}
+
+.fas-hamburger::before {
+  content: "\eb8f";
+}
+
+.fas-hammer::before {
+  content: "\eb90";
+}
+
+.fas-hamsa::before {
+  content: "\eb91";
+}
+
+.fas-hand-holding::before {
+  content: "\eb92";
+}
+
+.fas-hand-holding-heart::before {
+  content: "\eb93";
+}
+
+.fas-hand-holding-usd::before {
+  content: "\eb94";
+}
+
+.fas-hand-lizard::before {
+  content: "\eb95";
+}
+
+.fas-hand-middle-finger::before {
+  content: "\eb96";
+}
+
+.fas-hand-paper::before {
+  content: "\eb97";
+}
+
+.fas-hand-peace::before {
+  content: "\eb98";
+}
+
+.fas-hand-point-down::before {
+  content: "\eb99";
+}
+
+.fas-hand-point-left::before {
+  content: "\eb9a";
+}
+
+.fas-hand-point-right::before {
+  content: "\eb9b";
+}
+
+.fas-hand-point-up::before {
+  content: "\eb9c";
+}
+
+.fas-hand-pointer::before {
+  content: "\eb9d";
+}
+
+.fas-hand-rock::before {
+  content: "\eb9e";
+}
+
+.fas-hand-scissors::before {
+  content: "\eb9f";
+}
+
+.fas-hand-spock::before {
+  content: "\eba0";
+}
+
+.fas-hands::before {
+  content: "\eba1";
+}
+
+.fas-hands-helping::before {
+  content: "\eba2";
+}
+
+.fas-handshake::before {
+  content: "\eba3";
+}
+
+.fas-hanukiah::before {
+  content: "\eba4";
+}
+
+.fas-hard-hat::before {
+  content: "\eba5";
+}
+
+.fas-hashtag::before {
+  content: "\eba6";
+}
+
+.fas-hat-wizard::before {
+  content: "\eba7";
+}
+
+.fas-haykal::before {
+  content: "\eba8";
+}
+
+.fas-hdd::before {
+  content: "\eba9";
+}
+
+.fas-heading::before {
+  content: "\ebaa";
+}
+
+.fas-headphones::before {
+  content: "\ebab";
+}
+
+.fas-headphones-alt::before {
+  content: "\ebac";
+}
+
+.fas-headset::before {
+  content: "\ebad";
+}
+
+.fas-heart::before {
+  content: "\ebae";
+}
+
+.fas-heart-broken::before {
+  content: "\ebaf";
+}
+
+.fas-heartbeat::before {
+  content: "\ebb0";
+}
+
+.fas-helicopter::before {
+  content: "\ebb1";
+}
+
+.fas-highlighter::before {
+  content: "\ebb2";
+}
+
+.fas-hiking::before {
+  content: "\ebb3";
+}
+
+.fas-hippo::before {
+  content: "\ebb4";
+}
+
+.fas-history::before {
+  content: "\ebb5";
+}
+
+.fas-hockey-puck::before {
+  content: "\ebb6";
+}
+
+.fas-holly-berry::before {
+  content: "\ebb7";
+}
+
+.fas-home::before {
+  content: "\ebb8";
+}
+
+.fas-horse::before {
+  content: "\ebb9";
+}
+
+.fas-horse-head::before {
+  content: "\ebba";
+}
+
+.fas-hospital::before {
+  content: "\ebbb";
+}
+
+.fas-hospital-alt::before {
+  content: "\ebbc";
+}
+
+.fas-hospital-symbol::before {
+  content: "\ebbd";
+}
+
+.fas-hot-tub::before {
+  content: "\ebbe";
+}
+
+.fas-hotdog::before {
+  content: "\ebbf";
+}
+
+.fas-hotel::before {
+  content: "\ebc0";
+}
+
+.fas-hourglass::before {
+  content: "\ebc1";
+}
+
+.fas-hourglass-end::before {
+  content: "\ebc2";
+}
+
+.fas-hourglass-half::before {
+  content: "\ebc3";
+}
+
+.fas-hourglass-start::before {
+  content: "\ebc4";
+}
+
+.fas-house-damage::before {
+  content: "\ebc5";
+}
+
+.fas-hryvnia::before {
+  content: "\ebc6";
+}
+
+.fas-i-cursor::before {
+  content: "\ebc7";
+}
+
+.fas-ice-cream::before {
+  content: "\ebc8";
+}
+
+.fas-icicles::before {
+  content: "\ebc9";
+}
+
+.fas-id-badge::before {
+  content: "\ebca";
+}
+
+.fas-id-card::before {
+  content: "\ebcb";
+}
+
+.fas-id-card-alt::before {
+  content: "\ebcc";
+}
+
+.fas-igloo::before {
+  content: "\ebcd";
+}
+
+.fas-image::before {
+  content: "\ebce";
+}
+
+.fas-images::before {
+  content: "\ebcf";
+}
+
+.fas-inbox::before {
+  content: "\ebd0";
+}
+
+.fas-indent::before {
+  content: "\ebd1";
+}
+
+.fas-industry::before {
+  content: "\ebd2";
+}
+
+.fas-infinity::before {
+  content: "\ebd3";
+}
+
+.fas-info::before {
+  content: "\ebd4";
+}
+
+.fas-info-circle::before {
+  content: "\ebd5";
+}
+
+.fas-italic::before {
+  content: "\ebd6";
+}
+
+.fas-jedi::before {
+  content: "\ebd7";
+}
+
+.fas-joint::before {
+  content: "\ebd8";
+}
+
+.fas-journal-whills::before {
+  content: "\ebd9";
+}
+
+.fas-kaaba::before {
+  content: "\ebda";
+}
+
+.fas-key::before {
+  content: "\ebdb";
+}
+
+.fas-keyboard::before {
+  content: "\ebdc";
+}
+
+.fas-khanda::before {
+  content: "\ebdd";
+}
+
+.fas-kiss::before {
+  content: "\ebde";
+}
+
+.fas-kiss-beam::before {
+  content: "\ebdf";
+}
+
+.fas-kiss-wink-heart::before {
+  content: "\ebe0";
+}
+
+.fas-kiwi-bird::before {
+  content: "\ebe1";
+}
+
+.fas-landmark::before {
+  content: "\ebe2";
+}
+
+.fas-language::before {
+  content: "\ebe3";
+}
+
+.fas-laptop::before {
+  content: "\ebe4";
+}
+
+.fas-laptop-code::before {
+  content: "\ebe5";
+}
+
+.fas-laptop-medical::before {
+  content: "\ebe6";
+}
+
+.fas-laugh::before {
+  content: "\ebe7";
+}
+
+.fas-laugh-beam::before {
+  content: "\ebe8";
+}
+
+.fas-laugh-squint::before {
+  content: "\ebe9";
+}
+
+.fas-laugh-wink::before {
+  content: "\ebea";
+}
+
+.fas-layer-group::before {
+  content: "\ebeb";
+}
+
+.fas-leaf::before {
+  content: "\ebec";
+}
+
+.fas-lemon::before {
+  content: "\ebed";
+}
+
+.fas-less-than::before {
+  content: "\ebee";
+}
+
+.fas-less-than-equal::before {
+  content: "\ebef";
+}
+
+.fas-level-down-alt::before {
+  content: "\ebf0";
+}
+
+.fas-level-up-alt::before {
+  content: "\ebf1";
+}
+
+.fas-life-ring::before {
+  content: "\ebf2";
+}
+
+.fas-lightbulb::before {
+  content: "\ebf3";
+}
+
+.fas-link::before {
+  content: "\ebf4";
+}
+
+.fas-lira-sign::before {
+  content: "\ebf5";
+}
+
+.fas-list::before {
+  content: "\ebf6";
+}
+
+.fas-list-alt::before {
+  content: "\ebf7";
+}
+
+.fas-list-ol::before {
+  content: "\ebf8";
+}
+
+.fas-list-ul::before {
+  content: "\ebf9";
+}
+
+.fas-location-arrow::before {
+  content: "\ebfa";
+}
+
+.fas-lock::before {
+  content: "\ebfb";
+}
+
+.fas-lock-open::before {
+  content: "\ebfc";
+}
+
+.fas-long-arrow-alt-down::before {
+  content: "\ebfd";
+}
+
+.fas-long-arrow-alt-left::before {
+  content: "\ebfe";
+}
+
+.fas-long-arrow-alt-right::before {
+  content: "\ebff";
+}
+
+.fas-long-arrow-alt-up::before {
+  content: "\ec00";
+}
+
+.fas-low-vision::before {
+  content: "\ec01";
+}
+
+.fas-luggage-cart::before {
+  content: "\ec02";
+}
+
+.fas-magic::before {
+  content: "\ec03";
+}
+
+.fas-magnet::before {
+  content: "\ec04";
+}
+
+.fas-mail-bulk::before {
+  content: "\ec05";
+}
+
+.fas-male::before {
+  content: "\ec06";
+}
+
+.fas-map::before {
+  content: "\ec07";
+}
+
+.fas-map-marked::before {
+  content: "\ec08";
+}
+
+.fas-map-marked-alt::before {
+  content: "\ec09";
+}
+
+.fas-map-marker::before {
+  content: "\ec0a";
+}
+
+.fas-map-marker-alt::before {
+  content: "\ec0b";
+}
+
+.fas-map-pin::before {
+  content: "\ec0c";
+}
+
+.fas-map-signs::before {
+  content: "\ec0d";
+}
+
+.fas-marker::before {
+  content: "\ec0e";
+}
+
+.fas-mars::before {
+  content: "\ec0f";
+}
+
+.fas-mars-double::before {
+  content: "\ec10";
+}
+
+.fas-mars-stroke::before {
+  content: "\ec11";
+}
+
+.fas-mars-stroke-h::before {
+  content: "\ec12";
+}
+
+.fas-mars-stroke-v::before {
+  content: "\ec13";
+}
+
+.fas-mask::before {
+  content: "\ec14";
+}
+
+.fas-medal::before {
+  content: "\ec15";
+}
+
+.fas-medkit::before {
+  content: "\ec16";
+}
+
+.fas-meh::before {
+  content: "\ec17";
+}
+
+.fas-meh-blank::before {
+  content: "\ec18";
+}
+
+.fas-meh-rolling-eyes::before {
+  content: "\ec19";
+}
+
+.fas-memory::before {
+  content: "\ec1a";
+}
+
+.fas-menorah::before {
+  content: "\ec1b";
+}
+
+.fas-mercury::before {
+  content: "\ec1c";
+}
+
+.fas-meteor::before {
+  content: "\ec1d";
+}
+
+.fas-microchip::before {
+  content: "\ec1e";
+}
+
+.fas-microphone::before {
+  content: "\ec1f";
+}
+
+.fas-microphone-alt::before {
+  content: "\ec20";
+}
+
+.fas-microphone-alt-slash::before {
+  content: "\ec21";
+}
+
+.fas-microphone-slash::before {
+  content: "\ec22";
+}
+
+.fas-microscope::before {
+  content: "\ec23";
+}
+
+.fas-minus::before {
+  content: "\ec24";
+}
+
+.fas-minus-circle::before {
+  content: "\ec25";
+}
+
+.fas-minus-square::before {
+  content: "\ec26";
+}
+
+.fas-mitten::before {
+  content: "\ec27";
+}
+
+.fas-mobile::before {
+  content: "\ec28";
+}
+
+.fas-mobile-alt::before {
+  content: "\ec29";
+}
+
+.fas-money-bill::before {
+  content: "\ec2a";
+}
+
+.fas-money-bill-alt::before {
+  content: "\ec2b";
+}
+
+.fas-money-bill-wave::before {
+  content: "\ec2c";
+}
+
+.fas-money-bill-wave-alt::before {
+  content: "\ec2d";
+}
+
+.fas-money-check::before {
+  content: "\ec2e";
+}
+
+.fas-money-check-alt::before {
+  content: "\ec2f";
+}
+
+.fas-monument::before {
+  content: "\ec30";
+}
+
+.fas-moon::before {
+  content: "\ec31";
+}
+
+.fas-mortar-pestle::before {
+  content: "\ec32";
+}
+
+.fas-mosque::before {
+  content: "\ec33";
+}
+
+.fas-motorcycle::before {
+  content: "\ec34";
+}
+
+.fas-mountain::before {
+  content: "\ec35";
+}
+
+.fas-mouse-pointer::before {
+  content: "\ec36";
+}
+
+.fas-mug-hot::before {
+  content: "\ec37";
+}
+
+.fas-music::before {
+  content: "\ec38";
+}
+
+.fas-network-wired::before {
+  content: "\ec39";
+}
+
+.fas-neuter::before {
+  content: "\ec3a";
+}
+
+.fas-newspaper::before {
+  content: "\ec3b";
+}
+
+.fas-not-equal::before {
+  content: "\ec3c";
+}
+
+.fas-notes-medical::before {
+  content: "\ec3d";
+}
+
+.fas-object-group::before {
+  content: "\ec3e";
+}
+
+.fas-object-ungroup::before {
+  content: "\ec3f";
+}
+
+.fas-oil-can::before {
+  content: "\ec40";
+}
+
+.fas-om::before {
+  content: "\ec41";
+}
+
+.fas-otter::before {
+  content: "\ec42";
+}
+
+.fas-outdent::before {
+  content: "\ec43";
+}
+
+.fas-pager::before {
+  content: "\ec44";
+}
+
+.fas-paint-brush::before {
+  content: "\ec45";
+}
+
+.fas-paint-roller::before {
+  content: "\ec46";
+}
+
+.fas-palette::before {
+  content: "\ec47";
+}
+
+.fas-pallet::before {
+  content: "\ec48";
+}
+
+.fas-paper-plane::before {
+  content: "\ec49";
+}
+
+.fas-paperclip::before {
+  content: "\ec4a";
+}
+
+.fas-parachute-box::before {
+  content: "\ec4b";
+}
+
+.fas-paragraph::before {
+  content: "\ec4c";
+}
+
+.fas-parking::before {
+  content: "\ec4d";
+}
+
+.fas-passport::before {
+  content: "\ec4e";
+}
+
+.fas-pastafarianism::before {
+  content: "\ec4f";
+}
+
+.fas-paste::before {
+  content: "\ec50";
+}
+
+.fas-pause::before {
+  content: "\ec51";
+}
+
+.fas-pause-circle::before {
+  content: "\ec52";
+}
+
+.fas-paw::before {
+  content: "\ec53";
+}
+
+.fas-peace::before {
+  content: "\ec54";
+}
+
+.fas-pen::before {
+  content: "\ec55";
+}
+
+.fas-pen-alt::before {
+  content: "\ec56";
+}
+
+.fas-pen-fancy::before {
+  content: "\ec57";
+}
+
+.fas-pen-nib::before {
+  content: "\ec58";
+}
+
+.fas-pen-square::before {
+  content: "\ec59";
+}
+
+.fas-pencil-alt::before {
+  content: "\ec5a";
+}
+
+.fas-pencil-ruler::before {
+  content: "\ec5b";
+}
+
+.fas-people-carry::before {
+  content: "\ec5c";
+}
+
+.fas-pepper-hot::before {
+  content: "\ec5d";
+}
+
+.fas-percent::before {
+  content: "\ec5e";
+}
+
+.fas-percentage::before {
+  content: "\ec5f";
+}
+
+.fas-person-booth::before {
+  content: "\ec60";
+}
+
+.fas-phone::before {
+  content: "\ec61";
+}
+
+.fas-phone-slash::before {
+  content: "\ec62";
+}
+
+.fas-phone-square::before {
+  content: "\ec63";
+}
+
+.fas-phone-volume::before {
+  content: "\ec64";
+}
+
+.fas-piggy-bank::before {
+  content: "\ec65";
+}
+
+.fas-pills::before {
+  content: "\ec66";
+}
+
+.fas-pizza-slice::before {
+  content: "\ec67";
+}
+
+.fas-place-of-worship::before {
+  content: "\ec68";
+}
+
+.fas-plane::before {
+  content: "\ec69";
+}
+
+.fas-plane-arrival::before {
+  content: "\ec6a";
+}
+
+.fas-plane-departure::before {
+  content: "\ec6b";
+}
+
+.fas-play::before {
+  content: "\ec6c";
+}
+
+.fas-play-circle::before {
+  content: "\ec6d";
+}
+
+.fas-plug::before {
+  content: "\ec6e";
+}
+
+.fas-plus::before {
+  content: "\ec6f";
+}
+
+.fas-plus-circle::before {
+  content: "\ec70";
+}
+
+.fas-plus-square::before {
+  content: "\ec71";
+}
+
+.fas-podcast::before {
+  content: "\ec72";
+}
+
+.fas-poll::before {
+  content: "\ec73";
+}
+
+.fas-poll-h::before {
+  content: "\ec74";
+}
+
+.fas-poo::before {
+  content: "\ec75";
+}
+
+.fas-poo-storm::before {
+  content: "\ec76";
+}
+
+.fas-poop::before {
+  content: "\ec77";
+}
+
+.fas-portrait::before {
+  content: "\ec78";
+}
+
+.fas-pound-sign::before {
+  content: "\ec79";
+}
+
+.fas-power-off::before {
+  content: "\ec7a";
+}
+
+.fas-pray::before {
+  content: "\ec7b";
+}
+
+.fas-praying-hands::before {
+  content: "\ec7c";
+}
+
+.fas-prescription::before {
+  content: "\ec7d";
+}
+
+.fas-prescription-bottle::before {
+  content: "\ec7e";
+}
+
+.fas-prescription-bottle-alt::before {
+  content: "\ec7f";
+}
+
+.fas-print::before {
+  content: "\ec80";
+}
+
+.fas-procedures::before {
+  content: "\ec81";
+}
+
+.fas-project-diagram::before {
+  content: "\ec82";
+}
+
+.fas-puzzle-piece::before {
+  content: "\ec83";
+}
+
+.fas-qrcode::before {
+  content: "\ec84";
+}
+
+.fas-question::before {
+  content: "\ec85";
+}
+
+.fas-question-circle::before {
+  content: "\ec86";
+}
+
+.fas-quidditch::before {
+  content: "\ec87";
+}
+
+.fas-quote-left::before {
+  content: "\ec88";
+}
+
+.fas-quote-right::before {
+  content: "\ec89";
+}
+
+.fas-quran::before {
+  content: "\ec8a";
+}
+
+.fas-radiation::before {
+  content: "\ec8b";
+}
+
+.fas-radiation-alt::before {
+  content: "\ec8c";
+}
+
+.fas-rainbow::before {
+  content: "\ec8d";
+}
+
+.fas-random::before {
+  content: "\ec8e";
+}
+
+.fas-receipt::before {
+  content: "\ec8f";
+}
+
+.fas-recycle::before {
+  content: "\ec90";
+}
+
+.fas-redo::before {
+  content: "\ec91";
+}
+
+.fas-redo-alt::before {
+  content: "\ec92";
+}
+
+.fas-registered::before {
+  content: "\ec93";
+}
+
+.fas-reply::before {
+  content: "\ec94";
+}
+
+.fas-reply-all::before {
+  content: "\ec95";
+}
+
+.fas-republican::before {
+  content: "\ec96";
+}
+
+.fas-restroom::before {
+  content: "\ec97";
+}
+
+.fas-retweet::before {
+  content: "\ec98";
+}
+
+.fas-ribbon::before {
+  content: "\ec99";
+}
+
+.fas-ring::before {
+  content: "\ec9a";
+}
+
+.fas-road::before {
+  content: "\ec9b";
+}
+
+.fas-robot::before {
+  content: "\ec9c";
+}
+
+.fas-rocket::before {
+  content: "\ec9d";
+}
+
+.fas-route::before {
+  content: "\ec9e";
+}
+
+.fas-rss::before {
+  content: "\ec9f";
+}
+
+.fas-rss-square::before {
+  content: "\eca0";
+}
+
+.fas-ruble-sign::before {
+  content: "\eca1";
+}
+
+.fas-ruler::before {
+  content: "\eca2";
+}
+
+.fas-ruler-combined::before {
+  content: "\eca3";
+}
+
+.fas-ruler-horizontal::before {
+  content: "\eca4";
+}
+
+.fas-ruler-vertical::before {
+  content: "\eca5";
+}
+
+.fas-running::before {
+  content: "\eca6";
+}
+
+.fas-rupee-sign::before {
+  content: "\eca7";
+}
+
+.fas-sad-cry::before {
+  content: "\eca8";
+}
+
+.fas-sad-tear::before {
+  content: "\eca9";
+}
+
+.fas-satellite::before {
+  content: "\ecaa";
+}
+
+.fas-satellite-dish::before {
+  content: "\ecab";
+}
+
+.fas-save::before {
+  content: "\ecac";
+}
+
+.fas-school::before {
+  content: "\ecad";
+}
+
+.fas-screwdriver::before {
+  content: "\ecae";
+}
+
+.fas-scroll::before {
+  content: "\ecaf";
+}
+
+.fas-sd-card::before {
+  content: "\ecb0";
+}
+
+.fas-search::before {
+  content: "\ecb1";
+}
+
+.fas-search-dollar::before {
+  content: "\ecb2";
+}
+
+.fas-search-location::before {
+  content: "\ecb3";
+}
+
+.fas-search-minus::before {
+  content: "\ecb4";
+}
+
+.fas-search-plus::before {
+  content: "\ecb5";
+}
+
+.fas-seedling::before {
+  content: "\ecb6";
+}
+
+.fas-server::before {
+  content: "\ecb7";
+}
+
+.fas-shapes::before {
+  content: "\ecb8";
+}
+
+.fas-share::before {
+  content: "\ecb9";
+}
+
+.fas-share-alt::before {
+  content: "\ecba";
+}
+
+.fas-share-alt-square::before {
+  content: "\ecbb";
+}
+
+.fas-share-square::before {
+  content: "\ecbc";
+}
+
+.fas-shekel-sign::before {
+  content: "\ecbd";
+}
+
+.fas-shield-alt::before {
+  content: "\ecbe";
+}
+
+.fas-ship::before {
+  content: "\ecbf";
+}
+
+.fas-shipping-fast::before {
+  content: "\ecc0";
+}
+
+.fas-shoe-prints::before {
+  content: "\ecc1";
+}
+
+.fas-shopping-bag::before {
+  content: "\ecc2";
+}
+
+.fas-shopping-basket::before {
+  content: "\ecc3";
+}
+
+.fas-shopping-cart::before {
+  content: "\ecc4";
+}
+
+.fas-shower::before {
+  content: "\ecc5";
+}
+
+.fas-shuttle-van::before {
+  content: "\ecc6";
+}
+
+.fas-sign::before {
+  content: "\ecc7";
+}
+
+.fas-sign-in-alt::before {
+  content: "\ecc8";
+}
+
+.fas-sign-language::before {
+  content: "\ecc9";
+}
+
+.fas-sign-out-alt::before {
+  content: "\ecca";
+}
+
+.fas-signal::before {
+  content: "\eccb";
+}
+
+.fas-signature::before {
+  content: "\eccc";
+}
+
+.fas-sim-card::before {
+  content: "\eccd";
+}
+
+.fas-sitemap::before {
+  content: "\ecce";
+}
+
+.fas-skating::before {
+  content: "\eccf";
+}
+
+.fas-skiing::before {
+  content: "\ecd0";
+}
+
+.fas-skiing-nordic::before {
+  content: "\ecd1";
+}
+
+.fas-skull::before {
+  content: "\ecd2";
+}
+
+.fas-skull-crossbones::before {
+  content: "\ecd3";
+}
+
+.fas-slash::before {
+  content: "\ecd4";
+}
+
+.fas-sleigh::before {
+  content: "\ecd5";
+}
+
+.fas-sliders-h::before {
+  content: "\ecd6";
+}
+
+.fas-smile::before {
+  content: "\ecd7";
+}
+
+.fas-smile-beam::before {
+  content: "\ecd8";
+}
+
+.fas-smile-wink::before {
+  content: "\ecd9";
+}
+
+.fas-smog::before {
+  content: "\ecda";
+}
+
+.fas-smoking::before {
+  content: "\ecdb";
+}
+
+.fas-smoking-ban::before {
+  content: "\ecdc";
+}
+
+.fas-sms::before {
+  content: "\ecdd";
+}
+
+.fas-snowboarding::before {
+  content: "\ecde";
+}
+
+.fas-snowflake::before {
+  content: "\ecdf";
+}
+
+.fas-snowman::before {
+  content: "\ece0";
+}
+
+.fas-snowplow::before {
+  content: "\ece1";
+}
+
+.fas-socks::before {
+  content: "\ece2";
+}
+
+.fas-solar-panel::before {
+  content: "\ece3";
+}
+
+.fas-sort::before {
+  content: "\ece4";
+}
+
+.fas-sort-alpha-down::before {
+  content: "\ece5";
+}
+
+.fas-sort-alpha-up::before {
+  content: "\ece6";
+}
+
+.fas-sort-amount-down::before {
+  content: "\ece7";
+}
+
+.fas-sort-amount-up::before {
+  content: "\ece8";
+}
+
+.fas-sort-down::before {
+  content: "\ece9";
+}
+
+.fas-sort-numeric-down::before {
+  content: "\ecea";
+}
+
+.fas-sort-numeric-up::before {
+  content: "\eceb";
+}
+
+.fas-sort-up::before {
+  content: "\ecec";
+}
+
+.fas-spa::before {
+  content: "\eced";
+}
+
+.fas-space-shuttle::before {
+  content: "\ecee";
+}
+
+.fas-spider::before {
+  content: "\ecef";
+}
+
+.fas-spinner::before {
+  content: "\ecf0";
+}
+
+.fas-splotch::before {
+  content: "\ecf1";
+}
+
+.fas-spray-can::before {
+  content: "\ecf2";
+}
+
+.fas-square::before {
+  content: "\ecf3";
+}
+
+.fas-square-full::before {
+  content: "\ecf4";
+}
+
+.fas-square-root-alt::before {
+  content: "\ecf5";
+}
+
+.fas-stamp::before {
+  content: "\ecf6";
+}
+
+.fas-star::before {
+  content: "\ecf7";
+}
+
+.fas-star-and-crescent::before {
+  content: "\ecf8";
+}
+
+.fas-star-half::before {
+  content: "\ecf9";
+}
+
+.fas-star-half-alt::before {
+  content: "\ecfa";
+}
+
+.fas-star-of-david::before {
+  content: "\ecfb";
+}
+
+.fas-star-of-life::before {
+  content: "\ecfc";
+}
+
+.fas-step-backward::before {
+  content: "\ecfd";
+}
+
+.fas-step-forward::before {
+  content: "\ecfe";
+}
+
+.fas-stethoscope::before {
+  content: "\ecff";
+}
+
+.fas-sticky-note::before {
+  content: "\ed00";
+}
+
+.fas-stop::before {
+  content: "\ed01";
+}
+
+.fas-stop-circle::before {
+  content: "\ed02";
+}
+
+.fas-stopwatch::before {
+  content: "\ed03";
+}
+
+.fas-store::before {
+  content: "\ed04";
+}
+
+.fas-store-alt::before {
+  content: "\ed05";
+}
+
+.fas-stream::before {
+  content: "\ed06";
+}
+
+.fas-street-view::before {
+  content: "\ed07";
+}
+
+.fas-strikethrough::before {
+  content: "\ed08";
+}
+
+.fas-stroopwafel::before {
+  content: "\ed09";
+}
+
+.fas-subscript::before {
+  content: "\ed0a";
+}
+
+.fas-subway::before {
+  content: "\ed0b";
+}
+
+.fas-suitcase::before {
+  content: "\ed0c";
+}
+
+.fas-suitcase-rolling::before {
+  content: "\ed0d";
+}
+
+.fas-sun::before {
+  content: "\ed0e";
+}
+
+.fas-superscript::before {
+  content: "\ed0f";
+}
+
+.fas-surprise::before {
+  content: "\ed10";
+}
+
+.fas-swatchbook::before {
+  content: "\ed11";
+}
+
+.fas-swimmer::before {
+  content: "\ed12";
+}
+
+.fas-swimming-pool::before {
+  content: "\ed13";
+}
+
+.fas-synagogue::before {
+  content: "\ed14";
+}
+
+.fas-sync::before {
+  content: "\ed15";
+}
+
+.fas-sync-alt::before {
+  content: "\ed16";
+}
+
+.fas-syringe::before {
+  content: "\ed17";
+}
+
+.fas-table::before {
+  content: "\ed18";
+}
+
+.fas-table-tennis::before {
+  content: "\ed19";
+}
+
+.fas-tablet::before {
+  content: "\ed1a";
+}
+
+.fas-tablet-alt::before {
+  content: "\ed1b";
+}
+
+.fas-tablets::before {
+  content: "\ed1c";
+}
+
+.fas-tachometer-alt::before {
+  content: "\ed1d";
+}
+
+.fas-tag::before {
+  content: "\ed1e";
+}
+
+.fas-tags::before {
+  content: "\ed1f";
+}
+
+.fas-tape::before {
+  content: "\ed20";
+}
+
+.fas-tasks::before {
+  content: "\ed21";
+}
+
+.fas-taxi::before {
+  content: "\ed22";
+}
+
+.fas-teeth::before {
+  content: "\ed23";
+}
+
+.fas-teeth-open::before {
+  content: "\ed24";
+}
+
+.fas-temperature-high::before {
+  content: "\ed25";
+}
+
+.fas-temperature-low::before {
+  content: "\ed26";
+}
+
+.fas-tenge::before {
+  content: "\ed27";
+}
+
+.fas-terminal::before {
+  content: "\ed28";
+}
+
+.fas-text-height::before {
+  content: "\ed29";
+}
+
+.fas-text-width::before {
+  content: "\ed2a";
+}
+
+.fas-th::before {
+  content: "\ed2b";
+}
+
+.fas-th-large::before {
+  content: "\ed2c";
+}
+
+.fas-th-list::before {
+  content: "\ed2d";
+}
+
+.fas-theater-masks::before {
+  content: "\ed2e";
+}
+
+.fas-thermometer::before {
+  content: "\ed2f";
+}
+
+.fas-thermometer-empty::before {
+  content: "\ed30";
+}
+
+.fas-thermometer-full::before {
+  content: "\ed31";
+}
+
+.fas-thermometer-half::before {
+  content: "\ed32";
+}
+
+.fas-thermometer-quarter::before {
+  content: "\ed33";
+}
+
+.fas-thermometer-three-quarters::before {
+  content: "\ed34";
+}
+
+.fas-thumbs-down::before {
+  content: "\ed35";
+}
+
+.fas-thumbs-up::before {
+  content: "\ed36";
+}
+
+.fas-thumbtack::before {
+  content: "\ed37";
+}
+
+.fas-ticket-alt::before {
+  content: "\ed38";
+}
+
+.fas-times::before {
+  content: "\ed39";
+}
+
+.fas-times-circle::before {
+  content: "\ed3a";
+}
+
+.fas-tint::before {
+  content: "\ed3b";
+}
+
+.fas-tint-slash::before {
+  content: "\ed3c";
+}
+
+.fas-tired::before {
+  content: "\ed3d";
+}
+
+.fas-toggle-off::before {
+  content: "\ed3e";
+}
+
+.fas-toggle-on::before {
+  content: "\ed3f";
+}
+
+.fas-toilet::before {
+  content: "\ed40";
+}
+
+.fas-toilet-paper::before {
+  content: "\ed41";
+}
+
+.fas-toolbox::before {
+  content: "\ed42";
+}
+
+.fas-tools::before {
+  content: "\ed43";
+}
+
+.fas-tooth::before {
+  content: "\ed44";
+}
+
+.fas-torah::before {
+  content: "\ed45";
+}
+
+.fas-torii-gate::before {
+  content: "\ed46";
+}
+
+.fas-tractor::before {
+  content: "\ed47";
+}
+
+.fas-trademark::before {
+  content: "\ed48";
+}
+
+.fas-traffic-light::before {
+  content: "\ed49";
+}
+
+.fas-train::before {
+  content: "\ed4a";
+}
+
+.fas-tram::before {
+  content: "\ed4b";
+}
+
+.fas-transgender::before {
+  content: "\ed4c";
+}
+
+.fas-transgender-alt::before {
+  content: "\ed4d";
+}
+
+.fas-trash::before {
+  content: "\ed4e";
+}
+
+.fas-trash-alt::before {
+  content: "\ed4f";
+}
+
+.fas-trash-restore::before {
+  content: "\ed50";
+}
+
+.fas-trash-restore-alt::before {
+  content: "\ed51";
+}
+
+.fas-tree::before {
+  content: "\ed52";
+}
+
+.fas-trophy::before {
+  content: "\ed53";
+}
+
+.fas-truck::before {
+  content: "\ed54";
+}
+
+.fas-truck-loading::before {
+  content: "\ed55";
+}
+
+.fas-truck-monster::before {
+  content: "\ed56";
+}
+
+.fas-truck-moving::before {
+  content: "\ed57";
+}
+
+.fas-truck-pickup::before {
+  content: "\ed58";
+}
+
+.fas-tshirt::before {
+  content: "\ed59";
+}
+
+.fas-tty::before {
+  content: "\ed5a";
+}
+
+.fas-tv::before {
+  content: "\ed5b";
+}
+
+.fas-umbrella::before {
+  content: "\ed5c";
+}
+
+.fas-umbrella-beach::before {
+  content: "\ed5d";
+}
+
+.fas-underline::before {
+  content: "\ed5e";
+}
+
+.fas-undo::before {
+  content: "\ed5f";
+}
+
+.fas-undo-alt::before {
+  content: "\ed60";
+}
+
+.fas-universal-access::before {
+  content: "\ed61";
+}
+
+.fas-university::before {
+  content: "\ed62";
+}
+
+.fas-unlink::before {
+  content: "\ed63";
+}
+
+.fas-unlock::before {
+  content: "\ed64";
+}
+
+.fas-unlock-alt::before {
+  content: "\ed65";
+}
+
+.fas-upload::before {
+  content: "\ed66";
+}
+
+.fas-user::before {
+  content: "\ed67";
+}
+
+.fas-user-alt::before {
+  content: "\ed68";
+}
+
+.fas-user-alt-slash::before {
+  content: "\ed69";
+}
+
+.fas-user-astronaut::before {
+  content: "\ed6a";
+}
+
+.fas-user-check::before {
+  content: "\ed6b";
+}
+
+.fas-user-circle::before {
+  content: "\ed6c";
+}
+
+.fas-user-clock::before {
+  content: "\ed6d";
+}
+
+.fas-user-cog::before {
+  content: "\ed6e";
+}
+
+.fas-user-edit::before {
+  content: "\ed6f";
+}
+
+.fas-user-friends::before {
+  content: "\ed70";
+}
+
+.fas-user-graduate::before {
+  content: "\ed71";
+}
+
+.fas-user-injured::before {
+  content: "\ed72";
+}
+
+.fas-user-lock::before {
+  content: "\ed73";
+}
+
+.fas-user-md::before {
+  content: "\ed74";
+}
+
+.fas-user-minus::before {
+  content: "\ed75";
+}
+
+.fas-user-ninja::before {
+  content: "\ed76";
+}
+
+.fas-user-nurse::before {
+  content: "\ed77";
+}
+
+.fas-user-plus::before {
+  content: "\ed78";
+}
+
+.fas-user-secret::before {
+  content: "\ed79";
+}
+
+.fas-user-shield::before {
+  content: "\ed7a";
+}
+
+.fas-user-slash::before {
+  content: "\ed7b";
+}
+
+.fas-user-tag::before {
+  content: "\ed7c";
+}
+
+.fas-user-tie::before {
+  content: "\ed7d";
+}
+
+.fas-user-times::before {
+  content: "\ed7e";
+}
+
+.fas-users::before {
+  content: "\ed7f";
+}
+
+.fas-users-cog::before {
+  content: "\ed80";
+}
+
+.fas-utensil-spoon::before {
+  content: "\ed81";
+}
+
+.fas-utensils::before {
+  content: "\ed82";
+}
+
+.fas-vector-square::before {
+  content: "\ed83";
+}
+
+.fas-venus::before {
+  content: "\ed84";
+}
+
+.fas-venus-double::before {
+  content: "\ed85";
+}
+
+.fas-venus-mars::before {
+  content: "\ed86";
+}
+
+.fas-vial::before {
+  content: "\ed87";
+}
+
+.fas-vials::before {
+  content: "\ed88";
+}
+
+.fas-video::before {
+  content: "\ed89";
+}
+
+.fas-video-slash::before {
+  content: "\ed8a";
+}
+
+.fas-vihara::before {
+  content: "\ed8b";
+}
+
+.fas-volleyball-ball::before {
+  content: "\ed8c";
+}
+
+.fas-volume-down::before {
+  content: "\ed8d";
+}
+
+.fas-volume-mute::before {
+  content: "\ed8e";
+}
+
+.fas-volume-off::before {
+  content: "\ed8f";
+}
+
+.fas-volume-up::before {
+  content: "\ed90";
+}
+
+.fas-vote-yea::before {
+  content: "\ed91";
+}
+
+.fas-vr-cardboard::before {
+  content: "\ed92";
+}
+
+.fas-walking::before {
+  content: "\ed93";
+}
+
+.fas-wallet::before {
+  content: "\ed94";
+}
+
+.fas-warehouse::before {
+  content: "\ed95";
+}
+
+.fas-water::before {
+  content: "\ed96";
+}
+
+.fas-wave-square::before {
+  content: "\ed97";
+}
+
+.fas-weight::before {
+  content: "\ed98";
+}
+
+.fas-weight-hanging::before {
+  content: "\ed99";
+}
+
+.fas-wheelchair::before {
+  content: "\ed9a";
+}
+
+.fas-wifi::before {
+  content: "\ed9b";
+}
+
+.fas-wind::before {
+  content: "\ed9c";
+}
+
+.fas-window-close::before {
+  content: "\ed9d";
+}
+
+.fas-window-maximize::before {
+  content: "\ed9e";
+}
+
+.fas-window-minimize::before {
+  content: "\ed9f";
+}
+
+.fas-window-restore::before {
+  content: "\eda0";
+}
+
+.fas-wine-bottle::before {
+  content: "\eda1";
+}
+
+.fas-wine-glass::before {
+  content: "\eda2";
+}
+
+.fas-wine-glass-alt::before {
+  content: "\eda3";
+}
+
+.fas-won-sign::before {
+  content: "\eda4";
+}
+
+.fas-wrench::before {
+  content: "\eda5";
+}
+
+.fas-x-ray::before {
+  content: "\eda6";
+}
+
+.fas-yen-sign::before {
+  content: "\eda7";
+}
+
+.fas-yin-yang::before {
+  content: "\eda8";
+}

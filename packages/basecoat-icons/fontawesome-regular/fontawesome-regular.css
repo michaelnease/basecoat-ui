@@ -1,0 +1,635 @@
+/**
+ * Font Awesome Regular, 5.5.0
+ * Created by Dave Gandy
+ * https://fontawesome.com
+ * MIT License
+ */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fontawesome-regular";
+  src: url('./fontawesome-regular.eot');
+  src: 
+    url('./fontawesome-regular.eot?#iefix') format('embedded-opentype'),
+    url('./fontawesome-regular.woff2') format('woff2'),
+    url('./fontawesome-regular.woff') format('woff'),
+    url('./fontawesome-regular.ttf') format('truetype'),
+    url('./fontawesome-regular.svg#fontawesome-regular') format('svg');
+}
+
+.far {
+  font-family: "fontawesome-regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.far-address-book::before {
+  content: "\ea01";
+}
+
+.far-address-card::before {
+  content: "\ea02";
+}
+
+.far-angry::before {
+  content: "\ea03";
+}
+
+.far-arrow-alt-circle-down::before {
+  content: "\ea04";
+}
+
+.far-arrow-alt-circle-left::before {
+  content: "\ea05";
+}
+
+.far-arrow-alt-circle-right::before {
+  content: "\ea06";
+}
+
+.far-arrow-alt-circle-up::before {
+  content: "\ea07";
+}
+
+.far-bell::before {
+  content: "\ea08";
+}
+
+.far-bell-slash::before {
+  content: "\ea09";
+}
+
+.far-bookmark::before {
+  content: "\ea0a";
+}
+
+.far-building::before {
+  content: "\ea0b";
+}
+
+.far-calendar::before {
+  content: "\ea0c";
+}
+
+.far-calendar-alt::before {
+  content: "\ea0d";
+}
+
+.far-calendar-check::before {
+  content: "\ea0e";
+}
+
+.far-calendar-minus::before {
+  content: "\ea0f";
+}
+
+.far-calendar-plus::before {
+  content: "\ea10";
+}
+
+.far-calendar-times::before {
+  content: "\ea11";
+}
+
+.far-caret-square-down::before {
+  content: "\ea12";
+}
+
+.far-caret-square-left::before {
+  content: "\ea13";
+}
+
+.far-caret-square-right::before {
+  content: "\ea14";
+}
+
+.far-caret-square-up::before {
+  content: "\ea15";
+}
+
+.far-chart-bar::before {
+  content: "\ea16";
+}
+
+.far-check-circle::before {
+  content: "\ea17";
+}
+
+.far-check-square::before {
+  content: "\ea18";
+}
+
+.far-circle::before {
+  content: "\ea19";
+}
+
+.far-clipboard::before {
+  content: "\ea1a";
+}
+
+.far-clock::before {
+  content: "\ea1b";
+}
+
+.far-clone::before {
+  content: "\ea1c";
+}
+
+.far-closed-captioning::before {
+  content: "\ea1d";
+}
+
+.far-comment::before {
+  content: "\ea1e";
+}
+
+.far-comment-alt::before {
+  content: "\ea1f";
+}
+
+.far-comment-dots::before {
+  content: "\ea20";
+}
+
+.far-comments::before {
+  content: "\ea21";
+}
+
+.far-compass::before {
+  content: "\ea22";
+}
+
+.far-copy::before {
+  content: "\ea23";
+}
+
+.far-copyright::before {
+  content: "\ea24";
+}
+
+.far-credit-card::before {
+  content: "\ea25";
+}
+
+.far-dizzy::before {
+  content: "\ea26";
+}
+
+.far-dot-circle::before {
+  content: "\ea27";
+}
+
+.far-edit::before {
+  content: "\ea28";
+}
+
+.far-envelope::before {
+  content: "\ea29";
+}
+
+.far-envelope-open::before {
+  content: "\ea2a";
+}
+
+.far-eye::before {
+  content: "\ea2b";
+}
+
+.far-eye-slash::before {
+  content: "\ea2c";
+}
+
+.far-file::before {
+  content: "\ea2d";
+}
+
+.far-file-alt::before {
+  content: "\ea2e";
+}
+
+.far-file-archive::before {
+  content: "\ea2f";
+}
+
+.far-file-audio::before {
+  content: "\ea30";
+}
+
+.far-file-code::before {
+  content: "\ea31";
+}
+
+.far-file-excel::before {
+  content: "\ea32";
+}
+
+.far-file-image::before {
+  content: "\ea33";
+}
+
+.far-file-pdf::before {
+  content: "\ea34";
+}
+
+.far-file-powerpoint::before {
+  content: "\ea35";
+}
+
+.far-file-video::before {
+  content: "\ea36";
+}
+
+.far-file-word::before {
+  content: "\ea37";
+}
+
+.far-flag::before {
+  content: "\ea38";
+}
+
+.far-flushed::before {
+  content: "\ea39";
+}
+
+.far-folder::before {
+  content: "\ea3a";
+}
+
+.far-folder-open::before {
+  content: "\ea3b";
+}
+
+.far-frown::before {
+  content: "\ea3c";
+}
+
+.far-frown-open::before {
+  content: "\ea3d";
+}
+
+.far-futbol::before {
+  content: "\ea3e";
+}
+
+.far-gem::before {
+  content: "\ea3f";
+}
+
+.far-grimace::before {
+  content: "\ea40";
+}
+
+.far-grin::before {
+  content: "\ea41";
+}
+
+.far-grin-alt::before {
+  content: "\ea42";
+}
+
+.far-grin-beam::before {
+  content: "\ea43";
+}
+
+.far-grin-beam-sweat::before {
+  content: "\ea44";
+}
+
+.far-grin-hearts::before {
+  content: "\ea45";
+}
+
+.far-grin-squint::before {
+  content: "\ea46";
+}
+
+.far-grin-squint-tears::before {
+  content: "\ea47";
+}
+
+.far-grin-stars::before {
+  content: "\ea48";
+}
+
+.far-grin-tears::before {
+  content: "\ea49";
+}
+
+.far-grin-tongue::before {
+  content: "\ea4a";
+}
+
+.far-grin-tongue-squint::before {
+  content: "\ea4b";
+}
+
+.far-grin-tongue-wink::before {
+  content: "\ea4c";
+}
+
+.far-grin-wink::before {
+  content: "\ea4d";
+}
+
+.far-hand-lizard::before {
+  content: "\ea4e";
+}
+
+.far-hand-paper::before {
+  content: "\ea4f";
+}
+
+.far-hand-peace::before {
+  content: "\ea50";
+}
+
+.far-hand-point-down::before {
+  content: "\ea51";
+}
+
+.far-hand-point-left::before {
+  content: "\ea52";
+}
+
+.far-hand-point-right::before {
+  content: "\ea53";
+}
+
+.far-hand-point-up::before {
+  content: "\ea54";
+}
+
+.far-hand-pointer::before {
+  content: "\ea55";
+}
+
+.far-hand-rock::before {
+  content: "\ea56";
+}
+
+.far-hand-scissors::before {
+  content: "\ea57";
+}
+
+.far-hand-spock::before {
+  content: "\ea58";
+}
+
+.far-handshake::before {
+  content: "\ea59";
+}
+
+.far-hdd::before {
+  content: "\ea5a";
+}
+
+.far-heart::before {
+  content: "\ea5b";
+}
+
+.far-hospital::before {
+  content: "\ea5c";
+}
+
+.far-hourglass::before {
+  content: "\ea5d";
+}
+
+.far-id-badge::before {
+  content: "\ea5e";
+}
+
+.far-id-card::before {
+  content: "\ea5f";
+}
+
+.far-image::before {
+  content: "\ea60";
+}
+
+.far-images::before {
+  content: "\ea61";
+}
+
+.far-keyboard::before {
+  content: "\ea62";
+}
+
+.far-kiss::before {
+  content: "\ea63";
+}
+
+.far-kiss-beam::before {
+  content: "\ea64";
+}
+
+.far-kiss-wink-heart::before {
+  content: "\ea65";
+}
+
+.far-laugh::before {
+  content: "\ea66";
+}
+
+.far-laugh-beam::before {
+  content: "\ea67";
+}
+
+.far-laugh-squint::before {
+  content: "\ea68";
+}
+
+.far-laugh-wink::before {
+  content: "\ea69";
+}
+
+.far-lemon::before {
+  content: "\ea6a";
+}
+
+.far-life-ring::before {
+  content: "\ea6b";
+}
+
+.far-lightbulb::before {
+  content: "\ea6c";
+}
+
+.far-list-alt::before {
+  content: "\ea6d";
+}
+
+.far-map::before {
+  content: "\ea6e";
+}
+
+.far-meh::before {
+  content: "\ea6f";
+}
+
+.far-meh-blank::before {
+  content: "\ea70";
+}
+
+.far-meh-rolling-eyes::before {
+  content: "\ea71";
+}
+
+.far-minus-square::before {
+  content: "\ea72";
+}
+
+.far-money-bill-alt::before {
+  content: "\ea73";
+}
+
+.far-moon::before {
+  content: "\ea74";
+}
+
+.far-newspaper::before {
+  content: "\ea75";
+}
+
+.far-object-group::before {
+  content: "\ea76";
+}
+
+.far-object-ungroup::before {
+  content: "\ea77";
+}
+
+.far-paper-plane::before {
+  content: "\ea78";
+}
+
+.far-pause-circle::before {
+  content: "\ea79";
+}
+
+.far-play-circle::before {
+  content: "\ea7a";
+}
+
+.far-plus-square::before {
+  content: "\ea7b";
+}
+
+.far-question-circle::before {
+  content: "\ea7c";
+}
+
+.far-registered::before {
+  content: "\ea7d";
+}
+
+.far-sad-cry::before {
+  content: "\ea7e";
+}
+
+.far-sad-tear::before {
+  content: "\ea7f";
+}
+
+.far-save::before {
+  content: "\ea80";
+}
+
+.far-share-square::before {
+  content: "\ea81";
+}
+
+.far-smile::before {
+  content: "\ea82";
+}
+
+.far-smile-beam::before {
+  content: "\ea83";
+}
+
+.far-smile-wink::before {
+  content: "\ea84";
+}
+
+.far-snowflake::before {
+  content: "\ea85";
+}
+
+.far-square::before {
+  content: "\ea86";
+}
+
+.far-star::before {
+  content: "\ea87";
+}
+
+.far-star-half::before {
+  content: "\ea88";
+}
+
+.far-sticky-note::before {
+  content: "\ea89";
+}
+
+.far-stop-circle::before {
+  content: "\ea8a";
+}
+
+.far-sun::before {
+  content: "\ea8b";
+}
+
+.far-surprise::before {
+  content: "\ea8c";
+}
+
+.far-thumbs-down::before {
+  content: "\ea8d";
+}
+
+.far-thumbs-up::before {
+  content: "\ea8e";
+}
+
+.far-times-circle::before {
+  content: "\ea8f";
+}
+
+.far-tired::before {
+  content: "\ea90";
+}
+
+.far-trash-alt::before {
+  content: "\ea91";
+}
+
+.far-user::before {
+  content: "\ea92";
+}
+
+.far-user-circle::before {
+  content: "\ea93";
+}
+
+.far-window-close::before {
+  content: "\ea94";
+}
+
+.far-window-maximize::before {
+  content: "\ea95";
+}
+
+.far-window-minimize::before {
+  content: "\ea96";
+}
+
+.far-window-restore::before {
+  content: "\ea97";
+}

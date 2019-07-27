@@ -1,0 +1,27 @@
+{
+  "version": "1.2.8",
+  "name": "@icon/caomei-icons",
+  "description": "为开发者设计的一套免费开源图标库",
+  "author": "Xiangsudian",
+  "license": "(OFL-1.1 AND MIT)",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/caomei-icons",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=caomei-icons",
+    "optimize": "../../scripts/module/optimize --module=caomei-icons"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "caomei": "git+https://github.com/xiangsudian/CaoMei.git"
+  },
+  "homepage": "http://chuangzaoshi.com/icon/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

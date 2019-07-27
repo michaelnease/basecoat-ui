@@ -1,0 +1,28 @@
+{
+  "version": "3.0.0",
+  "name": "@icon/foundation-icons",
+  "description": "Foundation icon fonts",
+  "author": "ZURB",
+  "license": "MIT",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/foundation-icons",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=foundation-icons",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "foundation-icon-fonts": "^0.1.1"
+  },
+  "homepage": "http://zurb.com/playground/foundation-icon-fonts-3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

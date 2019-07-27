@@ -1,0 +1,27 @@
+{
+  "version": "1.9.4",
+  "name": "@icon/boxicons-logos",
+  "description": "High Quality web friendly icons",
+  "author": "Atisa",
+  "license": "(CC-4.0 OR SIL-OFL-1.1 OR MIT)",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/boxicons-logos",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=boxicons-logos",
+    "optimize": "../../scripts/module/optimize --module=boxicons-logos"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "boxicons": "^1.8.1"
+  },
+  "homepage": "https://github.com/atisawd/boxicons#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

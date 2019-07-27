@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "@icon/fontelico",
+  "description": "Fontello project",
+  "author": "Crowdsourced, for Fontello project",
+  "license": "SIL",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/fontelico",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=fontelico",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "homepage": "http://fontello.github.io/fontelico.font/demo.html",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

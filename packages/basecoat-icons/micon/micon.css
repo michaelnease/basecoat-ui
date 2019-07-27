@@ -1,0 +1,7187 @@
+/**
+ * Micon, 3.0.168
+ * Created by Mehdi HosseinZade
+ * http://xtoolkit.github.io/Micon/
+ * MIT License
+ */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "micon";
+  src: url('./micon.eot');
+  src: 
+    url('./micon.eot?#iefix') format('embedded-opentype'),
+    url('./micon.woff2') format('woff2'),
+    url('./micon.woff') format('woff'),
+    url('./micon.ttf') format('truetype'),
+    url('./micon.svg#micon') format('svg');
+}
+
+.mi {
+  font-family: "micon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.mi-500px::before {
+  content: "\ea01";
+}
+
+.mi-Accept::before {
+  content: "\ea02";
+}
+
+.mi-Accident::before {
+  content: "\ea03";
+}
+
+.mi-AccidentSolid::before {
+  content: "\ea04";
+}
+
+.mi-Accounts::before {
+  content: "\ea05";
+}
+
+.mi-ActionCenter::before {
+  content: "\ea06";
+}
+
+.mi-ActionCenterAsterisk::before {
+  content: "\ea07";
+}
+
+.mi-ActionCenterMirrored::before {
+  content: "\ea08";
+}
+
+.mi-ActionCenterNotification::before {
+  content: "\ea09";
+}
+
+.mi-ActionCenterNotificationMirrored::before {
+  content: "\ea0a";
+}
+
+.mi-ActionCenterQuiet::before {
+  content: "\ea0b";
+}
+
+.mi-ActionCenterQuietNotification::before {
+  content: "\ea0c";
+}
+
+.mi-Add::before {
+  content: "\ea0d";
+}
+
+.mi-AddFriend::before {
+  content: "\ea0e";
+}
+
+.mi-AddRemoteDevice::before {
+  content: "\ea0f";
+}
+
+.mi-AddSurfaceHub::before {
+  content: "\ea10";
+}
+
+.mi-AddTo::before {
+  content: "\ea11";
+}
+
+.mi-AdjustHologram::before {
+  content: "\ea12";
+}
+
+.mi-Admin::before {
+  content: "\ea13";
+}
+
+.mi-Airplane::before {
+  content: "\ea14";
+}
+
+.mi-AirplaneSolid::before {
+  content: "\ea15";
+}
+
+.mi-AlignCenter::before {
+  content: "\ea16";
+}
+
+.mi-AlignLeft::before {
+  content: "\ea17";
+}
+
+.mi-AlignRight::before {
+  content: "\ea18";
+}
+
+.mi-AllApps::before {
+  content: "\ea19";
+}
+
+.mi-AllAppsMirrored::before {
+  content: "\ea1a";
+}
+
+.mi-Annotation::before {
+  content: "\ea1b";
+}
+
+.mi-AppIconDefault::before {
+  content: "\ea1c";
+}
+
+.mi-Apps::before {
+  content: "\ea1d";
+}
+
+.mi-AreaChart::before {
+  content: "\ea1e";
+}
+
+.mi-ArrowDown8::before {
+  content: "\ea1f";
+}
+
+.mi-ArrowLeft8::before {
+  content: "\ea20";
+}
+
+.mi-ArrowRight8::before {
+  content: "\ea21";
+}
+
+.mi-ArrowUp8::before {
+  content: "\ea22";
+}
+
+.mi-AspectRatio::before {
+  content: "\ea23";
+}
+
+.mi-Asterisk::before {
+  content: "\ea24";
+}
+
+.mi-AsteriskBadge12::before {
+  content: "\ea25";
+}
+
+.mi-Attach::before {
+  content: "\ea26";
+}
+
+.mi-AttachCamera::before {
+  content: "\ea27";
+}
+
+.mi-Audio::before {
+  content: "\ea28";
+}
+
+.mi-Back::before {
+  content: "\ea29";
+}
+
+.mi-BackMirrored::before {
+  content: "\ea2a";
+}
+
+.mi-BackSpaceQWERTY::before {
+  content: "\ea2b";
+}
+
+.mi-BackSpaceQWERTYLg::before {
+  content: "\ea2c";
+}
+
+.mi-BackSpaceQWERTYMd::before {
+  content: "\ea2d";
+}
+
+.mi-BackSpaceQWERTYSm::before {
+  content: "\ea2e";
+}
+
+.mi-BackToWindow::before {
+  content: "\ea2f";
+}
+
+.mi-BackgroundToggle::before {
+  content: "\ea30";
+}
+
+.mi-Badge::before {
+  content: "\ea31";
+}
+
+.mi-BandBattery0::before {
+  content: "\ea32";
+}
+
+.mi-BandBattery1::before {
+  content: "\ea33";
+}
+
+.mi-BandBattery2::before {
+  content: "\ea34";
+}
+
+.mi-BandBattery3::before {
+  content: "\ea35";
+}
+
+.mi-BandBattery4::before {
+  content: "\ea36";
+}
+
+.mi-BandBattery5::before {
+  content: "\ea37";
+}
+
+.mi-BandBattery6::before {
+  content: "\ea38";
+}
+
+.mi-Bank::before {
+  content: "\ea39";
+}
+
+.mi-BarcodeScanner::before {
+  content: "\ea3a";
+}
+
+.mi-Battery0::before {
+  content: "\ea3b";
+}
+
+.mi-Battery1::before {
+  content: "\ea3c";
+}
+
+.mi-Battery10::before {
+  content: "\ea3d";
+}
+
+.mi-Battery2::before {
+  content: "\ea3e";
+}
+
+.mi-Battery3::before {
+  content: "\ea3f";
+}
+
+.mi-Battery4::before {
+  content: "\ea40";
+}
+
+.mi-Battery5::before {
+  content: "\ea41";
+}
+
+.mi-Battery6::before {
+  content: "\ea42";
+}
+
+.mi-Battery7::before {
+  content: "\ea43";
+}
+
+.mi-Battery8::before {
+  content: "\ea44";
+}
+
+.mi-Battery9::before {
+  content: "\ea45";
+}
+
+.mi-BatteryCharging0::before {
+  content: "\ea46";
+}
+
+.mi-BatteryCharging1::before {
+  content: "\ea47";
+}
+
+.mi-BatteryCharging10::before {
+  content: "\ea48";
+}
+
+.mi-BatteryCharging2::before {
+  content: "\ea49";
+}
+
+.mi-BatteryCharging3::before {
+  content: "\ea4a";
+}
+
+.mi-BatteryCharging4::before {
+  content: "\ea4b";
+}
+
+.mi-BatteryCharging5::before {
+  content: "\ea4c";
+}
+
+.mi-BatteryCharging6::before {
+  content: "\ea4d";
+}
+
+.mi-BatteryCharging7::before {
+  content: "\ea4e";
+}
+
+.mi-BatteryCharging8::before {
+  content: "\ea4f";
+}
+
+.mi-BatteryCharging9::before {
+  content: "\ea50";
+}
+
+.mi-BatterySaver0::before {
+  content: "\ea51";
+}
+
+.mi-BatterySaver1::before {
+  content: "\ea52";
+}
+
+.mi-BatterySaver10::before {
+  content: "\ea53";
+}
+
+.mi-BatterySaver2::before {
+  content: "\ea54";
+}
+
+.mi-BatterySaver3::before {
+  content: "\ea55";
+}
+
+.mi-BatterySaver4::before {
+  content: "\ea56";
+}
+
+.mi-BatterySaver5::before {
+  content: "\ea57";
+}
+
+.mi-BatterySaver6::before {
+  content: "\ea58";
+}
+
+.mi-BatterySaver7::before {
+  content: "\ea59";
+}
+
+.mi-BatterySaver8::before {
+  content: "\ea5a";
+}
+
+.mi-BatterySaver9::before {
+  content: "\ea5b";
+}
+
+.mi-BatteryUnknown::before {
+  content: "\ea5c";
+}
+
+.mi-Beta::before {
+  content: "\ea5d";
+}
+
+.mi-BidiLtr::before {
+  content: "\ea5e";
+}
+
+.mi-BidiRtl::before {
+  content: "\ea5f";
+}
+
+.mi-BlockContact::before {
+  content: "\ea60";
+}
+
+.mi-Blocked::before {
+  content: "\ea61";
+}
+
+.mi-BlockedLegacy::before {
+  content: "\ea62";
+}
+
+.mi-BlueLight::before {
+  content: "\ea63";
+}
+
+.mi-Bluetooth::before {
+  content: "\ea64";
+}
+
+.mi-BodyCam::before {
+  content: "\ea65";
+}
+
+.mi-Bold::before {
+  content: "\ea66";
+}
+
+.mi-BoldF::before {
+  content: "\ea67";
+}
+
+.mi-BoldFLegacy::before {
+  content: "\ea68";
+}
+
+.mi-BoldG::before {
+  content: "\ea69";
+}
+
+.mi-BoldGLegacy::before {
+  content: "\ea6a";
+}
+
+.mi-BoldKorean::before {
+  content: "\ea6b";
+}
+
+.mi-BoldKoreanLegacy::before {
+  content: "\ea6c";
+}
+
+.mi-BoldN::before {
+  content: "\ea6d";
+}
+
+.mi-BoldNLegacy::before {
+  content: "\ea6e";
+}
+
+.mi-BoldRussion::before {
+  content: "\ea6f";
+}
+
+.mi-BoldRussionLegacy::before {
+  content: "\ea70";
+}
+
+.mi-Bookmarks::before {
+  content: "\ea71";
+}
+
+.mi-BookmarksMirrored::before {
+  content: "\ea72";
+}
+
+.mi-Brightness::before {
+  content: "\ea73";
+}
+
+.mi-Broom::before {
+  content: "\ea74";
+}
+
+.mi-BrowsePhotos::before {
+  content: "\ea75";
+}
+
+.mi-BrushSize::before {
+  content: "\ea76";
+}
+
+.mi-Bug::before {
+  content: "\ea77";
+}
+
+.mi-BuildingEnergy::before {
+  content: "\ea78";
+}
+
+.mi-BulletedList::before {
+  content: "\ea79";
+}
+
+.mi-BulletedListMirrored::before {
+  content: "\ea7a";
+}
+
+.mi-Bullseye::before {
+  content: "\ea7b";
+}
+
+.mi-BumperLeft::before {
+  content: "\ea7c";
+}
+
+.mi-BumperRight::before {
+  content: "\ea7d";
+}
+
+.mi-Bus::before {
+  content: "\ea7e";
+}
+
+.mi-BusSolid::before {
+  content: "\ea7f";
+}
+
+.mi-ButtonA::before {
+  content: "\ea80";
+}
+
+.mi-ButtonB::before {
+  content: "\ea81";
+}
+
+.mi-ButtonMenu::before {
+  content: "\ea82";
+}
+
+.mi-ButtonView2::before {
+  content: "\ea83";
+}
+
+.mi-ButtonX::before {
+  content: "\ea84";
+}
+
+.mi-ButtonY::before {
+  content: "\ea85";
+}
+
+.mi-CC::before {
+  content: "\ea86";
+}
+
+.mi-CCEuro::before {
+  content: "\ea87";
+}
+
+.mi-CCEuroLegacy::before {
+  content: "\ea88";
+}
+
+.mi-CCJapan::before {
+  content: "\ea89";
+}
+
+.mi-CCJapanLegacy::before {
+  content: "\ea8a";
+}
+
+.mi-Cafe::before {
+  content: "\ea8b";
+}
+
+.mi-Calculator::before {
+  content: "\ea8c";
+}
+
+.mi-CalculatorAddition::before {
+  content: "\ea8d";
+}
+
+.mi-CalculatorBackspace::before {
+  content: "\ea8e";
+}
+
+.mi-CalculatorDivide::before {
+  content: "\ea8f";
+}
+
+.mi-CalculatorEqualTo::before {
+  content: "\ea90";
+}
+
+.mi-CalculatorMultiply::before {
+  content: "\ea91";
+}
+
+.mi-CalculatorNegate::before {
+  content: "\ea92";
+}
+
+.mi-CalculatorPercentage::before {
+  content: "\ea93";
+}
+
+.mi-CalculatorSquareroot::before {
+  content: "\ea94";
+}
+
+.mi-CalculatorSubtract::before {
+  content: "\ea95";
+}
+
+.mi-Calendar::before {
+  content: "\ea96";
+}
+
+.mi-CalendarDay::before {
+  content: "\ea97";
+}
+
+.mi-CalendarMirrored::before {
+  content: "\ea98";
+}
+
+.mi-CalendarReply::before {
+  content: "\ea99";
+}
+
+.mi-CalendarSolid::before {
+  content: "\ea9a";
+}
+
+.mi-CalendarWeek::before {
+  content: "\ea9b";
+}
+
+.mi-CallForwardInternational::before {
+  content: "\ea9c";
+}
+
+.mi-CallForwardInternationalMirrored::before {
+  content: "\ea9d";
+}
+
+.mi-CallForwardRoaming::before {
+  content: "\ea9e";
+}
+
+.mi-CallForwardRoamingMirrored::before {
+  content: "\ea9f";
+}
+
+.mi-CallForwarding::before {
+  content: "\eaa0";
+}
+
+.mi-CallForwardingMirrored::before {
+  content: "\eaa1";
+}
+
+.mi-CalligraphyFill::before {
+  content: "\eaa2";
+}
+
+.mi-CalligraphyPen::before {
+  content: "\eaa3";
+}
+
+.mi-Calories::before {
+  content: "\eaa4";
+}
+
+.mi-Camera::before {
+  content: "\eaa5";
+}
+
+.mi-Cancel::before {
+  content: "\eaa6";
+}
+
+.mi-Caption::before {
+  content: "\eaa7";
+}
+
+.mi-Car::before {
+  content: "\eaa8";
+}
+
+.mi-CaretBottomRightSolidCenter8::before {
+  content: "\eaa9";
+}
+
+.mi-CaretDownSolid8::before {
+  content: "\eaaa";
+}
+
+.mi-CaretLeftSolid8::before {
+  content: "\eaab";
+}
+
+.mi-CaretRight8::before {
+  content: "\eaac";
+}
+
+.mi-CaretRightSolid8::before {
+  content: "\eaad";
+}
+
+.mi-CaretUpSolid8::before {
+  content: "\eaae";
+}
+
+.mi-CashDrawer::before {
+  content: "\eaaf";
+}
+
+.mi-CellPhone::before {
+  content: "\eab0";
+}
+
+.mi-Certificate::before {
+  content: "\eab1";
+}
+
+.mi-CharacterAppearance::before {
+  content: "\eab2";
+}
+
+.mi-Characters::before {
+  content: "\eab3";
+}
+
+.mi-ChatBubbles::before {
+  content: "\eab4";
+}
+
+.mi-CheckList::before {
+  content: "\eab5";
+}
+
+.mi-CheckMark::before {
+  content: "\eab6";
+}
+
+.mi-Checkbox::before {
+  content: "\eab7";
+}
+
+.mi-Checkbox14::before {
+  content: "\eab8";
+}
+
+.mi-CheckboxComposite::before {
+  content: "\eab9";
+}
+
+.mi-CheckboxComposite14::before {
+  content: "\eaba";
+}
+
+.mi-CheckboxCompositeReversed::before {
+  content: "\eabb";
+}
+
+.mi-CheckboxFill::before {
+  content: "\eabc";
+}
+
+.mi-CheckboxIndeterminate::before {
+  content: "\eabd";
+}
+
+.mi-CheckboxIndeterminateCombo::before {
+  content: "\eabe";
+}
+
+.mi-CheckboxIndeterminateCombo14::before {
+  content: "\eabf";
+}
+
+.mi-ChecklistMirrored::before {
+  content: "\eac0";
+}
+
+.mi-ChevronDown::before {
+  content: "\eac1";
+}
+
+.mi-ChevronDownMed::before {
+  content: "\eac2";
+}
+
+.mi-ChevronDownSmall::before {
+  content: "\eac3";
+}
+
+.mi-ChevronLeft::before {
+  content: "\eac4";
+}
+
+.mi-ChevronLeftMed::before {
+  content: "\eac5";
+}
+
+.mi-ChevronLeftSmall::before {
+  content: "\eac6";
+}
+
+.mi-ChevronRight::before {
+  content: "\eac7";
+}
+
+.mi-ChevronRightMed::before {
+  content: "\eac8";
+}
+
+.mi-ChevronRightSmall::before {
+  content: "\eac9";
+}
+
+.mi-ChevronUp::before {
+  content: "\eaca";
+}
+
+.mi-ChevronUpMed::before {
+  content: "\eacb";
+}
+
+.mi-ChevronUpSmall::before {
+  content: "\eacc";
+}
+
+.mi-ChineseBoPoMoFo::before {
+  content: "\eacd";
+}
+
+.mi-ChineseChangjie::before {
+  content: "\eace";
+}
+
+.mi-ChinesePinyin::before {
+  content: "\eacf";
+}
+
+.mi-ChinesePunctuation::before {
+  content: "\ead0";
+}
+
+.mi-ChineseQuick::before {
+  content: "\ead1";
+}
+
+.mi-ChipCardCreditCardReader::before {
+  content: "\ead2";
+}
+
+.mi-ChromeAnnotate::before {
+  content: "\ead3";
+}
+
+.mi-ChromeAnnotateContrast::before {
+  content: "\ead4";
+}
+
+.mi-ChromeBack::before {
+  content: "\ead5";
+}
+
+.mi-ChromeBackContrast::before {
+  content: "\ead6";
+}
+
+.mi-ChromeBackContrastMirrored::before {
+  content: "\ead7";
+}
+
+.mi-ChromeBackMirrored::before {
+  content: "\ead8";
+}
+
+.mi-ChromeBackToWindow::before {
+  content: "\ead9";
+}
+
+.mi-ChromeBackToWindowContrast::before {
+  content: "\eada";
+}
+
+.mi-ChromeClose::before {
+  content: "\eadb";
+}
+
+.mi-ChromeCloseContrast::before {
+  content: "\eadc";
+}
+
+.mi-ChromeFullScreen::before {
+  content: "\eadd";
+}
+
+.mi-ChromeFullScreenContrast::before {
+  content: "\eade";
+}
+
+.mi-ChromeMaximize::before {
+  content: "\eadf";
+}
+
+.mi-ChromeMaximizeContrast::before {
+  content: "\eae0";
+}
+
+.mi-ChromeMinimize::before {
+  content: "\eae1";
+}
+
+.mi-ChromeMinimizeContrast::before {
+  content: "\eae2";
+}
+
+.mi-ChromeRestore::before {
+  content: "\eae3";
+}
+
+.mi-ChromeRestoreContrast::before {
+  content: "\eae4";
+}
+
+.mi-ChromeSwitch::before {
+  content: "\eae5";
+}
+
+.mi-ChromeSwitchContast::before {
+  content: "\eae6";
+}
+
+.mi-CircleFill::before {
+  content: "\eae7";
+}
+
+.mi-CircleFillBadge12::before {
+  content: "\eae8";
+}
+
+.mi-CircleRing::before {
+  content: "\eae9";
+}
+
+.mi-CircleRingBadge12::before {
+  content: "\eaea";
+}
+
+.mi-CityNext::before {
+  content: "\eaeb";
+}
+
+.mi-CityNext2::before {
+  content: "\eaec";
+}
+
+.mi-Clear::before {
+  content: "\eaed";
+}
+
+.mi-ClearAllInk::before {
+  content: "\eaee";
+}
+
+.mi-ClearAllInkMirrored::before {
+  content: "\eaef";
+}
+
+.mi-ClearSelection::before {
+  content: "\eaf0";
+}
+
+.mi-ClearSelectionMirrored::before {
+  content: "\eaf1";
+}
+
+.mi-Click::before {
+  content: "\eaf2";
+}
+
+.mi-ClipboardList::before {
+  content: "\eaf3";
+}
+
+.mi-ClipboardListMirrored::before {
+  content: "\eaf4";
+}
+
+.mi-ClippingTool::before {
+  content: "\eaf5";
+}
+
+.mi-Clock::before {
+  content: "\eaf6";
+}
+
+.mi-ClockLegacy::before {
+  content: "\eaf7";
+}
+
+.mi-ClosePane::before {
+  content: "\eaf8";
+}
+
+.mi-ClosePaneMirrored::before {
+  content: "\eaf9";
+}
+
+.mi-Cloud::before {
+  content: "\eafa";
+}
+
+.mi-CloudPrinter::before {
+  content: "\eafb";
+}
+
+.mi-CloudSeach::before {
+  content: "\eafc";
+}
+
+.mi-Code::before {
+  content: "\eafd";
+}
+
+.mi-CollapseContent::before {
+  content: "\eafe";
+}
+
+.mi-CollapseContentSingle::before {
+  content: "\eaff";
+}
+
+.mi-CollateLandscape::before {
+  content: "\eb00";
+}
+
+.mi-CollateLandscapeSeparated::before {
+  content: "\eb01";
+}
+
+.mi-CollatePortrait::before {
+  content: "\eb02";
+}
+
+.mi-CollatePortraitSeparated::before {
+  content: "\eb03";
+}
+
+.mi-Color::before {
+  content: "\eb04";
+}
+
+.mi-ColorOff::before {
+  content: "\eb05";
+}
+
+.mi-CommaKey::before {
+  content: "\eb06";
+}
+
+.mi-CommandPrompt::before {
+  content: "\eb07";
+}
+
+.mi-Comment::before {
+  content: "\eb08";
+}
+
+.mi-Communications::before {
+  content: "\eb09";
+}
+
+.mi-CompanionApp::before {
+  content: "\eb0a";
+}
+
+.mi-CompanionDeviceFramework::before {
+  content: "\eb0b";
+}
+
+.mi-Completed::before {
+  content: "\eb0c";
+}
+
+.mi-CompletedSolid::before {
+  content: "\eb0d";
+}
+
+.mi-Component::before {
+  content: "\eb0e";
+}
+
+.mi-Connect::before {
+  content: "\eb0f";
+}
+
+.mi-ConnectApp::before {
+  content: "\eb10";
+}
+
+.mi-Connected::before {
+  content: "\eb11";
+}
+
+.mi-Construction::before {
+  content: "\eb12";
+}
+
+.mi-ConstructionCone::before {
+  content: "\eb13";
+}
+
+.mi-ConstructionSolid::before {
+  content: "\eb14";
+}
+
+.mi-Contact::before {
+  content: "\eb15";
+}
+
+.mi-Contact2::before {
+  content: "\eb16";
+}
+
+.mi-ContactInfo::before {
+  content: "\eb17";
+}
+
+.mi-ContactInfoMirrored::before {
+  content: "\eb18";
+}
+
+.mi-ContactPresence::before {
+  content: "\eb19";
+}
+
+.mi-ContactSolid::before {
+  content: "\eb1a";
+}
+
+.mi-Copy::before {
+  content: "\eb1b";
+}
+
+.mi-CopyTo::before {
+  content: "\eb1c";
+}
+
+.mi-Courthouse::before {
+  content: "\eb1d";
+}
+
+.mi-Crop::before {
+  content: "\eb1e";
+}
+
+.mi-CtrlSpatialLeft::before {
+  content: "\eb1f";
+}
+
+.mi-CtrlSpatialRight::before {
+  content: "\eb20";
+}
+
+.mi-Cut::before {
+  content: "\eb21";
+}
+
+.mi-DMC::before {
+  content: "\eb22";
+}
+
+.mi-DashKey::before {
+  content: "\eb23";
+}
+
+.mi-DataSense::before {
+  content: "\eb24";
+}
+
+.mi-DataSenseBar::before {
+  content: "\eb25";
+}
+
+.mi-DateTime::before {
+  content: "\eb26";
+}
+
+.mi-DateTimeMirrored::before {
+  content: "\eb27";
+}
+
+.mi-DecreaseIndent::before {
+  content: "\eb28";
+}
+
+.mi-DecreaseIndentLegacy::before {
+  content: "\eb29";
+}
+
+.mi-DecreaseIndentLegacyMirrored::before {
+  content: "\eb2a";
+}
+
+.mi-DecreaseIndentMirrored::before {
+  content: "\eb2b";
+}
+
+.mi-DefaultAPN::before {
+  content: "\eb2c";
+}
+
+.mi-DefenderApp::before {
+  content: "\eb2d";
+}
+
+.mi-DefenderBadge12::before {
+  content: "\eb2e";
+}
+
+.mi-Delete::before {
+  content: "\eb2f";
+}
+
+.mi-Design::before {
+  content: "\eb30";
+}
+
+.mi-DetachablePC::before {
+  content: "\eb31";
+}
+
+.mi-DevUpdate::before {
+  content: "\eb32";
+}
+
+.mi-DeveloperTools::before {
+  content: "\eb33";
+}
+
+.mi-DeviceDiscovery::before {
+  content: "\eb34";
+}
+
+.mi-DeviceLaptopNoPic::before {
+  content: "\eb35";
+}
+
+.mi-DeviceLaptopPic::before {
+  content: "\eb36";
+}
+
+.mi-DeviceMonitorLeftPic::before {
+  content: "\eb37";
+}
+
+.mi-DeviceMonitorNoPic::before {
+  content: "\eb38";
+}
+
+.mi-DeviceMonitorRightPic::before {
+  content: "\eb39";
+}
+
+.mi-Devices::before {
+  content: "\eb3a";
+}
+
+.mi-Devices2::before {
+  content: "\eb3b";
+}
+
+.mi-Devices3::before {
+  content: "\eb3c";
+}
+
+.mi-Devices4::before {
+  content: "\eb3d";
+}
+
+.mi-DevicesLegacy::before {
+  content: "\eb3e";
+}
+
+.mi-Diagnostic::before {
+  content: "\eb3f";
+}
+
+.mi-Dial1::before {
+  content: "\eb40";
+}
+
+.mi-Dial10::before {
+  content: "\eb41";
+}
+
+.mi-Dial11::before {
+  content: "\eb42";
+}
+
+.mi-Dial12::before {
+  content: "\eb43";
+}
+
+.mi-Dial13::before {
+  content: "\eb44";
+}
+
+.mi-Dial14::before {
+  content: "\eb45";
+}
+
+.mi-Dial15::before {
+  content: "\eb46";
+}
+
+.mi-Dial16::before {
+  content: "\eb47";
+}
+
+.mi-Dial2::before {
+  content: "\eb48";
+}
+
+.mi-Dial3::before {
+  content: "\eb49";
+}
+
+.mi-Dial4::before {
+  content: "\eb4a";
+}
+
+.mi-Dial5::before {
+  content: "\eb4b";
+}
+
+.mi-Dial6::before {
+  content: "\eb4c";
+}
+
+.mi-Dial7::before {
+  content: "\eb4d";
+}
+
+.mi-Dial8::before {
+  content: "\eb4e";
+}
+
+.mi-Dial9::before {
+  content: "\eb4f";
+}
+
+.mi-DialShape1::before {
+  content: "\eb50";
+}
+
+.mi-DialShape2::before {
+  content: "\eb51";
+}
+
+.mi-DialShape3::before {
+  content: "\eb52";
+}
+
+.mi-DialShape4::before {
+  content: "\eb53";
+}
+
+.mi-DialUp::before {
+  content: "\eb54";
+}
+
+.mi-Dialpad::before {
+  content: "\eb55";
+}
+
+.mi-Dictionary::before {
+  content: "\eb56";
+}
+
+.mi-DictionaryAdd::before {
+  content: "\eb57";
+}
+
+.mi-DictionaryCloud::before {
+  content: "\eb58";
+}
+
+.mi-DirectAccess::before {
+  content: "\eb59";
+}
+
+.mi-Directions::before {
+  content: "\eb5a";
+}
+
+.mi-DisableUpdates::before {
+  content: "\eb5b";
+}
+
+.mi-DisconnectDisplay::before {
+  content: "\eb5c";
+}
+
+.mi-DisconnectDrive::before {
+  content: "\eb5d";
+}
+
+.mi-Dislike::before {
+  content: "\eb5e";
+}
+
+.mi-Dock::before {
+  content: "\eb5f";
+}
+
+.mi-DockBottom::before {
+  content: "\eb60";
+}
+
+.mi-DockLeft::before {
+  content: "\eb61";
+}
+
+.mi-DockLeftMirrored::before {
+  content: "\eb62";
+}
+
+.mi-DockRight::before {
+  content: "\eb63";
+}
+
+.mi-DockRightMirrored::before {
+  content: "\eb64";
+}
+
+.mi-Document::before {
+  content: "\eb65";
+}
+
+.mi-DoublePinyin::before {
+  content: "\eb66";
+}
+
+.mi-Down::before {
+  content: "\eb67";
+}
+
+.mi-DownShiftKey::before {
+  content: "\eb68";
+}
+
+.mi-Download::before {
+  content: "\eb69";
+}
+
+.mi-DownloadMap::before {
+  content: "\eb6a";
+}
+
+.mi-Dpad::before {
+  content: "\eb6b";
+}
+
+.mi-Draw::before {
+  content: "\eb6c";
+}
+
+.mi-DrawSolid::before {
+  content: "\eb6d";
+}
+
+.mi-Drop::before {
+  content: "\eb6e";
+}
+
+.mi-DullSound::before {
+  content: "\eb6f";
+}
+
+.mi-DullSoundKey::before {
+  content: "\eb70";
+}
+
+.mi-DuplexLandscapeOneSided::before {
+  content: "\eb71";
+}
+
+.mi-DuplexLandscapeOneSidedMirrored::before {
+  content: "\eb72";
+}
+
+.mi-DuplexLandscapeTwoSidedLongEdge::before {
+  content: "\eb73";
+}
+
+.mi-DuplexLandscapeTwoSidedLongEdgeMirrored::before {
+  content: "\eb74";
+}
+
+.mi-DuplexLandscapeTwoSidedShortEdge::before {
+  content: "\eb75";
+}
+
+.mi-DuplexLandscapeTwoSidedShortEdgeMirrored::before {
+  content: "\eb76";
+}
+
+.mi-DuplexPortraitOneSided::before {
+  content: "\eb77";
+}
+
+.mi-DuplexPortraitOneSidedMirrored::before {
+  content: "\eb78";
+}
+
+.mi-DuplexPortraitTwoSidedLongEdge::before {
+  content: "\eb79";
+}
+
+.mi-DuplexPortraitTwoSidedLongEdgeMirrored::before {
+  content: "\eb7a";
+}
+
+.mi-DuplexPortraitTwoSidedShortEdge::before {
+  content: "\eb7b";
+}
+
+.mi-DuplexPortraitTwoSidedShortEdgeMirrored::before {
+  content: "\eb7c";
+}
+
+.mi-DynamicLock::before {
+  content: "\eb7d";
+}
+
+.mi-EMI::before {
+  content: "\eb7e";
+}
+
+.mi-Ear::before {
+  content: "\eb7f";
+}
+
+.mi-Earbud::before {
+  content: "\eb80";
+}
+
+.mi-EaseOfAccess::before {
+  content: "\eb81";
+}
+
+.mi-Edit::before {
+  content: "\eb82";
+}
+
+.mi-EditMirrored::before {
+  content: "\eb83";
+}
+
+.mi-Education::before {
+  content: "\eb84";
+}
+
+.mi-Emoji::before {
+  content: "\eb85";
+}
+
+.mi-Emoji2::before {
+  content: "\eb86";
+}
+
+.mi-EmojiSwatch::before {
+  content: "\eb87";
+}
+
+.mi-EmojiTabCelebrationObjects::before {
+  content: "\eb88";
+}
+
+.mi-EmojiTabFavorites::before {
+  content: "\eb89";
+}
+
+.mi-EmojiTabFoodPlants::before {
+  content: "\eb8a";
+}
+
+.mi-EmojiTabPeople::before {
+  content: "\eb8b";
+}
+
+.mi-EmojiTabSmilesAnimals::before {
+  content: "\eb8c";
+}
+
+.mi-EmojiTabSymbols::before {
+  content: "\eb8d";
+}
+
+.mi-EmojiTabTextSmiles::before {
+  content: "\eb8e";
+}
+
+.mi-EmojiTabTransitPlaces::before {
+  content: "\eb8f";
+}
+
+.mi-EndPoint::before {
+  content: "\eb90";
+}
+
+.mi-EndPointSolid::before {
+  content: "\eb91";
+}
+
+.mi-EnglishPunctuation::before {
+  content: "\eb92";
+}
+
+.mi-Equalizer::before {
+  content: "\eb93";
+}
+
+.mi-EraseTool::before {
+  content: "\eb94";
+}
+
+.mi-EraseToolFill::before {
+  content: "\eb95";
+}
+
+.mi-EraseToolFill2::before {
+  content: "\eb96";
+}
+
+.mi-Error::before {
+  content: "\eb97";
+}
+
+.mi-ErrorBadge::before {
+  content: "\eb98";
+}
+
+.mi-ErrorBadge12::before {
+  content: "\eb99";
+}
+
+.mi-Ethernet::before {
+  content: "\eb9a";
+}
+
+.mi-EthernetError::before {
+  content: "\eb9b";
+}
+
+.mi-EthernetWarning::before {
+  content: "\eb9c";
+}
+
+.mi-ExpandTile::before {
+  content: "\eb9d";
+}
+
+.mi-ExpandTileMirrored::before {
+  content: "\eb9e";
+}
+
+.mi-ExploitProtectionSettings::before {
+  content: "\eb9f";
+}
+
+.mi-ExploreContent::before {
+  content: "\eba0";
+}
+
+.mi-ExploreContentSingle::before {
+  content: "\eba1";
+}
+
+.mi-Export::before {
+  content: "\eba2";
+}
+
+.mi-EyeGaze::before {
+  content: "\eba3";
+}
+
+.mi-Eyedropper::before {
+  content: "\eba4";
+}
+
+.mi-Family::before {
+  content: "\eba5";
+}
+
+.mi-FastForward::before {
+  content: "\eba6";
+}
+
+.mi-Favicon::before {
+  content: "\eba7";
+}
+
+.mi-FavoriteLegacy::before {
+  content: "\eba8";
+}
+
+.mi-FavoriteList::before {
+  content: "\eba9";
+}
+
+.mi-FavoriteStar::before {
+  content: "\ebaa";
+}
+
+.mi-FavoriteStarFill::before {
+  content: "\ebab";
+}
+
+.mi-Feedback::before {
+  content: "\ebac";
+}
+
+.mi-FeedbackApp::before {
+  content: "\ebad";
+}
+
+.mi-Ferry::before {
+  content: "\ebae";
+}
+
+.mi-FerrySolid::before {
+  content: "\ebaf";
+}
+
+.mi-FileExplorer::before {
+  content: "\ebb0";
+}
+
+.mi-FileExplorerApp::before {
+  content: "\ebb1";
+}
+
+.mi-Filter::before {
+  content: "\ebb2";
+}
+
+.mi-FingerInking::before {
+  content: "\ebb3";
+}
+
+.mi-Fingerprint::before {
+  content: "\ebb4";
+}
+
+.mi-FitPage::before {
+  content: "\ebb5";
+}
+
+.mi-Flag::before {
+  content: "\ebb6";
+}
+
+.mi-Flashlight::before {
+  content: "\ebb7";
+}
+
+.mi-FlickDown::before {
+  content: "\ebb8";
+}
+
+.mi-FlickLeft::before {
+  content: "\ebb9";
+}
+
+.mi-FlickRight::before {
+  content: "\ebba";
+}
+
+.mi-FlickUp::before {
+  content: "\ebbb";
+}
+
+.mi-Folder::before {
+  content: "\ebbc";
+}
+
+.mi-FolderFill::before {
+  content: "\ebbd";
+}
+
+.mi-FolderHorizontal::before {
+  content: "\ebbe";
+}
+
+.mi-FolderOpen::before {
+  content: "\ebbf";
+}
+
+.mi-Font::before {
+  content: "\ebc0";
+}
+
+.mi-FontColor::before {
+  content: "\ebc1";
+}
+
+.mi-FontColorKorean::before {
+  content: "\ebc2";
+}
+
+.mi-FontColorKoreanLegacy::before {
+  content: "\ebc3";
+}
+
+.mi-FontDecrease::before {
+  content: "\ebc4";
+}
+
+.mi-FontIncrease::before {
+  content: "\ebc5";
+}
+
+.mi-FontSize::before {
+  content: "\ebc6";
+}
+
+.mi-FontStyleKorean::before {
+  content: "\ebc7";
+}
+
+.mi-FontStyleKoreanLegacy::before {
+  content: "\ebc8";
+}
+
+.mi-Forward::before {
+  content: "\ebc9";
+}
+
+.mi-ForwardMirrored::before {
+  content: "\ebca";
+}
+
+.mi-ForwardSm::before {
+  content: "\ebcb";
+}
+
+.mi-FourBars::before {
+  content: "\ebcc";
+}
+
+.mi-FreeFormClipping::before {
+  content: "\ebcd";
+}
+
+.mi-Frigid::before {
+  content: "\ebce";
+}
+
+.mi-FullAlpha::before {
+  content: "\ebcf";
+}
+
+.mi-FullCircleMask::before {
+  content: "\ebd0";
+}
+
+.mi-FullHiragana::before {
+  content: "\ebd1";
+}
+
+.mi-FullKatakana::before {
+  content: "\ebd2";
+}
+
+.mi-FullScreen::before {
+  content: "\ebd3";
+}
+
+.mi-FuzzyReading::before {
+  content: "\ebd4";
+}
+
+.mi-GIF::before {
+  content: "\ebd5";
+}
+
+.mi-Game::before {
+  content: "\ebd6";
+}
+
+.mi-GameConsole::before {
+  content: "\ebd7";
+}
+
+.mi-GiftboxOpen::before {
+  content: "\ebd8";
+}
+
+.mi-GlobalNavigationButton::before {
+  content: "\ebd9";
+}
+
+.mi-Globe::before {
+  content: "\ebda";
+}
+
+.mi-Go::before {
+  content: "\ebdb";
+}
+
+.mi-GoMirrored::before {
+  content: "\ebdc";
+}
+
+.mi-GoToStart::before {
+  content: "\ebdd";
+}
+
+.mi-GotoToday::before {
+  content: "\ebde";
+}
+
+.mi-GridView::before {
+  content: "\ebdf";
+}
+
+.mi-GripperBarHorizontal::before {
+  content: "\ebe0";
+}
+
+.mi-GripperBarVertical::before {
+  content: "\ebe1";
+}
+
+.mi-GripperResize::before {
+  content: "\ebe2";
+}
+
+.mi-GripperResizeMirrored::before {
+  content: "\ebe3";
+}
+
+.mi-GripperTool::before {
+  content: "\ebe4";
+}
+
+.mi-Groceries::before {
+  content: "\ebe5";
+}
+
+.mi-Group::before {
+  content: "\ebe6";
+}
+
+.mi-GroupList::before {
+  content: "\ebe7";
+}
+
+.mi-GuestUser::before {
+  content: "\ebe8";
+}
+
+.mi-HMD::before {
+  content: "\ebe9";
+}
+
+.mi-HWPInsert::before {
+  content: "\ebea";
+}
+
+.mi-HWPJoin::before {
+  content: "\ebeb";
+}
+
+.mi-HWPNewLine::before {
+  content: "\ebec";
+}
+
+.mi-HWPOverwrite::before {
+  content: "\ebed";
+}
+
+.mi-HWPScratchOut::before {
+  content: "\ebee";
+}
+
+.mi-HWPSplit::before {
+  content: "\ebef";
+}
+
+.mi-HWPStrikeThrough::before {
+  content: "\ebf0";
+}
+
+.mi-HalfAlpha::before {
+  content: "\ebf1";
+}
+
+.mi-HalfDullSound::before {
+  content: "\ebf2";
+}
+
+.mi-HalfKatakana::before {
+  content: "\ebf3";
+}
+
+.mi-HalfStarLeft::before {
+  content: "\ebf4";
+}
+
+.mi-HalfStarRight::before {
+  content: "\ebf5";
+}
+
+.mi-Handwriting::before {
+  content: "\ebf6";
+}
+
+.mi-HangUp::before {
+  content: "\ebf7";
+}
+
+.mi-HardDrive::before {
+  content: "\ebf8";
+}
+
+.mi-HeadlessDevice::before {
+  content: "\ebf9";
+}
+
+.mi-Headphone::before {
+  content: "\ebfa";
+}
+
+.mi-Headphone0::before {
+  content: "\ebfb";
+}
+
+.mi-Headphone1::before {
+  content: "\ebfc";
+}
+
+.mi-Headphone2::before {
+  content: "\ebfd";
+}
+
+.mi-Headphone3::before {
+  content: "\ebfe";
+}
+
+.mi-Headset::before {
+  content: "\ebff";
+}
+
+.mi-Health::before {
+  content: "\ec00";
+}
+
+.mi-Heart::before {
+  content: "\ec01";
+}
+
+.mi-HeartBroken::before {
+  content: "\ec02";
+}
+
+.mi-HeartBrokenLegacy::before {
+  content: "\ec03";
+}
+
+.mi-HeartFill::before {
+  content: "\ec04";
+}
+
+.mi-Help::before {
+  content: "\ec05";
+}
+
+.mi-HelpMirrored::before {
+  content: "\ec06";
+}
+
+.mi-HideBcc::before {
+  content: "\ec07";
+}
+
+.mi-Highlight::before {
+  content: "\ec08";
+}
+
+.mi-HighlightFill::before {
+  content: "\ec09";
+}
+
+.mi-HighlightFill2::before {
+  content: "\ec0a";
+}
+
+.mi-History::before {
+  content: "\ec0b";
+}
+
+.mi-HolePunchLandscapeBottom::before {
+  content: "\ec0c";
+}
+
+.mi-HolePunchLandscapeLeft::before {
+  content: "\ec0d";
+}
+
+.mi-HolePunchLandscapeRight::before {
+  content: "\ec0e";
+}
+
+.mi-HolePunchLandscapeTop::before {
+  content: "\ec0f";
+}
+
+.mi-HolePunchOff::before {
+  content: "\ec10";
+}
+
+.mi-HolePunchPortraitBottom::before {
+  content: "\ec11";
+}
+
+.mi-HolePunchPortraitLeft::before {
+  content: "\ec12";
+}
+
+.mi-HolePunchPortraitRight::before {
+  content: "\ec13";
+}
+
+.mi-HolePunchPortraitTop::before {
+  content: "\ec14";
+}
+
+.mi-HoloLensSelected::before {
+  content: "\ec15";
+}
+
+.mi-Home::before {
+  content: "\ec16";
+}
+
+.mi-HomeGroup::before {
+  content: "\ec17";
+}
+
+.mi-HomeSolid::before {
+  content: "\ec18";
+}
+
+.mi-HorizontalTabKey::before {
+  content: "\ec19";
+}
+
+.mi-IBeam::before {
+  content: "\ec1a";
+}
+
+.mi-IBeamOutline::before {
+  content: "\ec1b";
+}
+
+.mi-IOT::before {
+  content: "\ec1c";
+}
+
+.mi-ImageExport::before {
+  content: "\ec1d";
+}
+
+.mi-Import::before {
+  content: "\ec1e";
+}
+
+.mi-ImportAll::before {
+  content: "\ec1f";
+}
+
+.mi-ImportAllMirrored::before {
+  content: "\ec20";
+}
+
+.mi-Important::before {
+  content: "\ec21";
+}
+
+.mi-ImportantBadge12::before {
+  content: "\ec22";
+}
+
+.mi-InPrivate::before {
+  content: "\ec23";
+}
+
+.mi-IncidentTriangle::before {
+  content: "\ec24";
+}
+
+.mi-IncreaseIndent::before {
+  content: "\ec25";
+}
+
+.mi-IncreaseIndentLegacy::before {
+  content: "\ec26";
+}
+
+.mi-IncreaseIndentLegacyMirrored::before {
+  content: "\ec27";
+}
+
+.mi-IncreaseIndentMirrored::before {
+  content: "\ec28";
+}
+
+.mi-Info::before {
+  content: "\ec29";
+}
+
+.mi-Info2::before {
+  content: "\ec2a";
+}
+
+.mi-InfoSolid::before {
+  content: "\ec2b";
+}
+
+.mi-InkingCaret::before {
+  content: "\ec2c";
+}
+
+.mi-InkingColorFill::before {
+  content: "\ec2d";
+}
+
+.mi-InkingColorOutline::before {
+  content: "\ec2e";
+}
+
+.mi-InkingTool::before {
+  content: "\ec2f";
+}
+
+.mi-InkingToolFill::before {
+  content: "\ec30";
+}
+
+.mi-InkingToolFill2::before {
+  content: "\ec31";
+}
+
+.mi-Input::before {
+  content: "\ec32";
+}
+
+.mi-InsiderHubApp::before {
+  content: "\ec33";
+}
+
+.mi-InteractiveDashboard::before {
+  content: "\ec34";
+}
+
+.mi-Italic::before {
+  content: "\ec35";
+}
+
+.mi-ItalicC::before {
+  content: "\ec36";
+}
+
+.mi-ItalicCLegacy::before {
+  content: "\ec37";
+}
+
+.mi-ItalicI::before {
+  content: "\ec38";
+}
+
+.mi-ItalicILegacy::before {
+  content: "\ec39";
+}
+
+.mi-ItalicK::before {
+  content: "\ec3a";
+}
+
+.mi-ItalicKLegacy::before {
+  content: "\ec3b";
+}
+
+.mi-ItalicKorean::before {
+  content: "\ec3c";
+}
+
+.mi-ItalicKoreanLegacy::before {
+  content: "\ec3d";
+}
+
+.mi-ItalicRussian::before {
+  content: "\ec3e";
+}
+
+.mi-ItalicRussianLegacy::before {
+  content: "\ec3f";
+}
+
+.mi-Japanese::before {
+  content: "\ec40";
+}
+
+.mi-JpnRomanji::before {
+  content: "\ec41";
+}
+
+.mi-JpnRomanjiLock::before {
+  content: "\ec42";
+}
+
+.mi-JpnRomanjiShift::before {
+  content: "\ec43";
+}
+
+.mi-JpnRomanjiShiftLock::before {
+  content: "\ec44";
+}
+
+.mi-Key12On::before {
+  content: "\ec45";
+}
+
+.mi-KeyBoardLegacy::before {
+  content: "\ec46";
+}
+
+.mi-Keyboard12Key::before {
+  content: "\ec47";
+}
+
+.mi-KeyboardBrightness::before {
+  content: "\ec48";
+}
+
+.mi-KeyboardClassic::before {
+  content: "\ec49";
+}
+
+.mi-KeyboardDismiss::before {
+  content: "\ec4a";
+}
+
+.mi-KeyboardDock::before {
+  content: "\ec4b";
+}
+
+.mi-KeyboardFull::before {
+  content: "\ec4c";
+}
+
+.mi-KeyboardLeftAligned::before {
+  content: "\ec4d";
+}
+
+.mi-KeyboardLeftDock::before {
+  content: "\ec4e";
+}
+
+.mi-KeyboardLeftHanded::before {
+  content: "\ec4f";
+}
+
+.mi-KeyboardLowerBrightness::before {
+  content: "\ec50";
+}
+
+.mi-KeyboardNarrow::before {
+  content: "\ec51";
+}
+
+.mi-KeyboardOneHanded::before {
+  content: "\ec52";
+}
+
+.mi-KeyboardRightAligned::before {
+  content: "\ec53";
+}
+
+.mi-KeyboardRightDock::before {
+  content: "\ec54";
+}
+
+.mi-KeyboardRightHanded::before {
+  content: "\ec55";
+}
+
+.mi-KeyboardSettings::before {
+  content: "\ec56";
+}
+
+.mi-KeyboardShortcut::before {
+  content: "\ec57";
+}
+
+.mi-KeyboardSplit::before {
+  content: "\ec58";
+}
+
+.mi-KeyboardStandard::before {
+  content: "\ec59";
+}
+
+.mi-KeyboardUndock::before {
+  content: "\ec5a";
+}
+
+.mi-KnowledgeArticle::before {
+  content: "\ec5b";
+}
+
+.mi-Korean::before {
+  content: "\ec5c";
+}
+
+.mi-LEDLight::before {
+  content: "\ec5d";
+}
+
+.mi-Label::before {
+  content: "\ec5e";
+}
+
+.mi-LandscapeOrientation::before {
+  content: "\ec5f";
+}
+
+.mi-LandscapeOrientationMirrored::before {
+  content: "\ec60";
+}
+
+.mi-LangJPN::before {
+  content: "\ec61";
+}
+
+.mi-LanguageChs::before {
+  content: "\ec62";
+}
+
+.mi-LanguageCht::before {
+  content: "\ec63";
+}
+
+.mi-LanguageJpn::before {
+  content: "\ec64";
+}
+
+.mi-LanguageKor::before {
+  content: "\ec65";
+}
+
+.mi-LaptopSecure::before {
+  content: "\ec66";
+}
+
+.mi-LaptopSelected::before {
+  content: "\ec67";
+}
+
+.mi-LargeErase::before {
+  content: "\ec68";
+}
+
+.mi-Layout::before {
+  content: "\ec69";
+}
+
+.mi-LayoutLegacy::before {
+  content: "\ec6a";
+}
+
+.mi-Leaf::before {
+  content: "\ec6b";
+}
+
+.mi-LeaveChat::before {
+  content: "\ec6c";
+}
+
+.mi-LeaveChatMirrored::before {
+  content: "\ec6d";
+}
+
+.mi-LeftArrowKeyTime0::before {
+  content: "\ec6e";
+}
+
+.mi-LeftDoubleQuote::before {
+  content: "\ec6f";
+}
+
+.mi-LeftQuote::before {
+  content: "\ec70";
+}
+
+.mi-LeftStick::before {
+  content: "\ec71";
+}
+
+.mi-Lexicon::before {
+  content: "\ec72";
+}
+
+.mi-Library::before {
+  content: "\ec73";
+}
+
+.mi-Light::before {
+  content: "\ec74";
+}
+
+.mi-Lightbulb::before {
+  content: "\ec75";
+}
+
+.mi-LightningBolt::before {
+  content: "\ec76";
+}
+
+.mi-Like::before {
+  content: "\ec77";
+}
+
+.mi-LikeDislike::before {
+  content: "\ec78";
+}
+
+.mi-LineDisplay::before {
+  content: "\ec79";
+}
+
+.mi-Link::before {
+  content: "\ec7a";
+}
+
+.mi-List::before {
+  content: "\ec7b";
+}
+
+.mi-ListMirrored::before {
+  content: "\ec7c";
+}
+
+.mi-Location::before {
+  content: "\ec7d";
+}
+
+.mi-Lock::before {
+  content: "\ec7e";
+}
+
+.mi-LockFeedback::before {
+  content: "\ec7f";
+}
+
+.mi-LockScreenGlance::before {
+  content: "\ec80";
+}
+
+.mi-LockscreenDesktop::before {
+  content: "\ec81";
+}
+
+.mi-LowerBrightness::before {
+  content: "\ec82";
+}
+
+.mi-MagStripeReader::before {
+  content: "\ec83";
+}
+
+.mi-Mail::before {
+  content: "\ec84";
+}
+
+.mi-MailBadge12::before {
+  content: "\ec85";
+}
+
+.mi-MailFill::before {
+  content: "\ec86";
+}
+
+.mi-MailForward::before {
+  content: "\ec87";
+}
+
+.mi-MailForwardMirrored::before {
+  content: "\ec88";
+}
+
+.mi-MailReply::before {
+  content: "\ec89";
+}
+
+.mi-MailReplyAll::before {
+  content: "\ec8a";
+}
+
+.mi-MailReplyAllMirrored::before {
+  content: "\ec8b";
+}
+
+.mi-MailReplyMirrored::before {
+  content: "\ec8c";
+}
+
+.mi-Manage::before {
+  content: "\ec8d";
+}
+
+.mi-MapCompassBottom::before {
+  content: "\ec8e";
+}
+
+.mi-MapCompassTop::before {
+  content: "\ec8f";
+}
+
+.mi-MapDirections::before {
+  content: "\ec90";
+}
+
+.mi-MapDrive::before {
+  content: "\ec91";
+}
+
+.mi-MapLayers::before {
+  content: "\ec92";
+}
+
+.mi-MapPin::before {
+  content: "\ec93";
+}
+
+.mi-MapPin2::before {
+  content: "\ec94";
+}
+
+.mi-MapPinLegacy::before {
+  content: "\ec95";
+}
+
+.mi-Marker::before {
+  content: "\ec96";
+}
+
+.mi-Marquee::before {
+  content: "\ec97";
+}
+
+.mi-Media::before {
+  content: "\ec98";
+}
+
+.mi-MediaStorageTower::before {
+  content: "\ec99";
+}
+
+.mi-Megaphone::before {
+  content: "\ec9a";
+}
+
+.mi-Memo::before {
+  content: "\ec9b";
+}
+
+.mi-Message::before {
+  content: "\ec9c";
+}
+
+.mi-MicClipping::before {
+  content: "\ec9d";
+}
+
+.mi-MicError::before {
+  content: "\ec9e";
+}
+
+.mi-MicOff::before {
+  content: "\ec9f";
+}
+
+.mi-MicOn::before {
+  content: "\eca0";
+}
+
+.mi-MicSleep::before {
+  content: "\eca1";
+}
+
+.mi-Microphone::before {
+  content: "\eca2";
+}
+
+.mi-MicrophoneListening::before {
+  content: "\eca3";
+}
+
+.mi-MiracastLogoSmall::before {
+  content: "\eca4";
+}
+
+.mi-MixVolumes::before {
+  content: "\eca5";
+}
+
+.mi-MobActionCenter::before {
+  content: "\eca6";
+}
+
+.mi-MobAirplane::before {
+  content: "\eca7";
+}
+
+.mi-MobBattery0::before {
+  content: "\eca8";
+}
+
+.mi-MobBattery1::before {
+  content: "\eca9";
+}
+
+.mi-MobBattery10::before {
+  content: "\ecaa";
+}
+
+.mi-MobBattery2::before {
+  content: "\ecab";
+}
+
+.mi-MobBattery3::before {
+  content: "\ecac";
+}
+
+.mi-MobBattery4::before {
+  content: "\ecad";
+}
+
+.mi-MobBattery5::before {
+  content: "\ecae";
+}
+
+.mi-MobBattery6::before {
+  content: "\ecaf";
+}
+
+.mi-MobBattery7::before {
+  content: "\ecb0";
+}
+
+.mi-MobBattery8::before {
+  content: "\ecb1";
+}
+
+.mi-MobBattery9::before {
+  content: "\ecb2";
+}
+
+.mi-MobBatteryCharging0::before {
+  content: "\ecb3";
+}
+
+.mi-MobBatteryCharging1::before {
+  content: "\ecb4";
+}
+
+.mi-MobBatteryCharging10::before {
+  content: "\ecb5";
+}
+
+.mi-MobBatteryCharging2::before {
+  content: "\ecb6";
+}
+
+.mi-MobBatteryCharging3::before {
+  content: "\ecb7";
+}
+
+.mi-MobBatteryCharging4::before {
+  content: "\ecb8";
+}
+
+.mi-MobBatteryCharging5::before {
+  content: "\ecb9";
+}
+
+.mi-MobBatteryCharging6::before {
+  content: "\ecba";
+}
+
+.mi-MobBatteryCharging7::before {
+  content: "\ecbb";
+}
+
+.mi-MobBatteryCharging8::before {
+  content: "\ecbc";
+}
+
+.mi-MobBatteryCharging9::before {
+  content: "\ecbd";
+}
+
+.mi-MobBatterySaver0::before {
+  content: "\ecbe";
+}
+
+.mi-MobBatterySaver1::before {
+  content: "\ecbf";
+}
+
+.mi-MobBatterySaver10::before {
+  content: "\ecc0";
+}
+
+.mi-MobBatterySaver2::before {
+  content: "\ecc1";
+}
+
+.mi-MobBatterySaver3::before {
+  content: "\ecc2";
+}
+
+.mi-MobBatterySaver4::before {
+  content: "\ecc3";
+}
+
+.mi-MobBatterySaver5::before {
+  content: "\ecc4";
+}
+
+.mi-MobBatterySaver6::before {
+  content: "\ecc5";
+}
+
+.mi-MobBatterySaver7::before {
+  content: "\ecc6";
+}
+
+.mi-MobBatterySaver8::before {
+  content: "\ecc7";
+}
+
+.mi-MobBatterySaver9::before {
+  content: "\ecc8";
+}
+
+.mi-MobBatteryUnknown::before {
+  content: "\ecc9";
+}
+
+.mi-MobBluetooth::before {
+  content: "\ecca";
+}
+
+.mi-MobCallForwarding::before {
+  content: "\eccb";
+}
+
+.mi-MobCallForwardingMirrored::before {
+  content: "\eccc";
+}
+
+.mi-MobDrivingMode::before {
+  content: "\eccd";
+}
+
+.mi-MobLocation::before {
+  content: "\ecce";
+}
+
+.mi-MobQuietHours::before {
+  content: "\eccf";
+}
+
+.mi-MobSIMError::before {
+  content: "\ecd0";
+}
+
+.mi-MobSIMLock::before {
+  content: "\ecd1";
+}
+
+.mi-MobSIMMissing::before {
+  content: "\ecd2";
+}
+
+.mi-MobSignal1::before {
+  content: "\ecd3";
+}
+
+.mi-MobSignal2::before {
+  content: "\ecd4";
+}
+
+.mi-MobSignal3::before {
+  content: "\ecd5";
+}
+
+.mi-MobSignal4::before {
+  content: "\ecd6";
+}
+
+.mi-MobSignal5::before {
+  content: "\ecd7";
+}
+
+.mi-MobWifi1::before {
+  content: "\ecd8";
+}
+
+.mi-MobWifi2::before {
+  content: "\ecd9";
+}
+
+.mi-MobWifi3::before {
+  content: "\ecda";
+}
+
+.mi-MobWifi4::before {
+  content: "\ecdb";
+}
+
+.mi-MobWifiHotspot::before {
+  content: "\ecdc";
+}
+
+.mi-MobWifiWarning1::before {
+  content: "\ecdd";
+}
+
+.mi-MobWifiWarning2::before {
+  content: "\ecde";
+}
+
+.mi-MobWifiWarning3::before {
+  content: "\ecdf";
+}
+
+.mi-MobWifiWarning4::before {
+  content: "\ece0";
+}
+
+.mi-MobeSIM::before {
+  content: "\ece1";
+}
+
+.mi-MobeSIMBusy::before {
+  content: "\ece2";
+}
+
+.mi-MobeSIMLocked::before {
+  content: "\ece3";
+}
+
+.mi-MobeSIMNoProfile::before {
+  content: "\ece4";
+}
+
+.mi-MobileLocked::before {
+  content: "\ece5";
+}
+
+.mi-MobileSelected::before {
+  content: "\ece6";
+}
+
+.mi-MobileTablet::before {
+  content: "\ece7";
+}
+
+.mi-More::before {
+  content: "\ece8";
+}
+
+.mi-Mouse::before {
+  content: "\ece9";
+}
+
+.mi-MoveToFolder::before {
+  content: "\ecea";
+}
+
+.mi-Movies::before {
+  content: "\eceb";
+}
+
+.mi-MultiSelect::before {
+  content: "\ecec";
+}
+
+.mi-MultiSelectMirrored::before {
+  content: "\eced";
+}
+
+.mi-MultimediaDMP::before {
+  content: "\ecee";
+}
+
+.mi-MultimediaDMS::before {
+  content: "\ecef";
+}
+
+.mi-MultimediaDVR::before {
+  content: "\ecf0";
+}
+
+.mi-MultimediaPMP::before {
+  content: "\ecf1";
+}
+
+.mi-Multitask::before {
+  content: "\ecf2";
+}
+
+.mi-Multitask16::before {
+  content: "\ecf3";
+}
+
+.mi-MultitaskExpanded::before {
+  content: "\ecf4";
+}
+
+.mi-MusicAlbum::before {
+  content: "\ecf5";
+}
+
+.mi-MusicInfo::before {
+  content: "\ecf6";
+}
+
+.mi-MusicNote::before {
+  content: "\ecf7";
+}
+
+.mi-MusicSharing::before {
+  content: "\ecf8";
+}
+
+.mi-MusicSharingOff::before {
+  content: "\ecf9";
+}
+
+.mi-Mute::before {
+  content: "\ecfa";
+}
+
+.mi-MyNetwork::before {
+  content: "\ecfb";
+}
+
+.mi-NUIFPContinueSlideAction::before {
+  content: "\ecfc";
+}
+
+.mi-NUIFPContinueSlideHand::before {
+  content: "\ecfd";
+}
+
+.mi-NUIFPPressAction::before {
+  content: "\ecfe";
+}
+
+.mi-NUIFPPressHand::before {
+  content: "\ecff";
+}
+
+.mi-NUIFPPressRepeatAction::before {
+  content: "\ed00";
+}
+
+.mi-NUIFPRollLeftAction::before {
+  content: "\ed01";
+}
+
+.mi-NUIFPRollLeftHand::before {
+  content: "\ed02";
+}
+
+.mi-NUIFPRollRightHand::before {
+  content: "\ed03";
+}
+
+.mi-NUIFPRollRightHandAction::before {
+  content: "\ed04";
+}
+
+.mi-NUIFPStartSlideAction::before {
+  content: "\ed05";
+}
+
+.mi-NUIFPStartSlideHand::before {
+  content: "\ed06";
+}
+
+.mi-NUIFace::before {
+  content: "\ed07";
+}
+
+.mi-NUIIris::before {
+  content: "\ed08";
+}
+
+.mi-Narrator::before {
+  content: "\ed09";
+}
+
+.mi-NarratorForward::before {
+  content: "\ed0a";
+}
+
+.mi-NarratorForwardMirrored::before {
+  content: "\ed0b";
+}
+
+.mi-NearbySharing::before {
+  content: "\ed0c";
+}
+
+.mi-Network::before {
+  content: "\ed0d";
+}
+
+.mi-NetworkAdapter::before {
+  content: "\ed0e";
+}
+
+.mi-NetworkConnected::before {
+  content: "\ed0f";
+}
+
+.mi-NetworkConnectedCheckmark::before {
+  content: "\ed10";
+}
+
+.mi-NetworkOffline::before {
+  content: "\ed11";
+}
+
+.mi-NetworkPrinter::before {
+  content: "\ed12";
+}
+
+.mi-NetworkSharing::before {
+  content: "\ed13";
+}
+
+.mi-NetworkTower::before {
+  content: "\ed14";
+}
+
+.mi-NewFolder::before {
+  content: "\ed15";
+}
+
+.mi-NewWindow::before {
+  content: "\ed16";
+}
+
+.mi-Next::before {
+  content: "\ed17";
+}
+
+.mi-NoiseCancelation::before {
+  content: "\ed18";
+}
+
+.mi-NoiseCancelationOff::before {
+  content: "\ed19";
+}
+
+.mi-OEM::before {
+  content: "\ed1a";
+}
+
+.mi-OneBar::before {
+  content: "\ed1b";
+}
+
+.mi-OpenFile::before {
+  content: "\ed1c";
+}
+
+.mi-OpenFolderHorizontal::before {
+  content: "\ed1d";
+}
+
+.mi-OpenInNewWindow::before {
+  content: "\ed1e";
+}
+
+.mi-OpenLocal::before {
+  content: "\ed1f";
+}
+
+.mi-OpenPane::before {
+  content: "\ed20";
+}
+
+.mi-OpenPaneMirrored::before {
+  content: "\ed21";
+}
+
+.mi-OpenWith::before {
+  content: "\ed22";
+}
+
+.mi-OpenWithMirrored::before {
+  content: "\ed23";
+}
+
+.mi-Orientation::before {
+  content: "\ed24";
+}
+
+.mi-OtherUser::before {
+  content: "\ed25";
+}
+
+.mi-OutlineHalfStarLeft::before {
+  content: "\ed26";
+}
+
+.mi-OutlineHalfStarRight::before {
+  content: "\ed27";
+}
+
+.mi-OutlineQuarterStarLeft::before {
+  content: "\ed28";
+}
+
+.mi-OutlineQuarterStarRight::before {
+  content: "\ed29";
+}
+
+.mi-OutlineStarLeftHalf::before {
+  content: "\ed2a";
+}
+
+.mi-OutlineStarRightHalf::before {
+  content: "\ed2b";
+}
+
+.mi-OutlineThreeQuarterStarLeft::before {
+  content: "\ed2c";
+}
+
+.mi-OutlineThreeQuarterStarRight::before {
+  content: "\ed2d";
+}
+
+.mi-PC1::before {
+  content: "\ed2e";
+}
+
+.mi-PINPad::before {
+  content: "\ed2f";
+}
+
+.mi-PLAP::before {
+  content: "\ed30";
+}
+
+.mi-PPSFourLandscape::before {
+  content: "\ed31";
+}
+
+.mi-PPSFourPortrait::before {
+  content: "\ed32";
+}
+
+.mi-PPSOneLandscape::before {
+  content: "\ed33";
+}
+
+.mi-PPSOnePortrait::before {
+  content: "\ed34";
+}
+
+.mi-PPSTwoLandscape::before {
+  content: "\ed35";
+}
+
+.mi-PPSTwoPortrait::before {
+  content: "\ed36";
+}
+
+.mi-Package::before {
+  content: "\ed37";
+}
+
+.mi-Page::before {
+  content: "\ed38";
+}
+
+.mi-PageLeft::before {
+  content: "\ed39";
+}
+
+.mi-PageMarginLandscapeModerate::before {
+  content: "\ed3a";
+}
+
+.mi-PageMarginLandscapeNarrow::before {
+  content: "\ed3b";
+}
+
+.mi-PageMarginLandscapeNormal::before {
+  content: "\ed3c";
+}
+
+.mi-PageMarginLandscapeWide::before {
+  content: "\ed3d";
+}
+
+.mi-PageMarginPortraitModerate::before {
+  content: "\ed3e";
+}
+
+.mi-PageMarginPortraitNarrow::before {
+  content: "\ed3f";
+}
+
+.mi-PageMarginPortraitNormal::before {
+  content: "\ed40";
+}
+
+.mi-PageMarginPortraitWide::before {
+  content: "\ed41";
+}
+
+.mi-PageMirrored::before {
+  content: "\ed42";
+}
+
+.mi-PageRight::before {
+  content: "\ed43";
+}
+
+.mi-PageSolid::before {
+  content: "\ed44";
+}
+
+.mi-PaginationDotOutline10::before {
+  content: "\ed45";
+}
+
+.mi-PaginationDotSolid10::before {
+  content: "\ed46";
+}
+
+.mi-PanMode::before {
+  content: "\ed47";
+}
+
+.mi-ParkingLocation::before {
+  content: "\ed48";
+}
+
+.mi-ParkingLocationMirrored::before {
+  content: "\ed49";
+}
+
+.mi-ParkingLocationSolid::before {
+  content: "\ed4a";
+}
+
+.mi-PartyLeader::before {
+  content: "\ed4b";
+}
+
+.mi-PassiveAuthentication::before {
+  content: "\ed4c";
+}
+
+.mi-PasswordKeyHide::before {
+  content: "\ed4d";
+}
+
+.mi-PasswordKeyShow::before {
+  content: "\ed4e";
+}
+
+.mi-Paste::before {
+  content: "\ed4f";
+}
+
+.mi-Pause::before {
+  content: "\ed50";
+}
+
+.mi-PauseBadge12::before {
+  content: "\ed51";
+}
+
+.mi-PaymentCard::before {
+  content: "\ed52";
+}
+
+.mi-PenPalette::before {
+  content: "\ed53";
+}
+
+.mi-PenPaletteMirrored::before {
+  content: "\ed54";
+}
+
+.mi-PenTips::before {
+  content: "\ed55";
+}
+
+.mi-PenTipsMirrored::before {
+  content: "\ed56";
+}
+
+.mi-PenWorkspace::before {
+  content: "\ed57";
+}
+
+.mi-PenWorkspaceMirrored::before {
+  content: "\ed58";
+}
+
+.mi-Pencil::before {
+  content: "\ed59";
+}
+
+.mi-PencilFill::before {
+  content: "\ed5a";
+}
+
+.mi-People::before {
+  content: "\ed5b";
+}
+
+.mi-PeriodKey::before {
+  content: "\ed5c";
+}
+
+.mi-Permissions::before {
+  content: "\ed5d";
+}
+
+.mi-PersonalFolder::before {
+  content: "\ed5e";
+}
+
+.mi-Personalize::before {
+  content: "\ed5f";
+}
+
+.mi-Phone::before {
+  content: "\ed60";
+}
+
+.mi-PhoneBook::before {
+  content: "\ed61";
+}
+
+.mi-Photo::before {
+  content: "\ed62";
+}
+
+.mi-Photo2::before {
+  content: "\ed63";
+}
+
+.mi-Picture::before {
+  content: "\ed64";
+}
+
+.mi-PieSingle::before {
+  content: "\ed65";
+}
+
+.mi-Pin::before {
+  content: "\ed66";
+}
+
+.mi-PinFill::before {
+  content: "\ed67";
+}
+
+.mi-Pinned::before {
+  content: "\ed68";
+}
+
+.mi-PinnedFill::before {
+  content: "\ed69";
+}
+
+.mi-PinyinIMELogo::before {
+  content: "\ed6a";
+}
+
+.mi-PlaceFolder::before {
+  content: "\ed6b";
+}
+
+.mi-PlaceFolderLegacy::before {
+  content: "\ed6c";
+}
+
+.mi-Play::before {
+  content: "\ed6d";
+}
+
+.mi-Play36::before {
+  content: "\ed6e";
+}
+
+.mi-PlayBadge12::before {
+  content: "\ed6f";
+}
+
+.mi-PlayOn::before {
+  content: "\ed70";
+}
+
+.mi-PlayOnLegacy::before {
+  content: "\ed71";
+}
+
+.mi-PlaySolid::before {
+  content: "\ed72";
+}
+
+.mi-PlaybackRate1x::before {
+  content: "\ed73";
+}
+
+.mi-PlaybackRateOther::before {
+  content: "\ed74";
+}
+
+.mi-PlayerSettings::before {
+  content: "\ed75";
+}
+
+.mi-PointErase::before {
+  content: "\ed76";
+}
+
+.mi-PointEraseMirrored::before {
+  content: "\ed77";
+}
+
+.mi-PointerHand::before {
+  content: "\ed78";
+}
+
+.mi-PoliceCar::before {
+  content: "\ed79";
+}
+
+.mi-PostUpdate::before {
+  content: "\ed7a";
+}
+
+.mi-PowerButton::before {
+  content: "\ed7b";
+}
+
+.mi-PresenceChicklet::before {
+  content: "\ed7c";
+}
+
+.mi-PresenceChickletVideo::before {
+  content: "\ed7d";
+}
+
+.mi-Preview::before {
+  content: "\ed7e";
+}
+
+.mi-PreviewLink::before {
+  content: "\ed7f";
+}
+
+.mi-Previous::before {
+  content: "\ed80";
+}
+
+.mi-Print::before {
+  content: "\ed81";
+}
+
+.mi-PrintAllPages::before {
+  content: "\ed82";
+}
+
+.mi-PrintCustomRange::before {
+  content: "\ed83";
+}
+
+.mi-PrintDefault::before {
+  content: "\ed84";
+}
+
+.mi-Printer3D::before {
+  content: "\ed85";
+}
+
+.mi-Printer3DLegacy::before {
+  content: "\ed86";
+}
+
+.mi-PrintfaxPrinterFile::before {
+  content: "\ed87";
+}
+
+.mi-Priority::before {
+  content: "\ed88";
+}
+
+.mi-Process::before {
+  content: "\ed89";
+}
+
+.mi-Processing::before {
+  content: "\ed8a";
+}
+
+.mi-ProgressRingDots::before {
+  content: "\ed8b";
+}
+
+.mi-Project::before {
+  content: "\ed8c";
+}
+
+.mi-Projector::before {
+  content: "\ed8d";
+}
+
+.mi-ProtectedDocument::before {
+  content: "\ed8e";
+}
+
+.mi-Protractor::before {
+  content: "\ed8f";
+}
+
+.mi-ProvisioningPackage::before {
+  content: "\ed90";
+}
+
+.mi-PuncKey::before {
+  content: "\ed91";
+}
+
+.mi-PuncKey0::before {
+  content: "\ed92";
+}
+
+.mi-PuncKey1::before {
+  content: "\ed93";
+}
+
+.mi-PuncKey2::before {
+  content: "\ed94";
+}
+
+.mi-PuncKey3::before {
+  content: "\ed95";
+}
+
+.mi-PuncKey4::before {
+  content: "\ed96";
+}
+
+.mi-PuncKey5::before {
+  content: "\ed97";
+}
+
+.mi-PuncKey6::before {
+  content: "\ed98";
+}
+
+.mi-PuncKey7::before {
+  content: "\ed99";
+}
+
+.mi-PuncKey8::before {
+  content: "\ed9a";
+}
+
+.mi-PuncKey9::before {
+  content: "\ed9b";
+}
+
+.mi-PuncKeyLeftBottom::before {
+  content: "\ed9c";
+}
+
+.mi-PuncKeyRightBottom::before {
+  content: "\ed9d";
+}
+
+.mi-Puzzle::before {
+  content: "\ed9e";
+}
+
+.mi-QWERTYOff::before {
+  content: "\ed9f";
+}
+
+.mi-QWERTYOn::before {
+  content: "\eda0";
+}
+
+.mi-QuarentinedItems::before {
+  content: "\eda1";
+}
+
+.mi-QuarentinedItemsMirrored::before {
+  content: "\eda2";
+}
+
+.mi-QuarterStarLeft::before {
+  content: "\eda3";
+}
+
+.mi-QuarterStarRight::before {
+  content: "\eda4";
+}
+
+.mi-QuickNote::before {
+  content: "\eda5";
+}
+
+.mi-QuietHours::before {
+  content: "\eda6";
+}
+
+.mi-QuietHoursBadge12::before {
+  content: "\eda7";
+}
+
+.mi-Radar::before {
+  content: "\eda8";
+}
+
+.mi-RadioBtnOff::before {
+  content: "\eda9";
+}
+
+.mi-RadioBtnOn::before {
+  content: "\edaa";
+}
+
+.mi-RadioBullet::before {
+  content: "\edab";
+}
+
+.mi-RadioBullet2::before {
+  content: "\edac";
+}
+
+.mi-Read::before {
+  content: "\edad";
+}
+
+.mi-ReadingList::before {
+  content: "\edae";
+}
+
+.mi-ReceiptPrinter::before {
+  content: "\edaf";
+}
+
+.mi-Recent::before {
+  content: "\edb0";
+}
+
+.mi-Record::before {
+  content: "\edb1";
+}
+
+.mi-RectangularClipping::before {
+  content: "\edb2";
+}
+
+.mi-RedEye::before {
+  content: "\edb3";
+}
+
+.mi-Redo::before {
+  content: "\edb4";
+}
+
+.mi-ReduceTile::before {
+  content: "\edb5";
+}
+
+.mi-ReduceTileLegacy::before {
+  content: "\edb6";
+}
+
+.mi-ReduceTileLegacyMirrored::before {
+  content: "\edb7";
+}
+
+.mi-ReduceTileMirrored::before {
+  content: "\edb8";
+}
+
+.mi-Refresh::before {
+  content: "\edb9";
+}
+
+.mi-Relationship::before {
+  content: "\edba";
+}
+
+.mi-RememberedDevice::before {
+  content: "\edbb";
+}
+
+.mi-Reminder::before {
+  content: "\edbc";
+}
+
+.mi-ReminderFill::before {
+  content: "\edbd";
+}
+
+.mi-Remote::before {
+  content: "\edbe";
+}
+
+.mi-Remove::before {
+  content: "\edbf";
+}
+
+.mi-RemoveFrom::before {
+  content: "\edc0";
+}
+
+.mi-Rename::before {
+  content: "\edc1";
+}
+
+.mi-Repair::before {
+  content: "\edc2";
+}
+
+.mi-RepeatOne::before {
+  content: "\edc3";
+}
+
+.mi-Replay::before {
+  content: "\edc4";
+}
+
+.mi-Reply::before {
+  content: "\edc5";
+}
+
+.mi-ReplyMirrored::before {
+  content: "\edc6";
+}
+
+.mi-ReportDocument::before {
+  content: "\edc7";
+}
+
+.mi-ReportHacked::before {
+  content: "\edc8";
+}
+
+.mi-ResetDevice::before {
+  content: "\edc9";
+}
+
+.mi-ResetDrive::before {
+  content: "\edca";
+}
+
+.mi-Reshare::before {
+  content: "\edcb";
+}
+
+.mi-ResizeMouseMedium::before {
+  content: "\edcc";
+}
+
+.mi-ResizeMouseMediumMirrored::before {
+  content: "\edcd";
+}
+
+.mi-ResizeMouseSmall::before {
+  content: "\edce";
+}
+
+.mi-ResizeMouseSmallMirrored::before {
+  content: "\edcf";
+}
+
+.mi-ResizeMouseTall::before {
+  content: "\edd0";
+}
+
+.mi-ResizeMouseTallMirrored::before {
+  content: "\edd1";
+}
+
+.mi-ResizeMouseWide::before {
+  content: "\edd2";
+}
+
+.mi-ResizeTouchLarger::before {
+  content: "\edd3";
+}
+
+.mi-ResizeTouchNarrower::before {
+  content: "\edd4";
+}
+
+.mi-ResizeTouchNarrowerMirrored::before {
+  content: "\edd5";
+}
+
+.mi-ResizeTouchShorter::before {
+  content: "\edd6";
+}
+
+.mi-ResizeTouchSmaller::before {
+  content: "\edd7";
+}
+
+.mi-Resolution::before {
+  content: "\edd8";
+}
+
+.mi-ResolutionLegacy::before {
+  content: "\edd9";
+}
+
+.mi-ReturnKey::before {
+  content: "\edda";
+}
+
+.mi-ReturnKeyLg::before {
+  content: "\eddb";
+}
+
+.mi-ReturnKeySm::before {
+  content: "\eddc";
+}
+
+.mi-ReturnToWindow::before {
+  content: "\eddd";
+}
+
+.mi-RevToggleKey::before {
+  content: "\edde";
+}
+
+.mi-Rewind::before {
+  content: "\eddf";
+}
+
+.mi-RightArrowKeyTime0::before {
+  content: "\ede0";
+}
+
+.mi-RightArrowKeyTime1::before {
+  content: "\ede1";
+}
+
+.mi-RightArrowKeyTime2::before {
+  content: "\ede2";
+}
+
+.mi-RightArrowKeyTime3::before {
+  content: "\ede3";
+}
+
+.mi-RightArrowKeyTime4::before {
+  content: "\ede4";
+}
+
+.mi-RightDoubleQuote::before {
+  content: "\ede5";
+}
+
+.mi-RightQuote::before {
+  content: "\ede6";
+}
+
+.mi-RightStick::before {
+  content: "\ede7";
+}
+
+.mi-Ringer::before {
+  content: "\ede8";
+}
+
+.mi-RingerBadge12::before {
+  content: "\ede9";
+}
+
+.mi-RingerSilent::before {
+  content: "\edea";
+}
+
+.mi-RoamingDomestic::before {
+  content: "\edeb";
+}
+
+.mi-RoamingInternational::before {
+  content: "\edec";
+}
+
+.mi-Robot::before {
+  content: "\eded";
+}
+
+.mi-Rotate::before {
+  content: "\edee";
+}
+
+.mi-RotateCamera::before {
+  content: "\edef";
+}
+
+.mi-RotateLegacy::before {
+  content: "\edf0";
+}
+
+.mi-RotateMapLeft::before {
+  content: "\edf1";
+}
+
+.mi-RotateMapRight::before {
+  content: "\edf2";
+}
+
+.mi-RotationLock::before {
+  content: "\edf3";
+}
+
+.mi-Ruler::before {
+  content: "\edf4";
+}
+
+.mi-SDCard::before {
+  content: "\edf5";
+}
+
+.mi-SIMError::before {
+  content: "\edf6";
+}
+
+.mi-SIMLock::before {
+  content: "\edf7";
+}
+
+.mi-SIMMissing::before {
+  content: "\edf8";
+}
+
+.mi-SIPMove::before {
+  content: "\edf9";
+}
+
+.mi-SIPRedock::before {
+  content: "\edfa";
+}
+
+.mi-SIPUndock::before {
+  content: "\edfb";
+}
+
+.mi-Safe::before {
+  content: "\edfc";
+}
+
+.mi-Save::before {
+  content: "\edfd";
+}
+
+.mi-SaveAs::before {
+  content: "\edfe";
+}
+
+.mi-SaveCopy::before {
+  content: "\edff";
+}
+
+.mi-SaveLocal::before {
+  content: "\ee00";
+}
+
+.mi-Scan::before {
+  content: "\ee01";
+}
+
+.mi-ScreenTime::before {
+  content: "\ee02";
+}
+
+.mi-ScrollMode::before {
+  content: "\ee03";
+}
+
+.mi-ScrollUpDown::before {
+  content: "\ee04";
+}
+
+.mi-Search::before {
+  content: "\ee05";
+}
+
+.mi-SearchAndApps::before {
+  content: "\ee06";
+}
+
+.mi-SelectAll::before {
+  content: "\ee07";
+}
+
+.mi-SemanticZoom::before {
+  content: "\ee08";
+}
+
+.mi-SemanticZoomLegacy::before {
+  content: "\ee09";
+}
+
+.mi-Send::before {
+  content: "\ee0a";
+}
+
+.mi-SendFill::before {
+  content: "\ee0b";
+}
+
+.mi-SendFillMirrored::before {
+  content: "\ee0c";
+}
+
+.mi-SendMirrored::before {
+  content: "\ee0d";
+}
+
+.mi-Sensor::before {
+  content: "\ee0e";
+}
+
+.mi-Set::before {
+  content: "\ee0f";
+}
+
+.mi-SetSolid::before {
+  content: "\ee10";
+}
+
+.mi-SetTile::before {
+  content: "\ee11";
+}
+
+.mi-SetlockScreen::before {
+  content: "\ee12";
+}
+
+.mi-Settings::before {
+  content: "\ee13";
+}
+
+.mi-SettingsBattery::before {
+  content: "\ee14";
+}
+
+.mi-SettingsDisplaySound::before {
+  content: "\ee15";
+}
+
+.mi-Share::before {
+  content: "\ee16";
+}
+
+.mi-ShareBroadband::before {
+  content: "\ee17";
+}
+
+.mi-Shield::before {
+  content: "\ee18";
+}
+
+.mi-Shop::before {
+  content: "\ee19";
+}
+
+.mi-ShoppingCart::before {
+  content: "\ee1a";
+}
+
+.mi-ShowAllFiles1::before {
+  content: "\ee1b";
+}
+
+.mi-ShowAllFiles1Legacy::before {
+  content: "\ee1c";
+}
+
+.mi-ShowAllFiles3::before {
+  content: "\ee1d";
+}
+
+.mi-ShowAllFiles3Legacy::before {
+  content: "\ee1e";
+}
+
+.mi-ShowBcc::before {
+  content: "\ee1f";
+}
+
+.mi-ShowResults::before {
+  content: "\ee20";
+}
+
+.mi-ShowResultsMirrored::before {
+  content: "\ee21";
+}
+
+.mi-Shuffle::before {
+  content: "\ee22";
+}
+
+.mi-SignalBars1::before {
+  content: "\ee23";
+}
+
+.mi-SignalBars2::before {
+  content: "\ee24";
+}
+
+.mi-SignalBars3::before {
+  content: "\ee25";
+}
+
+.mi-SignalBars4::before {
+  content: "\ee26";
+}
+
+.mi-SignalBars5::before {
+  content: "\ee27";
+}
+
+.mi-SignalError::before {
+  content: "\ee28";
+}
+
+.mi-SignalNotConnected::before {
+  content: "\ee29";
+}
+
+.mi-SignalRoaming::before {
+  content: "\ee2a";
+}
+
+.mi-SignatureCapture::before {
+  content: "\ee2b";
+}
+
+.mi-Size::before {
+  content: "\ee2c";
+}
+
+.mi-SkipBack10::before {
+  content: "\ee2d";
+}
+
+.mi-SkipForward30::before {
+  content: "\ee2e";
+}
+
+.mi-SliderThumb::before {
+  content: "\ee2f";
+}
+
+.mi-Slideshow::before {
+  content: "\ee30";
+}
+
+.mi-SlowMotionOn::before {
+  content: "\ee31";
+}
+
+.mi-SmallErase::before {
+  content: "\ee32";
+}
+
+.mi-Smartcard::before {
+  content: "\ee33";
+}
+
+.mi-SmartcardVirtual::before {
+  content: "\ee34";
+}
+
+.mi-Sort::before {
+  content: "\ee35";
+}
+
+.mi-SpatialVolume0::before {
+  content: "\ee36";
+}
+
+.mi-SpatialVolume1::before {
+  content: "\ee37";
+}
+
+.mi-SpatialVolume2::before {
+  content: "\ee38";
+}
+
+.mi-SpatialVolume3::before {
+  content: "\ee39";
+}
+
+.mi-Speakers::before {
+  content: "\ee3a";
+}
+
+.mi-Speech::before {
+  content: "\ee3b";
+}
+
+.mi-SpeedHigh::before {
+  content: "\ee3c";
+}
+
+.mi-SpeedMedium::before {
+  content: "\ee3d";
+}
+
+.mi-SpeedOff::before {
+  content: "\ee3e";
+}
+
+.mi-StaplingLandscapeBookBinding::before {
+  content: "\ee3f";
+}
+
+.mi-StaplingLandscapeBottomLeft::before {
+  content: "\ee40";
+}
+
+.mi-StaplingLandscapeBottomRight::before {
+  content: "\ee41";
+}
+
+.mi-StaplingLandscapeTopLeft::before {
+  content: "\ee42";
+}
+
+.mi-StaplingLandscapeTopRight::before {
+  content: "\ee43";
+}
+
+.mi-StaplingLandscapeTwoBottom::before {
+  content: "\ee44";
+}
+
+.mi-StaplingLandscapeTwoLeft::before {
+  content: "\ee45";
+}
+
+.mi-StaplingLandscapeTwoRight::before {
+  content: "\ee46";
+}
+
+.mi-StaplingLandscapeTwoTop::before {
+  content: "\ee47";
+}
+
+.mi-StaplingOff::before {
+  content: "\ee48";
+}
+
+.mi-StaplingPortraitBookBinding::before {
+  content: "\ee49";
+}
+
+.mi-StaplingPortraitBottomLeft::before {
+  content: "\ee4a";
+}
+
+.mi-StaplingPortraitBottomRight::before {
+  content: "\ee4b";
+}
+
+.mi-StaplingPortraitTopLeft::before {
+  content: "\ee4c";
+}
+
+.mi-StaplingPortraitTopRight::before {
+  content: "\ee4d";
+}
+
+.mi-StaplingPortraitTwoBottom::before {
+  content: "\ee4e";
+}
+
+.mi-StaplingPortraitTwoLeft::before {
+  content: "\ee4f";
+}
+
+.mi-StaplingPortraitTwoRight::before {
+  content: "\ee50";
+}
+
+.mi-StaplingPortraitTwoTop::before {
+  content: "\ee51";
+}
+
+.mi-StartPoint::before {
+  content: "\ee52";
+}
+
+.mi-StartPointSolid::before {
+  content: "\ee53";
+}
+
+.mi-StatusCheckmark::before {
+  content: "\ee54";
+}
+
+.mi-StatusCheckmark7::before {
+  content: "\ee55";
+}
+
+.mi-StatusCheckmarkLeft::before {
+  content: "\ee56";
+}
+
+.mi-StatusCircle::before {
+  content: "\ee57";
+}
+
+.mi-StatusCircle7::before {
+  content: "\ee58";
+}
+
+.mi-StatusCircleBlock::before {
+  content: "\ee59";
+}
+
+.mi-StatusCircleBlock2::before {
+  content: "\ee5a";
+}
+
+.mi-StatusCircleCheckmark::before {
+  content: "\ee5b";
+}
+
+.mi-StatusCircleErrorX::before {
+  content: "\ee5c";
+}
+
+.mi-StatusCircleExclamation::before {
+  content: "\ee5d";
+}
+
+.mi-StatusCircleInfo::before {
+  content: "\ee5e";
+}
+
+.mi-StatusCircleInner::before {
+  content: "\ee5f";
+}
+
+.mi-StatusCircleLeft::before {
+  content: "\ee60";
+}
+
+.mi-StatusCircleOuter::before {
+  content: "\ee61";
+}
+
+.mi-StatusCircleQuestionMark::before {
+  content: "\ee62";
+}
+
+.mi-StatusCircleRing::before {
+  content: "\ee63";
+}
+
+.mi-StatusCircleSync::before {
+  content: "\ee64";
+}
+
+.mi-StatusConnecting1::before {
+  content: "\ee65";
+}
+
+.mi-StatusConnecting2::before {
+  content: "\ee66";
+}
+
+.mi-StatusDataTransfer::before {
+  content: "\ee67";
+}
+
+.mi-StatusDataTransferVPN::before {
+  content: "\ee68";
+}
+
+.mi-StatusDualSIM1::before {
+  content: "\ee69";
+}
+
+.mi-StatusDualSIM1VPN::before {
+  content: "\ee6a";
+}
+
+.mi-StatusDualSIM2::before {
+  content: "\ee6b";
+}
+
+.mi-StatusDualSIM2VPN::before {
+  content: "\ee6c";
+}
+
+.mi-StatusError::before {
+  content: "\ee6d";
+}
+
+.mi-StatusErrorCircle7::before {
+  content: "\ee6e";
+}
+
+.mi-StatusErrorFull::before {
+  content: "\ee6f";
+}
+
+.mi-StatusErrorLeft::before {
+  content: "\ee70";
+}
+
+.mi-StatusExclamationCircle7::before {
+  content: "\ee71";
+}
+
+.mi-StatusInfo::before {
+  content: "\ee72";
+}
+
+.mi-StatusInfoLeft::before {
+  content: "\ee73";
+}
+
+.mi-StatusPause7::before {
+  content: "\ee74";
+}
+
+.mi-StatusSGLTE::before {
+  content: "\ee75";
+}
+
+.mi-StatusSGLTECell::before {
+  content: "\ee76";
+}
+
+.mi-StatusSGLTEDataVPN::before {
+  content: "\ee77";
+}
+
+.mi-StatusTriangle::before {
+  content: "\ee78";
+}
+
+.mi-StatusTriangleExclamation::before {
+  content: "\ee79";
+}
+
+.mi-StatusTriangleInner::before {
+  content: "\ee7a";
+}
+
+.mi-StatusTriangleLeft::before {
+  content: "\ee7b";
+}
+
+.mi-StatusTriangleOuter::before {
+  content: "\ee7c";
+}
+
+.mi-StatusUnsecure::before {
+  content: "\ee7d";
+}
+
+.mi-StatusVPN::before {
+  content: "\ee7e";
+}
+
+.mi-StatusWarning::before {
+  content: "\ee7f";
+}
+
+.mi-StatusWarningLeft::before {
+  content: "\ee80";
+}
+
+.mi-Sticker2::before {
+  content: "\ee81";
+}
+
+.mi-StockDown::before {
+  content: "\ee82";
+}
+
+.mi-StockUp::before {
+  content: "\ee83";
+}
+
+.mi-Stop::before {
+  content: "\ee84";
+}
+
+.mi-StopPoint::before {
+  content: "\ee85";
+}
+
+.mi-StopPointSolid::before {
+  content: "\ee86";
+}
+
+.mi-StopSlideshow::before {
+  content: "\ee87";
+}
+
+.mi-StopSlideshowLegacy::before {
+  content: "\ee88";
+}
+
+.mi-Stopwatch::before {
+  content: "\ee89";
+}
+
+.mi-StorageNetworkWireless::before {
+  content: "\ee8a";
+}
+
+.mi-StorageOptical::before {
+  content: "\ee8b";
+}
+
+.mi-StorageTape::before {
+  content: "\ee8c";
+}
+
+.mi-Streaming::before {
+  content: "\ee8d";
+}
+
+.mi-StreamingEnterprise::before {
+  content: "\ee8e";
+}
+
+.mi-Street::before {
+  content: "\ee8f";
+}
+
+.mi-StreetsideSplitExpand::before {
+  content: "\ee90";
+}
+
+.mi-StreetsideSplitMinimize::before {
+  content: "\ee91";
+}
+
+.mi-StrokeErase::before {
+  content: "\ee92";
+}
+
+.mi-StrokeErase2::before {
+  content: "\ee93";
+}
+
+.mi-StrokeEraseMirrored::before {
+  content: "\ee94";
+}
+
+.mi-Subtitles::before {
+  content: "\ee95";
+}
+
+.mi-SubtitlesAudio::before {
+  content: "\ee96";
+}
+
+.mi-SurfaceHub::before {
+  content: "\ee97";
+}
+
+.mi-SurfaceHubSelected::before {
+  content: "\ee98";
+}
+
+.mi-Sustainable::before {
+  content: "\ee99";
+}
+
+.mi-Swipe::before {
+  content: "\ee9a";
+}
+
+.mi-SwipeRevealArt::before {
+  content: "\ee9b";
+}
+
+.mi-Switch::before {
+  content: "\ee9c";
+}
+
+.mi-SwitchApps::before {
+  content: "\ee9d";
+}
+
+.mi-SwitchUser::before {
+  content: "\ee9e";
+}
+
+.mi-Sync::before {
+  content: "\ee9f";
+}
+
+.mi-SyncBadge12::before {
+  content: "\eea0";
+}
+
+.mi-SyncError::before {
+  content: "\eea1";
+}
+
+.mi-SyncFolder::before {
+  content: "\eea2";
+}
+
+.mi-System::before {
+  content: "\eea3";
+}
+
+.mi-TVMonitor::before {
+  content: "\eea4";
+}
+
+.mi-TVMonitorSelected::before {
+  content: "\eea5";
+}
+
+.mi-Tablet::before {
+  content: "\eea6";
+}
+
+.mi-TabletMode::before {
+  content: "\eea7";
+}
+
+.mi-TabletSelected::before {
+  content: "\eea8";
+}
+
+.mi-Tag::before {
+  content: "\eea9";
+}
+
+.mi-TapAndSend::before {
+  content: "\eeaa";
+}
+
+.mi-TaskView::before {
+  content: "\eeab";
+}
+
+.mi-TaskViewExpanded::before {
+  content: "\eeac";
+}
+
+.mi-TaskViewSettings::before {
+  content: "\eead";
+}
+
+.mi-TaskbarPhone::before {
+  content: "\eeae";
+}
+
+.mi-ThisPC::before {
+  content: "\eeaf";
+}
+
+.mi-ThoughtBubble::before {
+  content: "\eeb0";
+}
+
+.mi-ThreeBars::before {
+  content: "\eeb1";
+}
+
+.mi-ThreeQuarterStarLeft::before {
+  content: "\eeb2";
+}
+
+.mi-ThreeQuarterStarRight::before {
+  content: "\eeb3";
+}
+
+.mi-Tiles::before {
+  content: "\eeb4";
+}
+
+.mi-TiltDown::before {
+  content: "\eeb5";
+}
+
+.mi-TiltUp::before {
+  content: "\eeb6";
+}
+
+.mi-TimeLanguage::before {
+  content: "\eeb7";
+}
+
+.mi-ToggleBorder::before {
+  content: "\eeb8";
+}
+
+.mi-ToggleFilled::before {
+  content: "\eeb9";
+}
+
+.mi-ToggleThumb::before {
+  content: "\eeba";
+}
+
+.mi-TollSolid::before {
+  content: "\eebb";
+}
+
+.mi-ToolTip::before {
+  content: "\eebc";
+}
+
+.mi-Touch::before {
+  content: "\eebd";
+}
+
+.mi-TouchPointer::before {
+  content: "\eebe";
+}
+
+.mi-Touchpad::before {
+  content: "\eebf";
+}
+
+.mi-Touchscreen::before {
+  content: "\eec0";
+}
+
+.mi-Trackers::before {
+  content: "\eec1";
+}
+
+.mi-TrackersMirrored::before {
+  content: "\eec2";
+}
+
+.mi-TrafficCongestionSolid::before {
+  content: "\eec3";
+}
+
+.mi-TrafficLight::before {
+  content: "\eec4";
+}
+
+.mi-Train::before {
+  content: "\eec5";
+}
+
+.mi-TrainSolid::before {
+  content: "\eec6";
+}
+
+.mi-TreeFolderFolder::before {
+  content: "\eec7";
+}
+
+.mi-TreeFolderFolderFill::before {
+  content: "\eec8";
+}
+
+.mi-TreeFolderFolderOpen::before {
+  content: "\eec9";
+}
+
+.mi-TreeFolderFolderOpenFill::before {
+  content: "\eeca";
+}
+
+.mi-TriggerLeft::before {
+  content: "\eecb";
+}
+
+.mi-TriggerRight::before {
+  content: "\eecc";
+}
+
+.mi-Trim::before {
+  content: "\eecd";
+}
+
+.mi-TwoBars::before {
+  content: "\eece";
+}
+
+.mi-TwoPage::before {
+  content: "\eecf";
+}
+
+.mi-Type::before {
+  content: "\eed0";
+}
+
+.mi-TypingIndicatorLegacy::before {
+  content: "\eed1";
+}
+
+.mi-USB::before {
+  content: "\eed2";
+}
+
+.mi-USBSafeConnect::before {
+  content: "\eed3";
+}
+
+.mi-Underline::before {
+  content: "\eed4";
+}
+
+.mi-UnderlineLKorean::before {
+  content: "\eed5";
+}
+
+.mi-UnderlineLKoreanLegacy::before {
+  content: "\eed6";
+}
+
+.mi-UnderlineRussian::before {
+  content: "\eed7";
+}
+
+.mi-UnderlineRussianLegacy::before {
+  content: "\eed8";
+}
+
+.mi-UnderlineS::before {
+  content: "\eed9";
+}
+
+.mi-UnderlineSLegacy::before {
+  content: "\eeda";
+}
+
+.mi-UnderlineU::before {
+  content: "\eedb";
+}
+
+.mi-UnderlineULegacy::before {
+  content: "\eedc";
+}
+
+.mi-UnderscoreSpace::before {
+  content: "\eedd";
+}
+
+.mi-Undo::before {
+  content: "\eede";
+}
+
+.mi-Unfavorite::before {
+  content: "\eedf";
+}
+
+.mi-Unit::before {
+  content: "\eee0";
+}
+
+.mi-Unknown::before {
+  content: "\eee1";
+}
+
+.mi-UnknownMirrored::before {
+  content: "\eee2";
+}
+
+.mi-Unlock::before {
+  content: "\eee3";
+}
+
+.mi-Unpin::before {
+  content: "\eee4";
+}
+
+.mi-UnsyncFolder::before {
+  content: "\eee5";
+}
+
+.mi-Up::before {
+  content: "\eee6";
+}
+
+.mi-UpArrowShiftKey::before {
+  content: "\eee7";
+}
+
+.mi-UpShiftKey::before {
+  content: "\eee8";
+}
+
+.mi-UpdateRestore::before {
+  content: "\eee9";
+}
+
+.mi-Upload::before {
+  content: "\eeea";
+}
+
+.mi-UserAPN::before {
+  content: "\eeeb";
+}
+
+.mi-VPN::before {
+  content: "\eeec";
+}
+
+.mi-VerticalBattery0::before {
+  content: "\eeed";
+}
+
+.mi-VerticalBattery1::before {
+  content: "\eeee";
+}
+
+.mi-VerticalBattery10::before {
+  content: "\eeef";
+}
+
+.mi-VerticalBattery2::before {
+  content: "\eef0";
+}
+
+.mi-VerticalBattery3::before {
+  content: "\eef1";
+}
+
+.mi-VerticalBattery4::before {
+  content: "\eef2";
+}
+
+.mi-VerticalBattery5::before {
+  content: "\eef3";
+}
+
+.mi-VerticalBattery6::before {
+  content: "\eef4";
+}
+
+.mi-VerticalBattery7::before {
+  content: "\eef5";
+}
+
+.mi-VerticalBattery8::before {
+  content: "\eef6";
+}
+
+.mi-VerticalBattery9::before {
+  content: "\eef7";
+}
+
+.mi-VerticalBatteryCharging0::before {
+  content: "\eef8";
+}
+
+.mi-VerticalBatteryCharging1::before {
+  content: "\eef9";
+}
+
+.mi-VerticalBatteryCharging10::before {
+  content: "\eefa";
+}
+
+.mi-VerticalBatteryCharging2::before {
+  content: "\eefb";
+}
+
+.mi-VerticalBatteryCharging3::before {
+  content: "\eefc";
+}
+
+.mi-VerticalBatteryCharging4::before {
+  content: "\eefd";
+}
+
+.mi-VerticalBatteryCharging5::before {
+  content: "\eefe";
+}
+
+.mi-VerticalBatteryCharging6::before {
+  content: "\eeff";
+}
+
+.mi-VerticalBatteryCharging7::before {
+  content: "\ef00";
+}
+
+.mi-VerticalBatteryCharging8::before {
+  content: "\ef01";
+}
+
+.mi-VerticalBatteryCharging9::before {
+  content: "\ef02";
+}
+
+.mi-VerticalBatteryUnknown::before {
+  content: "\ef03";
+}
+
+.mi-Vibrate::before {
+  content: "\ef04";
+}
+
+.mi-Video::before {
+  content: "\ef05";
+}
+
+.mi-Video360::before {
+  content: "\ef06";
+}
+
+.mi-VideoChat::before {
+  content: "\ef07";
+}
+
+.mi-VideoSolid::before {
+  content: "\ef08";
+}
+
+.mi-View::before {
+  content: "\ef09";
+}
+
+.mi-ViewAll::before {
+  content: "\ef0a";
+}
+
+.mi-ViewDashboard::before {
+  content: "\ef0b";
+}
+
+.mi-Volume::before {
+  content: "\ef0c";
+}
+
+.mi-Volume0::before {
+  content: "\ef0d";
+}
+
+.mi-Volume1::before {
+  content: "\ef0e";
+}
+
+.mi-Volume2::before {
+  content: "\ef0f";
+}
+
+.mi-Volume3::before {
+  content: "\ef10";
+}
+
+.mi-VolumeBars::before {
+  content: "\ef11";
+}
+
+.mi-Walk::before {
+  content: "\ef12";
+}
+
+.mi-WalkSolid::before {
+  content: "\ef13";
+}
+
+.mi-Warning::before {
+  content: "\ef14";
+}
+
+.mi-Webcam::before {
+  content: "\ef15";
+}
+
+.mi-Webcam2::before {
+  content: "\ef16";
+}
+
+.mi-Website::before {
+  content: "\ef17";
+}
+
+.mi-Wheel::before {
+  content: "\ef18";
+}
+
+.mi-Wifi::before {
+  content: "\ef19";
+}
+
+.mi-Wifi1::before {
+  content: "\ef1a";
+}
+
+.mi-Wifi2::before {
+  content: "\ef1b";
+}
+
+.mi-Wifi3::before {
+  content: "\ef1c";
+}
+
+.mi-WifiAttentionOverlay::before {
+  content: "\ef1d";
+}
+
+.mi-WifiCall0::before {
+  content: "\ef1e";
+}
+
+.mi-WifiCall1::before {
+  content: "\ef1f";
+}
+
+.mi-WifiCall2::before {
+  content: "\ef20";
+}
+
+.mi-WifiCall3::before {
+  content: "\ef21";
+}
+
+.mi-WifiCall4::before {
+  content: "\ef22";
+}
+
+.mi-WifiCallBars::before {
+  content: "\ef23";
+}
+
+.mi-WifiError0::before {
+  content: "\ef24";
+}
+
+.mi-WifiError1::before {
+  content: "\ef25";
+}
+
+.mi-WifiError2::before {
+  content: "\ef26";
+}
+
+.mi-WifiError3::before {
+  content: "\ef27";
+}
+
+.mi-WifiError4::before {
+  content: "\ef28";
+}
+
+.mi-WifiEthernet::before {
+  content: "\ef29";
+}
+
+.mi-WifiHotspot::before {
+  content: "\ef2a";
+}
+
+.mi-WifiWarning0::before {
+  content: "\ef2b";
+}
+
+.mi-WifiWarning1::before {
+  content: "\ef2c";
+}
+
+.mi-WifiWarning2::before {
+  content: "\ef2d";
+}
+
+.mi-WifiWarning3::before {
+  content: "\ef2e";
+}
+
+.mi-WifiWarning4::before {
+  content: "\ef2f";
+}
+
+.mi-WindDirection::before {
+  content: "\ef30";
+}
+
+.mi-WindowsInsider::before {
+  content: "\ef31";
+}
+
+.mi-WiredUSB::before {
+  content: "\ef32";
+}
+
+.mi-WirelessUSB::before {
+  content: "\ef33";
+}
+
+.mi-Work::before {
+  content: "\ef34";
+}
+
+.mi-WorkSolid::before {
+  content: "\ef35";
+}
+
+.mi-World::before {
+  content: "\ef36";
+}
+
+.mi-XboxOneConsole::before {
+  content: "\ef37";
+}
+
+.mi-ZeroBars::before {
+  content: "\ef38";
+}
+
+.mi-Zoom::before {
+  content: "\ef39";
+}
+
+.mi-ZoomIn::before {
+  content: "\ef3a";
+}
+
+.mi-ZoomMode::before {
+  content: "\ef3b";
+}
+
+.mi-ZoomOut::before {
+  content: "\ef3c";
+}
+
+.mi-accessible-icon::before {
+  content: "\ef3d";
+}
+
+.mi-accusoft::before {
+  content: "\ef3e";
+}
+
+.mi-acquisitions-incorporated::before {
+  content: "\ef3f";
+}
+
+.mi-adn::before {
+  content: "\ef40";
+}
+
+.mi-adobe::before {
+  content: "\ef41";
+}
+
+.mi-adversal::before {
+  content: "\ef42";
+}
+
+.mi-affiliatetheme::before {
+  content: "\ef43";
+}
+
+.mi-algolia::before {
+  content: "\ef44";
+}
+
+.mi-alipay::before {
+  content: "\ef45";
+}
+
+.mi-amazon::before {
+  content: "\ef46";
+}
+
+.mi-amazon-pay::before {
+  content: "\ef47";
+}
+
+.mi-amilia::before {
+  content: "\ef48";
+}
+
+.mi-android::before {
+  content: "\ef49";
+}
+
+.mi-angellist::before {
+  content: "\ef4a";
+}
+
+.mi-angrycreative::before {
+  content: "\ef4b";
+}
+
+.mi-angular::before {
+  content: "\ef4c";
+}
+
+.mi-app-store::before {
+  content: "\ef4d";
+}
+
+.mi-app-store-ios::before {
+  content: "\ef4e";
+}
+
+.mi-apper::before {
+  content: "\ef4f";
+}
+
+.mi-apple::before {
+  content: "\ef50";
+}
+
+.mi-apple-pay::before {
+  content: "\ef51";
+}
+
+.mi-artstation::before {
+  content: "\ef52";
+}
+
+.mi-asymmetrik::before {
+  content: "\ef53";
+}
+
+.mi-atlassian::before {
+  content: "\ef54";
+}
+
+.mi-audible::before {
+  content: "\ef55";
+}
+
+.mi-autoprefixer::before {
+  content: "\ef56";
+}
+
+.mi-avianex::before {
+  content: "\ef57";
+}
+
+.mi-aviato::before {
+  content: "\ef58";
+}
+
+.mi-aws::before {
+  content: "\ef59";
+}
+
+.mi-bandcamp::before {
+  content: "\ef5a";
+}
+
+.mi-behance::before {
+  content: "\ef5b";
+}
+
+.mi-behance-square::before {
+  content: "\ef5c";
+}
+
+.mi-bimobject::before {
+  content: "\ef5d";
+}
+
+.mi-bitbucket::before {
+  content: "\ef5e";
+}
+
+.mi-bitcoin::before {
+  content: "\ef5f";
+}
+
+.mi-bity::before {
+  content: "\ef60";
+}
+
+.mi-black-tie::before {
+  content: "\ef61";
+}
+
+.mi-blackberry::before {
+  content: "\ef62";
+}
+
+.mi-blogger::before {
+  content: "\ef63";
+}
+
+.mi-blogger-b::before {
+  content: "\ef64";
+}
+
+.mi-bluetooth::before {
+  content: "\ef65";
+}
+
+.mi-bluetooth-b::before {
+  content: "\ef66";
+}
+
+.mi-btc::before {
+  content: "\ef67";
+}
+
+.mi-buromobelexperte::before {
+  content: "\ef68";
+}
+
+.mi-buysellads::before {
+  content: "\ef69";
+}
+
+.mi-canadian-maple-leaf::before {
+  content: "\ef6a";
+}
+
+.mi-cc-amazon-pay::before {
+  content: "\ef6b";
+}
+
+.mi-cc-amex::before {
+  content: "\ef6c";
+}
+
+.mi-cc-apple-pay::before {
+  content: "\ef6d";
+}
+
+.mi-cc-diners-club::before {
+  content: "\ef6e";
+}
+
+.mi-cc-discover::before {
+  content: "\ef6f";
+}
+
+.mi-cc-jcb::before {
+  content: "\ef70";
+}
+
+.mi-cc-mastercard::before {
+  content: "\ef71";
+}
+
+.mi-cc-paypal::before {
+  content: "\ef72";
+}
+
+.mi-cc-stripe::before {
+  content: "\ef73";
+}
+
+.mi-cc-visa::before {
+  content: "\ef74";
+}
+
+.mi-centercode::before {
+  content: "\ef75";
+}
+
+.mi-centos::before {
+  content: "\ef76";
+}
+
+.mi-chrome::before {
+  content: "\ef77";
+}
+
+.mi-cloudscale::before {
+  content: "\ef78";
+}
+
+.mi-cloudsmith::before {
+  content: "\ef79";
+}
+
+.mi-cloudversify::before {
+  content: "\ef7a";
+}
+
+.mi-codepen::before {
+  content: "\ef7b";
+}
+
+.mi-codiepie::before {
+  content: "\ef7c";
+}
+
+.mi-confluence::before {
+  content: "\ef7d";
+}
+
+.mi-connectdevelop::before {
+  content: "\ef7e";
+}
+
+.mi-contao::before {
+  content: "\ef7f";
+}
+
+.mi-cpanel::before {
+  content: "\ef80";
+}
+
+.mi-creative-commons::before {
+  content: "\ef81";
+}
+
+.mi-creative-commons-by::before {
+  content: "\ef82";
+}
+
+.mi-creative-commons-nc::before {
+  content: "\ef83";
+}
+
+.mi-creative-commons-nc-eu::before {
+  content: "\ef84";
+}
+
+.mi-creative-commons-nc-jp::before {
+  content: "\ef85";
+}
+
+.mi-creative-commons-nd::before {
+  content: "\ef86";
+}
+
+.mi-creative-commons-pd::before {
+  content: "\ef87";
+}
+
+.mi-creative-commons-pd-alt::before {
+  content: "\ef88";
+}
+
+.mi-creative-commons-remix::before {
+  content: "\ef89";
+}
+
+.mi-creative-commons-sa::before {
+  content: "\ef8a";
+}
+
+.mi-creative-commons-sampling::before {
+  content: "\ef8b";
+}
+
+.mi-creative-commons-sampling-plus::before {
+  content: "\ef8c";
+}
+
+.mi-creative-commons-share::before {
+  content: "\ef8d";
+}
+
+.mi-creative-commons-zero::before {
+  content: "\ef8e";
+}
+
+.mi-critical-role::before {
+  content: "\ef8f";
+}
+
+.mi-css3::before {
+  content: "\ef90";
+}
+
+.mi-css3-alt::before {
+  content: "\ef91";
+}
+
+.mi-cuttlefish::before {
+  content: "\ef92";
+}
+
+.mi-d-and-d::before {
+  content: "\ef93";
+}
+
+.mi-d-and-d-beyond::before {
+  content: "\ef94";
+}
+
+.mi-dashcube::before {
+  content: "\ef95";
+}
+
+.mi-delicious::before {
+  content: "\ef96";
+}
+
+.mi-deploydog::before {
+  content: "\ef97";
+}
+
+.mi-deskpro::before {
+  content: "\ef98";
+}
+
+.mi-dev::before {
+  content: "\ef99";
+}
+
+.mi-deviantart::before {
+  content: "\ef9a";
+}
+
+.mi-dhl::before {
+  content: "\ef9b";
+}
+
+.mi-diaspora::before {
+  content: "\ef9c";
+}
+
+.mi-digg::before {
+  content: "\ef9d";
+}
+
+.mi-digital-ocean::before {
+  content: "\ef9e";
+}
+
+.mi-discord::before {
+  content: "\ef9f";
+}
+
+.mi-discourse::before {
+  content: "\efa0";
+}
+
+.mi-dochub::before {
+  content: "\efa1";
+}
+
+.mi-docker::before {
+  content: "\efa2";
+}
+
+.mi-draft2digital::before {
+  content: "\efa3";
+}
+
+.mi-dribbble::before {
+  content: "\efa4";
+}
+
+.mi-dribbble-square::before {
+  content: "\efa5";
+}
+
+.mi-dropbox::before {
+  content: "\efa6";
+}
+
+.mi-drupal::before {
+  content: "\efa7";
+}
+
+.mi-dyalog::before {
+  content: "\efa8";
+}
+
+.mi-eSIM::before {
+  content: "\efa9";
+}
+
+.mi-eSIMBusy::before {
+  content: "\efaa";
+}
+
+.mi-eSIMLocked::before {
+  content: "\efab";
+}
+
+.mi-eSIMNoProfile::before {
+  content: "\efac";
+}
+
+.mi-earlybirds::before {
+  content: "\efad";
+}
+
+.mi-ebay::before {
+  content: "\efae";
+}
+
+.mi-edge::before {
+  content: "\efaf";
+}
+
+.mi-elementor::before {
+  content: "\efb0";
+}
+
+.mi-ello::before {
+  content: "\efb1";
+}
+
+.mi-ember::before {
+  content: "\efb2";
+}
+
+.mi-empire::before {
+  content: "\efb3";
+}
+
+.mi-envira::before {
+  content: "\efb4";
+}
+
+.mi-erlang::before {
+  content: "\efb5";
+}
+
+.mi-ethereum::before {
+  content: "\efb6";
+}
+
+.mi-etsy::before {
+  content: "\efb7";
+}
+
+.mi-expeditedssl::before {
+  content: "\efb8";
+}
+
+.mi-facebook::before {
+  content: "\efb9";
+}
+
+.mi-facebook-f::before {
+  content: "\efba";
+}
+
+.mi-facebook-messenger::before {
+  content: "\efbb";
+}
+
+.mi-facebook-square::before {
+  content: "\efbc";
+}
+
+.mi-fedex::before {
+  content: "\efbd";
+}
+
+.mi-fedora::before {
+  content: "\efbe";
+}
+
+.mi-figma::before {
+  content: "\efbf";
+}
+
+.mi-firefox::before {
+  content: "\efc0";
+}
+
+.mi-first-order::before {
+  content: "\efc1";
+}
+
+.mi-first-order-alt::before {
+  content: "\efc2";
+}
+
+.mi-firstdraft::before {
+  content: "\efc3";
+}
+
+.mi-flickr::before {
+  content: "\efc4";
+}
+
+.mi-flipboard::before {
+  content: "\efc5";
+}
+
+.mi-fly::before {
+  content: "\efc6";
+}
+
+.mi-font-awesome::before {
+  content: "\efc7";
+}
+
+.mi-font-awesome-alt::before {
+  content: "\efc8";
+}
+
+.mi-font-awesome-flag::before {
+  content: "\efc9";
+}
+
+.mi-fonticons::before {
+  content: "\efca";
+}
+
+.mi-fonticons-fi::before {
+  content: "\efcb";
+}
+
+.mi-fort-awesome::before {
+  content: "\efcc";
+}
+
+.mi-fort-awesome-alt::before {
+  content: "\efcd";
+}
+
+.mi-forumbee::before {
+  content: "\efce";
+}
+
+.mi-foursquare::before {
+  content: "\efcf";
+}
+
+.mi-free-code-camp::before {
+  content: "\efd0";
+}
+
+.mi-freebsd::before {
+  content: "\efd1";
+}
+
+.mi-fulcrum::before {
+  content: "\efd2";
+}
+
+.mi-galactic-republic::before {
+  content: "\efd3";
+}
+
+.mi-galactic-senate::before {
+  content: "\efd4";
+}
+
+.mi-get-pocket::before {
+  content: "\efd5";
+}
+
+.mi-gg::before {
+  content: "\efd6";
+}
+
+.mi-gg-circle::before {
+  content: "\efd7";
+}
+
+.mi-git-square::before {
+  content: "\efd8";
+}
+
+.mi-github::before {
+  content: "\efd9";
+}
+
+.mi-github-alt::before {
+  content: "\efda";
+}
+
+.mi-github-square::before {
+  content: "\efdb";
+}
+
+.mi-gitkraken::before {
+  content: "\efdc";
+}
+
+.mi-gitlab::before {
+  content: "\efdd";
+}
+
+.mi-gitter::before {
+  content: "\efde";
+}
+
+.mi-glide::before {
+  content: "\efdf";
+}
+
+.mi-glide-g::before {
+  content: "\efe0";
+}
+
+.mi-gofore::before {
+  content: "\efe1";
+}
+
+.mi-goodreads::before {
+  content: "\efe2";
+}
+
+.mi-goodreads-g::before {
+  content: "\efe3";
+}
+
+.mi-google::before {
+  content: "\efe4";
+}
+
+.mi-google-drive::before {
+  content: "\efe5";
+}
+
+.mi-google-play::before {
+  content: "\efe6";
+}
+
+.mi-google-plus::before {
+  content: "\efe7";
+}
+
+.mi-google-plus-g::before {
+  content: "\efe8";
+}
+
+.mi-google-plus-square::before {
+  content: "\efe9";
+}
+
+.mi-google-wallet::before {
+  content: "\efea";
+}
+
+.mi-gratipay::before {
+  content: "\efeb";
+}
+
+.mi-grav::before {
+  content: "\efec";
+}
+
+.mi-gripfire::before {
+  content: "\efed";
+}
+
+.mi-grunt::before {
+  content: "\efee";
+}
+
+.mi-gulp::before {
+  content: "\efef";
+}
+
+.mi-hacker-news::before {
+  content: "\eff0";
+}
+
+.mi-hacker-news-square::before {
+  content: "\eff1";
+}
+
+.mi-hackerrank::before {
+  content: "\eff2";
+}
+
+.mi-hire-a-helper::before {
+  content: "\eff3";
+}
+
+.mi-hooli::before {
+  content: "\eff4";
+}
+
+.mi-hornbill::before {
+  content: "\eff5";
+}
+
+.mi-hotjar::before {
+  content: "\eff6";
+}
+
+.mi-houzz::before {
+  content: "\eff7";
+}
+
+.mi-html5::before {
+  content: "\eff8";
+}
+
+.mi-hubspot::before {
+  content: "\eff9";
+}
+
+.mi-imdb::before {
+  content: "\effa";
+}
+
+.mi-instagram::before {
+  content: "\effb";
+}
+
+.mi-intercom::before {
+  content: "\effc";
+}
+
+.mi-internet-explorer::before {
+  content: "\effd";
+}
+
+.mi-invision::before {
+  content: "\effe";
+}
+
+.mi-ioxhost::before {
+  content: "\efff";
+}
+
+.mi-itunes::before {
+  content: "\f000";
+}
+
+.mi-itunes-note::before {
+  content: "\f001";
+}
+
+.mi-java::before {
+  content: "\f002";
+}
+
+.mi-jedi-order::before {
+  content: "\f003";
+}
+
+.mi-jenkins::before {
+  content: "\f004";
+}
+
+.mi-jira::before {
+  content: "\f005";
+}
+
+.mi-joget::before {
+  content: "\f006";
+}
+
+.mi-joomla::before {
+  content: "\f007";
+}
+
+.mi-js::before {
+  content: "\f008";
+}
+
+.mi-js-square::before {
+  content: "\f009";
+}
+
+.mi-jsfiddle::before {
+  content: "\f00a";
+}
+
+.mi-kaggle::before {
+  content: "\f00b";
+}
+
+.mi-keybase::before {
+  content: "\f00c";
+}
+
+.mi-keycdn::before {
+  content: "\f00d";
+}
+
+.mi-kickstarter::before {
+  content: "\f00e";
+}
+
+.mi-kickstarter-k::before {
+  content: "\f00f";
+}
+
+.mi-korvue::before {
+  content: "\f010";
+}
+
+.mi-laravel::before {
+  content: "\f011";
+}
+
+.mi-lastfm::before {
+  content: "\f012";
+}
+
+.mi-lastfm-square::before {
+  content: "\f013";
+}
+
+.mi-leanpub::before {
+  content: "\f014";
+}
+
+.mi-less::before {
+  content: "\f015";
+}
+
+.mi-line::before {
+  content: "\f016";
+}
+
+.mi-linkedin::before {
+  content: "\f017";
+}
+
+.mi-linkedin-in::before {
+  content: "\f018";
+}
+
+.mi-linode::before {
+  content: "\f019";
+}
+
+.mi-linux::before {
+  content: "\f01a";
+}
+
+.mi-lyft::before {
+  content: "\f01b";
+}
+
+.mi-magento::before {
+  content: "\f01c";
+}
+
+.mi-mailchimp::before {
+  content: "\f01d";
+}
+
+.mi-mandalorian::before {
+  content: "\f01e";
+}
+
+.mi-markdown::before {
+  content: "\f01f";
+}
+
+.mi-mastodon::before {
+  content: "\f020";
+}
+
+.mi-maxcdn::before {
+  content: "\f021";
+}
+
+.mi-medapps::before {
+  content: "\f022";
+}
+
+.mi-medium::before {
+  content: "\f023";
+}
+
+.mi-medium-m::before {
+  content: "\f024";
+}
+
+.mi-medrt::before {
+  content: "\f025";
+}
+
+.mi-meetup::before {
+  content: "\f026";
+}
+
+.mi-megaport::before {
+  content: "\f027";
+}
+
+.mi-mendeley::before {
+  content: "\f028";
+}
+
+.mi-microsoft::before {
+  content: "\f029";
+}
+
+.mi-mix::before {
+  content: "\f02a";
+}
+
+.mi-mixcloud::before {
+  content: "\f02b";
+}
+
+.mi-mizuni::before {
+  content: "\f02c";
+}
+
+.mi-modx::before {
+  content: "\f02d";
+}
+
+.mi-monero::before {
+  content: "\f02e";
+}
+
+.mi-napster::before {
+  content: "\f02f";
+}
+
+.mi-neos::before {
+  content: "\f030";
+}
+
+.mi-nimblr::before {
+  content: "\f031";
+}
+
+.mi-nintendo-switch::before {
+  content: "\f032";
+}
+
+.mi-node::before {
+  content: "\f033";
+}
+
+.mi-node-js::before {
+  content: "\f034";
+}
+
+.mi-npm::before {
+  content: "\f035";
+}
+
+.mi-ns8::before {
+  content: "\f036";
+}
+
+.mi-nutritionix::before {
+  content: "\f037";
+}
+
+.mi-odnoklassniki::before {
+  content: "\f038";
+}
+
+.mi-odnoklassniki-square::before {
+  content: "\f039";
+}
+
+.mi-old-republic::before {
+  content: "\f03a";
+}
+
+.mi-opencart::before {
+  content: "\f03b";
+}
+
+.mi-openid::before {
+  content: "\f03c";
+}
+
+.mi-opera::before {
+  content: "\f03d";
+}
+
+.mi-optin-monster::before {
+  content: "\f03e";
+}
+
+.mi-osi::before {
+  content: "\f03f";
+}
+
+.mi-page4::before {
+  content: "\f040";
+}
+
+.mi-pagelines::before {
+  content: "\f041";
+}
+
+.mi-palfed::before {
+  content: "\f042";
+}
+
+.mi-patreon::before {
+  content: "\f043";
+}
+
+.mi-paypal::before {
+  content: "\f044";
+}
+
+.mi-penny-arcade::before {
+  content: "\f045";
+}
+
+.mi-periscope::before {
+  content: "\f046";
+}
+
+.mi-phabricator::before {
+  content: "\f047";
+}
+
+.mi-phoenix-framework::before {
+  content: "\f048";
+}
+
+.mi-phoenix-squadron::before {
+  content: "\f049";
+}
+
+.mi-php::before {
+  content: "\f04a";
+}
+
+.mi-pied-piper::before {
+  content: "\f04b";
+}
+
+.mi-pied-piper-alt::before {
+  content: "\f04c";
+}
+
+.mi-pied-piper-hat::before {
+  content: "\f04d";
+}
+
+.mi-pied-piper-pp::before {
+  content: "\f04e";
+}
+
+.mi-pinterest::before {
+  content: "\f04f";
+}
+
+.mi-pinterest-p::before {
+  content: "\f050";
+}
+
+.mi-pinterest-square::before {
+  content: "\f051";
+}
+
+.mi-playstation::before {
+  content: "\f052";
+}
+
+.mi-product-hunt::before {
+  content: "\f053";
+}
+
+.mi-pushed::before {
+  content: "\f054";
+}
+
+.mi-python::before {
+  content: "\f055";
+}
+
+.mi-qq::before {
+  content: "\f056";
+}
+
+.mi-quinscape::before {
+  content: "\f057";
+}
+
+.mi-quora::before {
+  content: "\f058";
+}
+
+.mi-r-project::before {
+  content: "\f059";
+}
+
+.mi-raspberry-pi::before {
+  content: "\f05a";
+}
+
+.mi-ravelry::before {
+  content: "\f05b";
+}
+
+.mi-react::before {
+  content: "\f05c";
+}
+
+.mi-reacteurope::before {
+  content: "\f05d";
+}
+
+.mi-readme::before {
+  content: "\f05e";
+}
+
+.mi-rebel::before {
+  content: "\f05f";
+}
+
+.mi-red-river::before {
+  content: "\f060";
+}
+
+.mi-reddit::before {
+  content: "\f061";
+}
+
+.mi-reddit-alien::before {
+  content: "\f062";
+}
+
+.mi-reddit-square::before {
+  content: "\f063";
+}
+
+.mi-redhat::before {
+  content: "\f064";
+}
+
+.mi-renren::before {
+  content: "\f065";
+}
+
+.mi-replyd::before {
+  content: "\f066";
+}
+
+.mi-researchgate::before {
+  content: "\f067";
+}
+
+.mi-resolving::before {
+  content: "\f068";
+}
+
+.mi-rev::before {
+  content: "\f069";
+}
+
+.mi-rocketchat::before {
+  content: "\f06a";
+}
+
+.mi-rockrms::before {
+  content: "\f06b";
+}
+
+.mi-safari::before {
+  content: "\f06c";
+}
+
+.mi-sass::before {
+  content: "\f06d";
+}
+
+.mi-schlix::before {
+  content: "\f06e";
+}
+
+.mi-scribd::before {
+  content: "\f06f";
+}
+
+.mi-searchengin::before {
+  content: "\f070";
+}
+
+.mi-sellcast::before {
+  content: "\f071";
+}
+
+.mi-sellsy::before {
+  content: "\f072";
+}
+
+.mi-servicestack::before {
+  content: "\f073";
+}
+
+.mi-shirtsinbulk::before {
+  content: "\f074";
+}
+
+.mi-shopware::before {
+  content: "\f075";
+}
+
+.mi-simplybuilt::before {
+  content: "\f076";
+}
+
+.mi-sistrix::before {
+  content: "\f077";
+}
+
+.mi-sith::before {
+  content: "\f078";
+}
+
+.mi-sketch::before {
+  content: "\f079";
+}
+
+.mi-skyatlas::before {
+  content: "\f07a";
+}
+
+.mi-skype::before {
+  content: "\f07b";
+}
+
+.mi-slack::before {
+  content: "\f07c";
+}
+
+.mi-slack-hash::before {
+  content: "\f07d";
+}
+
+.mi-slideshare::before {
+  content: "\f07e";
+}
+
+.mi-snapchat::before {
+  content: "\f07f";
+}
+
+.mi-snapchat-ghost::before {
+  content: "\f080";
+}
+
+.mi-snapchat-square::before {
+  content: "\f081";
+}
+
+.mi-soundcloud::before {
+  content: "\f082";
+}
+
+.mi-sourcetree::before {
+  content: "\f083";
+}
+
+.mi-speakap::before {
+  content: "\f084";
+}
+
+.mi-spotify::before {
+  content: "\f085";
+}
+
+.mi-squarespace::before {
+  content: "\f086";
+}
+
+.mi-stack-exchange::before {
+  content: "\f087";
+}
+
+.mi-stack-overflow::before {
+  content: "\f088";
+}
+
+.mi-staylinked::before {
+  content: "\f089";
+}
+
+.mi-steam::before {
+  content: "\f08a";
+}
+
+.mi-steam-square::before {
+  content: "\f08b";
+}
+
+.mi-sticker-mule::before {
+  content: "\f08c";
+}
+
+.mi-strava::before {
+  content: "\f08d";
+}
+
+.mi-stripe::before {
+  content: "\f08e";
+}
+
+.mi-stripe-s::before {
+  content: "\f08f";
+}
+
+.mi-studiovinari::before {
+  content: "\f090";
+}
+
+.mi-stumbleupon::before {
+  content: "\f091";
+}
+
+.mi-stumbleupon-circle::before {
+  content: "\f092";
+}
+
+.mi-superpowers::before {
+  content: "\f093";
+}
+
+.mi-supple::before {
+  content: "\f094";
+}
+
+.mi-suse::before {
+  content: "\f095";
+}
+
+.mi-teamspeak::before {
+  content: "\f096";
+}
+
+.mi-telegram::before {
+  content: "\f097";
+}
+
+.mi-telegram-plane::before {
+  content: "\f098";
+}
+
+.mi-tencent-weibo::before {
+  content: "\f099";
+}
+
+.mi-the-red-yeti::before {
+  content: "\f09a";
+}
+
+.mi-themeco::before {
+  content: "\f09b";
+}
+
+.mi-themeisle::before {
+  content: "\f09c";
+}
+
+.mi-think-peaks::before {
+  content: "\f09d";
+}
+
+.mi-trade-federation::before {
+  content: "\f09e";
+}
+
+.mi-trello::before {
+  content: "\f09f";
+}
+
+.mi-tripadvisor::before {
+  content: "\f0a0";
+}
+
+.mi-tumblr::before {
+  content: "\f0a1";
+}
+
+.mi-tumblr-square::before {
+  content: "\f0a2";
+}
+
+.mi-twitch::before {
+  content: "\f0a3";
+}
+
+.mi-twitter-square::before {
+  content: "\f0a4";
+}
+
+.mi-typo3::before {
+  content: "\f0a5";
+}
+
+.mi-ubuntu::before {
+  content: "\f0a6";
+}
+
+.mi-uikit::before {
+  content: "\f0a7";
+}
+
+.mi-uniE80B::before {
+  content: "\f0a8";
+}
+
+.mi-uniEA0D::before {
+  content: "\f0a9";
+}
+
+.mi-uniEA3F::before {
+  content: "\f0aa";
+}
+
+.mi-uniEA90::before {
+  content: "\f0ab";
+}
+
+.mi-uniEAC2::before {
+  content: "\f0ac";
+}
+
+.mi-uniEC6C::before {
+  content: "\f0ad";
+}
+
+.mi-uniEEA3::before {
+  content: "\f0ae";
+}
+
+.mi-uniF2B7::before {
+  content: "\f0af";
+}
+
+.mi-uniF5AA::before {
+  content: "\f0b0";
+}
+
+.mi-uniF614::before {
+  content: "\f0b1";
+}
+
+.mi-uniF615::before {
+  content: "\f0b2";
+}
+
+.mi-uniF616::before {
+  content: "\f0b3";
+}
+
+.mi-uniF617::before {
+  content: "\f0b4";
+}
+
+.mi-uniF657::before {
+  content: "\f0b5";
+}
+
+.mi-uniF658::before {
+  content: "\f0b6";
+}
+
+.mi-uniF659::before {
+  content: "\f0b7";
+}
+
+.mi-uniF65A::before {
+  content: "\f0b8";
+}
+
+.mi-uniF65B::before {
+  content: "\f0b9";
+}
+
+.mi-uniF65C::before {
+  content: "\f0ba";
+}
+
+.mi-uniF69E::before {
+  content: "\f0bb";
+}
+
+.mi-uniF6FA::before {
+  content: "\f0bc";
+}
+
+.mi-uniF712::before {
+  content: "\f0bd";
+}
+
+.mi-uniF71C::before {
+  content: "\f0be";
+}
+
+.mi-uniF71D::before {
+  content: "\f0bf";
+}
+
+.mi-uniF71E::before {
+  content: "\f0c0";
+}
+
+.mi-uniF738::before {
+  content: "\f0c1";
+}
+
+.mi-uniF739::before {
+  content: "\f0c2";
+}
+
+.mi-uniF73D::before {
+  content: "\f0c3";
+}
+
+.mi-uniF73E::before {
+  content: "\f0c4";
+}
+
+.mi-uniF73F::before {
+  content: "\f0c5";
+}
+
+.mi-uniF740::before {
+  content: "\f0c6";
+}
+
+.mi-uniF741::before {
+  content: "\f0c7";
+}
+
+.mi-uniF742::before {
+  content: "\f0c8";
+}
+
+.mi-uniF743::before {
+  content: "\f0c9";
+}
+
+.mi-uniF744::before {
+  content: "\f0ca";
+}
+
+.mi-uniF745::before {
+  content: "\f0cb";
+}
+
+.mi-uniF746::before {
+  content: "\f0cc";
+}
+
+.mi-uniF785::before {
+  content: "\f0cd";
+}
+
+.mi-uniregistry::before {
+  content: "\f0ce";
+}
+
+.mi-untappd::before {
+  content: "\f0cf";
+}
+
+.mi-ups::before {
+  content: "\f0d0";
+}
+
+.mi-usb::before {
+  content: "\f0d1";
+}
+
+.mi-usps::before {
+  content: "\f0d2";
+}
+
+.mi-ussunnah::before {
+  content: "\f0d3";
+}
+
+.mi-vaadin::before {
+  content: "\f0d4";
+}
+
+.mi-viacoin::before {
+  content: "\f0d5";
+}
+
+.mi-viadeo::before {
+  content: "\f0d6";
+}
+
+.mi-viadeo-square::before {
+  content: "\f0d7";
+}
+
+.mi-viber::before {
+  content: "\f0d8";
+}
+
+.mi-vimeo::before {
+  content: "\f0d9";
+}
+
+.mi-vimeo-square::before {
+  content: "\f0da";
+}
+
+.mi-vimeo-v::before {
+  content: "\f0db";
+}
+
+.mi-vine::before {
+  content: "\f0dc";
+}
+
+.mi-vk::before {
+  content: "\f0dd";
+}
+
+.mi-vnv::before {
+  content: "\f0de";
+}
+
+.mi-vuejs::before {
+  content: "\f0df";
+}
+
+.mi-weebly::before {
+  content: "\f0e0";
+}
+
+.mi-weibo::before {
+  content: "\f0e1";
+}
+
+.mi-weixin::before {
+  content: "\f0e2";
+}
+
+.mi-whatsapp::before {
+  content: "\f0e3";
+}
+
+.mi-whatsapp-square::before {
+  content: "\f0e4";
+}
+
+.mi-whmcs::before {
+  content: "\f0e5";
+}
+
+.mi-wikipedia-w::before {
+  content: "\f0e6";
+}
+
+.mi-windows::before {
+  content: "\f0e7";
+}
+
+.mi-wix::before {
+  content: "\f0e8";
+}
+
+.mi-wizards-of-the-coast::before {
+  content: "\f0e9";
+}
+
+.mi-wolf-pack-battalion::before {
+  content: "\f0ea";
+}
+
+.mi-wordpress::before {
+  content: "\f0eb";
+}
+
+.mi-wordpress-simple::before {
+  content: "\f0ec";
+}
+
+.mi-wpbeginner::before {
+  content: "\f0ed";
+}
+
+.mi-wpexplorer::before {
+  content: "\f0ee";
+}
+
+.mi-wpforms::before {
+  content: "\f0ef";
+}
+
+.mi-wpressr::before {
+  content: "\f0f0";
+}
+
+.mi-xbox::before {
+  content: "\f0f1";
+}
+
+.mi-xing::before {
+  content: "\f0f2";
+}
+
+.mi-xing-square::before {
+  content: "\f0f3";
+}
+
+.mi-y-combinator::before {
+  content: "\f0f4";
+}
+
+.mi-yahoo::before {
+  content: "\f0f5";
+}
+
+.mi-yandex::before {
+  content: "\f0f6";
+}
+
+.mi-yandex-international::before {
+  content: "\f0f7";
+}
+
+.mi-yarn::before {
+  content: "\f0f8";
+}
+
+.mi-yelp::before {
+  content: "\f0f9";
+}
+
+.mi-yoast::before {
+  content: "\f0fa";
+}
+
+.mi-youtube::before {
+  content: "\f0fb";
+}
+
+.mi-youtube-square::before {
+  content: "\f0fc";
+}
+
+.mi-zhihu::before {
+  content: "\f0fd";
+}

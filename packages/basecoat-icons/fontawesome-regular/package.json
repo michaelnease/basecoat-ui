@@ -1,0 +1,25 @@
+{
+  "version": "5.5.0",
+  "name": "@icon/fontawesome-regular",
+  "description": "The iconic font, CSS, and SVG framework",
+  "author": "Dave Gandy",
+  "license": "MIT",
+  "style": "index.scss",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/fontawesome-regular",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=fontawesome-regular",
+    "optimize": "../../scripts/module/optimize --module=fontawesome-regular"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^5.5.0"
+  },
+  "homepage": "https://fontawesome.com",
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

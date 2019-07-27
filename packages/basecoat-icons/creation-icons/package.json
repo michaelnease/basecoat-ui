@@ -1,0 +1,28 @@
+{
+  "version": "0.0.6",
+  "name": "@icon/creation-icons",
+  "description": "Icons for creation.",
+  "author": "Creation Studio Limited",
+  "license": "GPL-v3",
+  "style": "index.scss",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/creation-icons",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=creation-icons",
+    "optimize": "../../scripts/module/optimize --module=creation-icons"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "@creation/icon-fonts": "0.0.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://thecreation.co",
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "@icon/entypo",
+  "description": "Entypo, the premium pictograms",
+  "author": "Daniel Buce",
+  "license": "SIL",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/entypo",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=entypo",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "homepage": "http://www.entypo.com",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

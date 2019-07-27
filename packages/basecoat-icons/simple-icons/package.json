@@ -1,0 +1,27 @@
+{
+  "version": "1.9.27",
+  "name": "@icon/simple-icons",
+  "description": "SVG icons for popular brands https://simpleicons.org",
+  "author": "Simple Icons Collaborators",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/simple-icons",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=simple-icons",
+    "optimize": "../../scripts/module/optimize --module=simple-icons"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "simple-icons": "^1.9.14"
+  },
+  "homepage": "https://www.simpleicons.org",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

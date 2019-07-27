@@ -1,0 +1,25 @@
+{
+  "version": "1.2.0",
+  "name": "@icon/stroke-7",
+  "description": "Icon Font - Stroke Icons 7 - by Pixeden",
+  "author": "The Pixeden Team",
+  "license": "PIXEDEN license",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/stroke-7",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=stroke-7",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "homepage": "http://themes-pixeden.com/font-demos/7-stroke/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

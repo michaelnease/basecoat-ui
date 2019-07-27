@@ -1,0 +1,25 @@
+{
+  "version": "0.9.0",
+  "name": "@icon/dashicons",
+  "description": "Dashicons, the WordPress admin icon font.",
+  "author": "Wordpress",
+  "license": "GPL-2.0",
+  "repository": "https://github.com/thecreation/icons/tree/master/modules/dashicons",
+  "bugs": {
+    "url": "https://github.com/thecreation/icons/issues"
+  },
+  "scripts": {
+    "import": "../../scripts/module/import --module=dashicons",
+    "optimize": "../../scripts/module/optimize",
+    "update": "ncu -u"
+  },
+  "keywords": [
+    "icons",
+    "icon"
+  ],
+  "homepage": "http://developer.wordpress.org/resource/dashicons/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "03bca77bca8c5dd936a375e9c556ef3e1a8d4074"
+}

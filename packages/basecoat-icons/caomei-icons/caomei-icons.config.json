@@ -1,0 +1,11 @@
+{
+  "title": "Caomei Icons",
+  "prefix": "caomei-icons",
+  "preview": "@support-layout",
+  "context": {
+    "modifier": "default",
+    "text": "default"
+  },
+  "variants": [
+  ]
+}

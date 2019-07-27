@@ -1,0 +1,482 @@
+/**
+ * Outlined Icons, 0.0.2
+ * Created by Dario Ferrando.
+ * http://freebiesbug.com/psd-freebies/150-free-outlined-icons-psd-ai-svg-webfont/
+ * MIT License
+ */
+@charset "UTF-8";
+
+@font-face {
+  font-family: "outlined-icons";
+  src: url('outlined-icons.eot');
+  src: url('outlined-icons.eot?#iefix') format('eot'),
+
+    url('outlined-icons.woff') format('woff'),
+    url('outlined-icons.ttf') format('truetype'),
+    url('outlined-icons.svg#outlined-icons') format('svg');
+}
+
+.oui {
+  font-family: "outlined-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.oui-boat:before {
+  content: "\e000";
+}
+.oui-booknote:before {
+  content: "\e001";
+}
+.oui-booknote-add:before {
+  content: "\e002";
+}
+.oui-booknote-remove:before {
+  content: "\e003";
+}
+.oui-camera-1:before {
+  content: "\e004";
+}
+.oui-camera-2:before {
+  content: "\e005";
+}
+.oui-cloud-check:before {
+  content: "\e006";
+}
+.oui-cloud-delete:before {
+  content: "\e007";
+}
+.oui-cloud-download:before {
+  content: "\e008";
+}
+.oui-cloud-upload:before {
+  content: "\e009";
+}
+.oui-cloudy:before {
+  content: "\e00a";
+}
+.oui-cocktail:before {
+  content: "\e00b";
+}
+.oui-coffee:before {
+  content: "\e00c";
+}
+.oui-compass:before {
+  content: "\e00d";
+}
+.oui-compress:before {
+  content: "\e00e";
+}
+.oui-cutlery:before {
+  content: "\e00f";
+}
+.oui-delete:before {
+  content: "\e010";
+}
+.oui-delete-folder:before {
+  content: "\e011";
+}
+.oui-dialogue-add:before {
+  content: "\e012";
+}
+.oui-dialogue-delete:before {
+  content: "\e013";
+}
+.oui-dialogue-happy:before {
+  content: "\e014";
+}
+.oui-dialogue-sad:before {
+  content: "\e015";
+}
+.oui-dialogue-text:before {
+  content: "\e016";
+}
+.oui-dialogue-think:before {
+  content: "\e017";
+}
+.oui-diamond:before {
+  content: "\e018";
+}
+.oui-dish-fork:before {
+  content: "\e019";
+}
+.oui-dish-spoon:before {
+  content: "\e01a";
+}
+.oui-download:before {
+  content: "\e01b";
+}
+.oui-download-folder:before {
+  content: "\e01c";
+}
+.oui-expand:before {
+  content: "\e01d";
+}
+.oui-eye:before {
+  content: "\e01e";
+}
+.oui-fast-food:before {
+  content: "\e01f";
+}
+.oui-flag:before {
+  content: "\e020";
+}
+.oui-folder:before {
+  content: "\e021";
+}
+.oui-geolocalizator:before {
+  content: "\e022";
+}
+.oui-globe:before {
+  content: "\e023";
+}
+.oui-graph:before {
+  content: "\e024";
+}
+.oui-graph-descending:before {
+  content: "\e025";
+}
+.oui-graph-rising:before {
+  content: "\e026";
+}
+.oui-hammer:before {
+  content: "\e027";
+}
+.oui-happy-drop:before {
+  content: "\e028";
+}
+.oui-headphones:before {
+  content: "\e029";
+}
+.oui-heart:before {
+  content: "\e02a";
+}
+.oui-heart-broken:before {
+  content: "\e02b";
+}
+.oui-home:before {
+  content: "\e02c";
+}
+.oui-hourglass:before {
+  content: "\e02d";
+}
+.oui-image:before {
+  content: "\e02e";
+}
+.oui-key:before {
+  content: "\e02f";
+}
+.oui-life-buoy:before {
+  content: "\e030";
+}
+.oui-list:before {
+  content: "\e031";
+}
+.oui-lock-closed:before {
+  content: "\e032";
+}
+.oui-lock-open:before {
+  content: "\e033";
+}
+.oui-loudspeaker:before {
+  content: "\e034";
+}
+.oui-magnifier:before {
+  content: "\e035";
+}
+.oui-magnifier-minus:before {
+  content: "\e036";
+}
+.oui-magnifier-plus:before {
+  content: "\e037";
+}
+.oui-mail:before {
+  content: "\e038";
+}
+.oui-mail-open:before {
+  content: "\e039";
+}
+.oui-map:before {
+  content: "\e03a";
+}
+.oui-medical-case:before {
+  content: "\e03b";
+}
+.oui-microphone-1:before {
+  content: "\e03c";
+}
+.oui-microphone-2:before {
+  content: "\e03d";
+}
+.oui-minus:before {
+  content: "\e03e";
+}
+.oui-multiple-image:before {
+  content: "\e03f";
+}
+.oui-music-back:before {
+  content: "\e040";
+}
+.oui-music-backtoend:before {
+  content: "\e041";
+}
+.oui-music-eject:before {
+  content: "\e042";
+}
+.oui-music-forward:before {
+  content: "\e043";
+}
+.oui-music-forwardtoend:before {
+  content: "\e044";
+}
+.oui-music-pause:before {
+  content: "\e045";
+}
+.oui-music-play:before {
+  content: "\e046";
+}
+.oui-music-random:before {
+  content: "\e047";
+}
+.oui-music-repeat:before {
+  content: "\e048";
+}
+.oui-music-stop:before {
+  content: "\e049";
+}
+.oui-musical-note:before {
+  content: "\e04a";
+}
+.oui-musical-note-2:before {
+  content: "\e04b";
+}
+.oui-old-video-cam:before {
+  content: "\e04c";
+}
+.oui-paper-pen:before {
+  content: "\e04d";
+}
+.oui-paper-pencil:before {
+  content: "\e04e";
+}
+.oui-paper-sheet:before {
+  content: "\e04f";
+}
+.oui-pen-pencil-ruler:before {
+  content: "\e050";
+}
+.oui-pencil:before {
+  content: "\e051";
+}
+.oui-pencil-ruler:before {
+  content: "\e052";
+}
+.oui-plus:before {
+  content: "\e053";
+}
+.oui-portable-pc:before {
+  content: "\e054";
+}
+.oui-pricetag:before {
+  content: "\e055";
+}
+.oui-printer:before {
+  content: "\e056";
+}
+.oui-profile:before {
+  content: "\e057";
+}
+.oui-profile-add:before {
+  content: "\e058";
+}
+.oui-profile-remove:before {
+  content: "\e059";
+}
+.oui-rainy:before {
+  content: "\e05a";
+}
+.oui-rotate:before {
+  content: "\e05b";
+}
+.oui-setting-1:before {
+  content: "\e05c";
+}
+.oui-setting-2:before {
+  content: "\e05d";
+}
+.oui-share:before {
+  content: "\e05e";
+}
+.oui-shield-down:before {
+  content: "\e05f";
+}
+.oui-shield-left:before {
+  content: "\e060";
+}
+.oui-shield-right:before {
+  content: "\e061";
+}
+.oui-shield-up:before {
+  content: "\e062";
+}
+.oui-shopping-cart:before {
+  content: "\e063";
+}
+.oui-shopping-cart-content:before {
+  content: "\e064";
+}
+.oui-sinth:before {
+  content: "\e065";
+}
+.oui-smartphone:before {
+  content: "\e066";
+}
+.oui-spread:before {
+  content: "\e067";
+}
+.oui-squares:before {
+  content: "\e068";
+}
+.oui-stormy:before {
+  content: "\e069";
+}
+.oui-sunny:before {
+  content: "\e06a";
+}
+.oui-tablet:before {
+  content: "\e06b";
+}
+.oui-three-stripes-horiz:before {
+  content: "\e06c";
+}
+.oui-three-stripes-vert:before {
+  content: "\e06d";
+}
+.oui-ticket:before {
+  content: "\e06e";
+}
+.oui-todolist:before {
+  content: "\e06f";
+}
+.oui-todolist-add:before {
+  content: "\e070";
+}
+.oui-todolist-check:before {
+  content: "\e071";
+}
+.oui-trash-bin:before {
+  content: "\e072";
+}
+.oui-tshirt:before {
+  content: "\e073";
+}
+.oui-tv-monitor:before {
+  content: "\e074";
+}
+.oui-umbrella:before {
+  content: "\e075";
+}
+.oui-upload:before {
+  content: "\e076";
+}
+.oui-upload-folder:before {
+  content: "\e077";
+}
+.oui-variable:before {
+  content: "\e078";
+}
+.oui-video-cam:before {
+  content: "\e079";
+}
+.oui-volume-higher:before {
+  content: "\e07a";
+}
+.oui-volume-lower:before {
+  content: "\e07b";
+}
+.oui-volume-off:before {
+  content: "\e07c";
+}
+.oui-watch:before {
+  content: "\e07d";
+}
+.oui-waterfall:before {
+  content: "\e07e";
+}
+.oui-website-1:before {
+  content: "\e07f";
+}
+.oui-website-2:before {
+  content: "\e080";
+}
+.oui-wine:before {
+  content: "\e081";
+}
+.oui-calendar:before {
+  content: "\e082";
+}
+.oui-alarm-clock:before {
+  content: "\e083";
+}
+.oui-add-folder:before {
+  content: "\e084";
+}
+.oui-accelerator:before {
+  content: "\e085";
+}
+.oui-agenda:before {
+  content: "\e086";
+}
+.oui-arrow-left:before {
+  content: "\e087";
+}
+.oui-arrow-down:before {
+  content: "\e088";
+}
+.oui-battery-1:before {
+  content: "\e089";
+}
+.oui-case:before {
+  content: "\e08a";
+}
+.oui-arrow-up:before {
+  content: "\e08b";
+}
+.oui-arrow-right:before {
+  content: "\e08c";
+}
+.oui-case-2:before {
+  content: "\e08d";
+}
+.oui-cd:before {
+  content: "\e08e";
+}
+.oui-battery-2:before {
+  content: "\e08f";
+}
+.oui-battery-3:before {
+  content: "\e090";
+}
+.oui-check:before {
+  content: "\e091";
+}
+.oui-battery-4:before {
+  content: "\e092";
+}
+.oui-chronometer:before {
+  content: "\e093";
+}
+.oui-clock:before {
+  content: "\e094";
+}
+.oui-blackboard-graph:before {
+  content: "\e095";
+}
+
